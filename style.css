@@ -1,0 +1,883 @@
+/* Base Reset & Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Outfit:wght@500;700&display=swap');
+
+:root {
+    --primary-color: #4A90E2;
+    --primary-dark: #357ABD;
+    --accent-color: #FF6B6B;
+    --success-color: #4CAF50;
+    --warning-color: #FFC107;
+    --panel-bg: rgba(255, 255, 255, 0.95);
+    --glass-bg: rgba(255, 255, 255, 0.85);
+    --text-color: #333333;
+    --text-light: #666666;
+    --font-main: 'Noto Sans KR', sans-serif;
+    --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.15);
+    --shadow-strong: 0 10px 40px rgba(0, 0, 0, 0.25);
+    --border-radius: 16px;
+    --border-radius-sm: 10px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: #1a1a2e;
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Game Container - 반응형 (모바일: 세로, PC: 가로) */
+#game-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #000;
+}
+
+/* 모든 화면에서 전체 너비 사용 */
+
+/* 전체 화면 배경 이미지 */
+#background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img_data/fresh_city.png');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    z-index: 0;
+    transition: filter 0.5s ease;
+}
+
+/* PC에서는 이미지 전체가 보이도록 */
+@media (min-width: 769px) {
+    #background-image {
+        background-size: contain;
+        background-position: center center;
+        background-color: #87CEEB;
+        /* 하늘색 배경으로 빈 공간 채우기 */
+    }
+}
+
+#background-image.destroyed {
+    background-image: url('img_data/destroyed_city.png');
+    filter: brightness(0.7) saturate(1.2);
+}
+
+/* 화면 (Screen) 공통 스타일 */
+.screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.screen.hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.95);
+}
+
+.screen.active {
+    opacity: 1;
+    pointer-events: auto;
+    transform: scale(1);
+}
+
+/* ============================================
+   메인 화면
+   ============================================ */
+#main-menu {
+    background: transparent;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    padding-bottom: 80px;
+    gap: 30px;
+}
+
+.title-area {
+    text-align: center;
+    padding: 30px 40px;
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-soft);
+}
+
+.game-title {
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: var(--primary-color);
+    text-shadow: 2px 2px 10px rgba(74, 144, 226, 0.3);
+    letter-spacing: -2px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: var(--text-light);
+    font-weight: 500;
+}
+
+.main-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 80%;
+    max-width: 280px;
+}
+
+/* ============================================
+   버튼 스타일
+   ============================================ */
+.btn {
+    padding: 16px 32px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: var(--font-main);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(74, 144, 226, 0.4);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(74, 144, 226, 0.5);
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+}
+
+.btn-secondary {
+    background: var(--glass-bg);
+    color: var(--text-color);
+    backdrop-filter: blur(10px);
+    box-shadow: var(--shadow-soft);
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.95);
+    transform: translateY(-2px);
+}
+
+/* ============================================
+   모달 컨테이너
+   ============================================ */
+.modal-container {
+    background: var(--panel-bg);
+    padding: 30px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-strong);
+    width: 90%;
+    max-width: 420px;
+    max-height: 85vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.modal-container h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+
+/* ============================================
+   How to Play 화면
+   ============================================ */
+#how-to-play {
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+}
+
+.how-to-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.instruction-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 12px;
+    background: #f8f9fa;
+    border-radius: var(--border-radius-sm);
+}
+
+.instruction-icon {
+    font-size: 1.5rem;
+    min-width: 40px;
+    text-align: center;
+}
+
+.instruction-item p {
+    font-size: 0.95rem;
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+/* ============================================
+   게임 설정 화면
+   ============================================ */
+#settings-screen {
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+}
+
+.settings-container {
+    max-height: 90vh;
+}
+
+.setting-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.setting-section h3 {
+    font-size: 0.95rem;
+    color: var(--text-light);
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 8px;
+}
+
+/* 난이도 & 타이핑 모드 버튼 */
+.difficulty-options,
+.typing-mode-options {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.diff-btn,
+.mode-btn {
+    flex: 1;
+    padding: 12px 16px;
+    border: 2px solid #e0e0e0;
+    background: white;
+    color: var(--text-light);
+    border-radius: var(--border-radius-sm);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 0.9rem;
+    font-family: var(--font-main);
+}
+
+.diff-btn:hover,
+.mode-btn:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.diff-btn.active,
+.mode-btn.active {
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+    box-shadow: 0 4px 12px rgba(74, 144, 226, 0.3);
+}
+
+/* 범위/세부 설정 탭 */
+.range-tabs {
+    display: flex;
+    gap: 5px;
+    background: #f0f0f0;
+    padding: 5px;
+    border-radius: var(--border-radius-sm);
+}
+
+.range-tab {
+    flex: 1;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    color: var(--text-light);
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: var(--font-main);
+}
+
+.range-tab.active {
+    background: white;
+    color: var(--primary-color);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 탭 패널 */
+.tab-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: var(--border-radius-sm);
+    margin-top: 10px;
+}
+
+.tab-panel.hidden {
+    display: none;
+}
+
+.panel-description {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    text-align: center;
+}
+
+/* 레벨 그리드 */
+.level-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.level-btn {
+    padding: 12px 8px;
+    border: 2px solid #e0e0e0;
+    background: white;
+    color: var(--text-light);
+    border-radius: var(--border-radius-sm);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 0.85rem;
+    font-family: var(--font-main);
+}
+
+.level-btn:hover:not(.disabled) {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.level-btn.active {
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+.level-btn.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background: #f0f0f0;
+}
+
+/* 유닛 그리드 */
+.unit-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.unit-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.mini-btn {
+    padding: 6px 12px;
+    font-size: 0.75rem;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: var(--font-main);
+    transition: all 0.2s;
+}
+
+.mini-btn:hover {
+    background: var(--primary-dark);
+}
+
+.unit-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 8px;
+    max-height: 150px;
+    overflow-y: auto;
+    padding: 5px;
+}
+
+.unit-checkbox {
+    display: none;
+}
+
+.unit-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    background: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    color: var(--text-light);
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.unit-label:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.unit-checkbox:checked+.unit-label {
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+/* 상태 메시지 */
+.status-message {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    text-align: center;
+}
+
+.status-message.error {
+    color: var(--accent-color);
+}
+
+.status-message.success {
+    color: var(--success-color);
+}
+
+/* 설정 버튼 영역 */
+.settings-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.settings-buttons .btn {
+    flex: 1;
+}
+
+/* ============================================
+   게임 플레이 화면
+   ============================================ */
+#game-screen {
+    background: transparent;
+    z-index: 5;
+}
+
+/* UI 헤더 */
+#game-ui {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 20;
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ui-left,
+.ui-right {
+    min-width: 80px;
+}
+
+.ui-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.score-board {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.life-board {
+    display: flex;
+    gap: 5px;
+}
+
+.life-icon {
+    font-size: 1.2rem;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.life-icon.lost {
+    opacity: 0.3;
+    transform: scale(0.8);
+}
+
+.pause-btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: white;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition: all 0.2s;
+}
+
+.pause-btn:hover {
+    transform: scale(1.1);
+}
+
+/* 게임 영역 */
+#play-area {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 150px);
+    z-index: 5;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+/* 떨어지는 단어 */
+.falling-word {
+    position: absolute;
+    background: white;
+    color: var(--text-color);
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    white-space: nowrap;
+    border: 2px solid white;
+    transform: translateX(-50%);
+    transition: border-color 0.2s, color 0.2s;
+}
+
+.falling-word.danger {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+    animation: shake 0.5s infinite;
+}
+
+.falling-word.matched {
+    background: var(--success-color);
+    color: white;
+    border-color: var(--success-color);
+    animation: pop 0.3s ease-out forwards;
+}
+
+/* 입력 영역 */
+#input-area {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 25;
+    padding: 0 20px;
+}
+
+#word-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 16px 25px;
+    font-size: 1.1rem;
+    border: 3px solid var(--primary-color);
+    background: white;
+    color: var(--text-color);
+    border-radius: 50px;
+    text-align: center;
+    outline: none;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    font-family: var(--font-main);
+}
+
+#word-input:focus {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+    border-color: var(--primary-dark);
+}
+
+#word-input::placeholder {
+    color: #aaa;
+}
+
+/* ============================================
+   일시정지 오버레이
+   ============================================ */
+#pause-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    z-index: 30;
+}
+
+.pause-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* ============================================
+   게임 오버 화면
+   ============================================ */
+#game-over {
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+}
+
+.game-over-container {
+    text-align: center;
+}
+
+.final-score-area {
+    padding: 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: var(--border-radius);
+    margin: 10px 0;
+}
+
+.final-score-label {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 5px;
+}
+
+.final-score-value {
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.game-over-stats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px 0;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.stat-label {
+    font-size: 0.8rem;
+    color: var(--text-light);
+}
+
+.stat-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.game-over-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.game-over-buttons .btn {
+    flex: 1;
+}
+
+/* ============================================
+   애니메이션
+   ============================================ */
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: translateX(-50%);
+    }
+
+    25% {
+        transform: translateX(calc(-50% - 4px));
+    }
+
+    75% {
+        transform: translateX(calc(-50% + 4px));
+    }
+}
+
+@keyframes pop {
+    0% {
+        transform: translateX(-50%) scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: translateX(-50%) scale(1.3);
+    }
+
+    100% {
+        transform: translateX(-50%) scale(0);
+        opacity: 0;
+    }
+}
+
+@keyframes flash-green {
+
+    0%,
+    100% {
+        box-shadow: none;
+    }
+
+    50% {
+        box-shadow: inset 0 0 30px rgba(76, 175, 80, 0.5);
+    }
+}
+
+@keyframes flash-red {
+
+    0%,
+    100% {
+        box-shadow: none;
+    }
+
+    50% {
+        box-shadow: inset 0 0 50px rgba(255, 107, 107, 0.5);
+    }
+}
+
+/* ============================================
+   반응형 디자인
+   ============================================ */
+
+/* 작은 모바일 (iPhone SE 등) */
+@media (max-height: 700px) {
+    .game-title {
+        font-size: 2.5rem;
+    }
+
+    .modal-container {
+        padding: 20px;
+        gap: 15px;
+        max-height: 90vh;
+    }
+
+    .instruction-item {
+        padding: 8px;
+        gap: 10px;
+    }
+
+    .instruction-icon {
+        font-size: 1.2rem;
+        min-width: 30px;
+    }
+
+    .instruction-item p {
+        font-size: 0.85rem;
+    }
+
+    .unit-grid {
+        max-height: 100px;
+    }
+}
+
+/* 태블릿 */
+@media (min-width: 768px) {
+    #game-container {
+        /* 태블릿에서는 전체 너비 사용, 약간의 여백만 */
+        max-width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .game-title {
+        font-size: 4rem;
+    }
+
+    .modal-container {
+        max-width: 500px;
+    }
+}
+
+/* PC */
+@media (min-width: 1024px) {
+    body {
+        background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    }
+
+    #game-container {
+        max-width: 100%;
+        max-height: 100vh;
+        border-radius: 0;
+    }
+
+    .modal-container {
+        max-width: 600px;
+    }
+}
+
+/* 가로 모드 대응 */
+@media (orientation: landscape) and (max-height: 500px) {
+    #game-container {
+        max-width: none;
+        max-height: 100vh;
+    }
+
+    .main-content {
+        padding-bottom: 30px;
+    }
+
+    .game-title {
+        font-size: 2rem;
+    }
+
+    .modal-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 90%;
+        max-height: 95vh;
+    }
+}

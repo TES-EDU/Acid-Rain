@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>산성비 - 영어 단어 게임</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.sheetjs.com/xlsx-0.20.0/package/dist/xlsx.full.min.js"></script>
+</head>
+
+<body>
+    <div id="game-container">
+        <!-- 전체 화면 배경 이미지 -->
+        <div id="background-image"></div>
+
+        <!-- 메인 화면 -->
+        <div id="main-menu" class="screen active">
+            <div class="main-content">
+                <div class="title-area">
+                    <h1 class="game-title">산성비</h1>
+                    <p class="subtitle">영어 단어 습격 사건</p>
+                </div>
+                <div class="main-buttons">
+                    <button id="how-to-btn" class="btn btn-secondary">How to Play</button>
+                    <button id="start-btn" class="btn btn-primary">시작하기</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- How to Play 오버레이 -->
+        <div id="how-to-play" class="screen hidden">
+            <div class="modal-container">
+                <h2>🎮 게임 방법</h2>
+                <div class="how-to-content">
+                    <div class="instruction-item">
+                        <span class="instruction-icon">☁️</span>
+                        <p>하늘에서 단어가 떨어집니다.</p>
+                    </div>
+                    <div class="instruction-item">
+                        <span class="instruction-icon">⌨️</span>
+                        <p>바닥에 닿기 전에 올바른 뜻/단어를 입력하세요.</p>
+                    </div>
+                    <div class="instruction-item">
+                        <span class="instruction-icon">🇰🇷➡️🇺🇸</span>
+                        <p><b>한-영 모드</b>: 한글 뜻을 보고 영단어 입력<br>(예: 사과 → apple)</p>
+                    </div>
+                    <div class="instruction-item">
+                        <span class="instruction-icon">🇺🇸➡️🇰🇷</span>
+                        <p><b>영-한 모드</b>: 영단어를 보고 한글 뜻 입력<br>(예: apple → 사과)</p>
+                    </div>
+                    <div class="instruction-item">
+                        <span class="instruction-icon">💔</span>
+                        <p>생명 5개가 모두 소진되면 게임이 끝납니다.</p>
+                    </div>
+                </div>
+                <button id="close-howto-btn" class="btn btn-primary">확인</button>
+            </div>
+        </div>
+
+        <!-- 게임 설정 화면 -->
+        <div id="settings-screen" class="screen hidden">
+            <div class="modal-container settings-container">
+                <h2>⚙️ 게임 설정</h2>
+
+                <!-- 난이도 설정 -->
+                <div class="setting-section">
+                    <h3>난이도</h3>
+                    <div class="difficulty-options">
+                        <button class="diff-btn" data-diff="easy">쉬움</button>
+                        <button class="diff-btn active" data-diff="normal">중간</button>
+                        <button class="diff-btn" data-diff="hard">어려움</button>
+                    </div>
+                </div>
+
+                <!-- 타이핑 모드 -->
+                <div class="setting-section">
+                    <h3>타이핑 모드</h3>
+                    <div class="typing-mode-options">
+                        <button class="mode-btn active" data-mode="ko-en">한글 → 영어</button>
+                        <button class="mode-btn" data-mode="en-ko">영어 → 한글</button>
+                    </div>
+                </div>
+
+                <!-- 범위 설정 / 세부 설정 탭 -->
+                <div class="setting-section">
+                    <div class="range-tabs">
+                        <button class="range-tab active" data-tab="range">범위 설정</button>
+                        <button class="range-tab" data-tab="detail">세부 설정</button>
+                    </div>
+
+                    <!-- 범위 설정 (레벨 선택) -->
+                    <div id="range-panel" class="tab-panel active">
+                        <p class="panel-description">학습할 레벨을 선택하세요</p>
+                        <div class="level-grid">
+                            <button class="level-btn disabled" data-level="0">Lv 0</button>
+                            <button class="level-btn" data-level="1">Lv 1</button>
+                            <button class="level-btn" data-level="2">Lv 2</button>
+                            <button class="level-btn active" data-level="3">Lv 3</button>
+                            <button class="level-btn" data-level="4">Lv 4</button>
+                            <button class="level-btn" data-level="5">Lv 5</button>
+                            <button class="level-btn" data-level="6">Lv 6</button>
+                            <button class="level-btn disabled" data-level="7">Lv 7</button>
+                        </div>
+                    </div>
+
+                    <!-- 세부 설정 (유닛 선택) -->
+                    <div id="detail-panel" class="tab-panel hidden">
+                        <div class="unit-header">
+                            <p class="panel-description">학습할 유닛을 선택하세요 (Lv <span id="current-level-label">3</span>)</p>
+                            <div class="unit-actions">
+                                <button id="select-all-btn" class="mini-btn">전체 선택</button>
+                                <button id="deselect-all-btn" class="mini-btn">전체 해제</button>
+                            </div>
+                        </div>
+                        <div id="unit-grid" class="unit-grid">
+                            <!-- JS에서 동적 생성 -->
+                        </div>
+                    </div>
+                </div>
+
+                <p id="status-msg" class="status-message"></p>
+
+                <div class="settings-buttons">
+                    <button id="back-to-main-btn" class="btn btn-secondary">뒤로</button>
+                    <button id="game-start-btn" class="btn btn-primary">게임 시작</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 게임 플레이 화면 -->
+        <div id="game-screen" class="screen hidden">
+            <!-- UI 헤더 -->
+            <div id="game-ui">
+                <div class="ui-left">
+                    <div class="score-board">점수: <span id="score">0</span></div>
+                </div>
+                <div class="ui-center">
+                    <div class="life-board">
+                        <span id="life-icons"></span>
+                    </div>
+                </div>
+                <div class="ui-right">
+                    <button id="pause-btn" class="pause-btn">⏸️</button>
+                </div>
+            </div>
+
+            <!-- 게임 영역 -->
+            <div id="play-area"></div>
+
+            <!-- 입력 영역 -->
+            <div id="input-area">
+                <input type="text" id="word-input" placeholder="여기에 단어를 입력하세요..." autocomplete="off">
+            </div>
+        </div>
+
+        <!-- 일시정지 오버레이 -->
+        <div id="pause-overlay" class="screen hidden">
+            <div class="modal-container">
+                <h2>⏸️ 일시정지</h2>
+                <div class="pause-buttons">
+                    <button id="resume-btn" class="btn btn-primary">계속하기</button>
+                    <button id="quit-btn" class="btn btn-secondary">종료하기</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 게임 오버 화면 -->
+        <div id="game-over" class="screen hidden">
+            <div class="modal-container game-over-container">
+                <h2>🎯 게임 종료</h2>
+                <div class="final-score-area">
+                    <p class="final-score-label">최종 점수</p>
+                    <p class="final-score-value"><span id="final-score">0</span></p>
+                </div>
+                <div class="game-over-stats">
+                    <div class="stat-item">
+                        <span class="stat-label">맞춘 단어</span>
+                        <span class="stat-value" id="correct-count">0</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">놓친 단어</span>
+                        <span class="stat-value" id="missed-count">0</span>
+                    </div>
+                </div>
+                <div class="game-over-buttons">
+                    <button id="restart-btn" class="btn btn-primary">다시 하기</button>
+                    <button id="home-btn" class="btn btn-secondary">메인으로</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="words_data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

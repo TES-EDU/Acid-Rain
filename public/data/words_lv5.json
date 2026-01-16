@@ -1,0 +1,5462 @@
+{
+  "1": [
+    {
+      "en": "ability",
+      "kr": "n. 능력, 재능",
+      "en_ex": "She has the ability to sing well.",
+      "kr_ex": "그녀는 노래를 잘 부를 수 있는 능력이 있어요."
+    },
+    {
+      "en": "act",
+      "kr": "n. (연극∙영화 등의) 연기, v. 행동하다",
+      "en_ex": "You should act quickly in an emergency.",
+      "kr_ex": "긴급 상황에서 빨리 행동해야 해요."
+    },
+    {
+      "en": "additional",
+      "kr": "adj. 추가적인",
+      "en_ex": "We need additional chairs for the guests.",
+      "kr_ex": "손님들을 위해 추가 의자가 필요해요."
+    },
+    {
+      "en": "advice",
+      "kr": "n. 조언, 충고",
+      "en_ex": "My teacher gave me good advice.",
+      "kr_ex": "선생님이 좋은 조언을 해주셨어요."
+    },
+    {
+      "en": "aircraft",
+      "kr": "n. 항공기",
+      "en_ex": "The aircraft landed safely at the airport.",
+      "kr_ex": "비행기가 공항에 안전하게 착륙했어요."
+    },
+    {
+      "en": "architect",
+      "kr": "n. 건축가",
+      "en_ex": "The architect designed a tall building.",
+      "kr_ex": "건축가는 높은 건물을 설계했어요."
+    },
+    {
+      "en": "behave",
+      "kr": "v. 행동하다, 처신하다",
+      "en_ex": "Please behave politely at school.",
+      "kr_ex": "학교에서 예의 바르게 행동하세요."
+    },
+    {
+      "en": "challenge",
+      "kr": "n. 도전(과제)",
+      "en_ex": "This is a difficult challenge.",
+      "kr_ex": "이것은 어려운 도전이에요."
+    },
+    {
+      "en": "college",
+      "kr": "n. 대학",
+      "en_ex": "She wants to go to college next year.",
+      "kr_ex": "그녀는 내년에 대학에 가고 싶어 해요."
+    },
+    {
+      "en": "compete",
+      "kr": "v. 경쟁하다",
+      "en_ex": "They compete in the swimming contest.",
+      "kr_ex": "그들은 수영 대회에서 경쟁해요."
+    },
+    {
+      "en": "condition",
+      "kr": "n. 상태, 상황",
+      "en_ex": "The weather condition is good today.",
+      "kr_ex": "오늘 날씨 상태가 좋아요."
+    },
+    {
+      "en": "consider",
+      "kr": "v. 고려하다, 생각하다",
+      "en_ex": "Consider your options carefully.",
+      "kr_ex": "신중하게 선택지를 고려하세요."
+    },
+    {
+      "en": "consist",
+      "kr": "v. 이루어지다, 구성되다",
+      "en_ex": "The team consists of ten players.",
+      "kr_ex": "팀은 10명의 선수로 구성돼 있어요."
+    },
+    {
+      "en": "curriculum",
+      "kr": "n. 교육 과정",
+      "en_ex": "Our curriculum includes science and math.",
+      "kr_ex": "우리 교육 과정에는 과학과 수학이 포함돼 있어요."
+    },
+    {
+      "en": "fantasy",
+      "kr": "n. 공상, 상상",
+      "en_ex": "I love reading fantasy stories.",
+      "kr_ex": "나는 판타지 이야기를 읽는 것을 좋아해요."
+    },
+    {
+      "en": "fiction",
+      "kr": "n. 소설, 꾸며낸 이야기",
+      "en_ex": "I like to read fiction books.",
+      "kr_ex": "나는 소설책 읽는 것을 좋아해요."
+    },
+    {
+      "en": "injured",
+      "kr": "adj. 다친, 부상을 입은",
+      "en_ex": "He was injured in the soccer game.",
+      "kr_ex": "그는 축구 경기에서 다쳤어요."
+    },
+    {
+      "en": "major",
+      "kr": "adj. 주요한, 중대한, v. 전공하다",
+      "en_ex": "Math is my major subject.",
+      "kr_ex": "수학이 내 전공 과목이에요."
+    },
+    {
+      "en": "pity",
+      "kr": "n. 동정(심), 불쌍히 여김",
+      "en_ex": "It is a pity that it rained on our picnic.",
+      "kr_ex": "소풍 날 비가 와서 안타까웠어요."
+    },
+    {
+      "en": "porch",
+      "kr": "n. 현관",
+      "en_ex": "We sat on the porch and talked.",
+      "kr_ex": "우리는 현관에 앉아 이야기했어요."
+    },
+    {
+      "en": "realize",
+      "kr": "v. 깨닫다, 실현하다, 이루다",
+      "en_ex": "I realize I forgot my homework.",
+      "kr_ex": "나는 숙제를 잊었다는 걸 깨달았어요."
+    },
+    {
+      "en": "shortage",
+      "kr": "n. 부족, 모자람",
+      "en_ex": "There is a shortage of clean water.",
+      "kr_ex": "깨끗한 물이 부족해요."
+    },
+    {
+      "en": "slit",
+      "kr": "n. (좁고 기다란) 틈, 구멍",
+      "en_ex": "There is a small slit in the paper.",
+      "kr_ex": "종이에 작은 틈이 있어요."
+    },
+    {
+      "en": "spirit",
+      "kr": "n. 정신",
+      "en_ex": "He has a strong spirit to never give up.",
+      "kr_ex": "그는 절대 포기하지 않는 강한 정신을 가졌어요."
+    },
+    {
+      "en": "steam",
+      "kr": "n. 증기, 김, 스팀",
+      "en_ex": "Steam comes from hot water.",
+      "kr_ex": "뜨거운 물에서 증기가 나와요."
+    },
+    {
+      "en": "subtract",
+      "kr": "v. (수∙양을) 빼다",
+      "en_ex": "Subtract five from ten.",
+      "kr_ex": "10에서 5를 빼세요."
+    },
+    {
+      "en": "telescope",
+      "kr": "n. 망원경",
+      "en_ex": "We looked at the stars through a telescope.",
+      "kr_ex": "우리는 망원경으로 별을 봤어요."
+    },
+    {
+      "en": "tender",
+      "kr": "adj. 연한, 부드러운",
+      "en_ex": "The cake is tender and soft.",
+      "kr_ex": "케이크는 부드럽고 촉촉해요."
+    },
+    {
+      "en": "terrified",
+      "kr": "adj. 두려워하는",
+      "en_ex": "She was terrified of the thunder.",
+      "kr_ex": "그녀는 천둥이 무서웠어요."
+    },
+    {
+      "en": "vanish",
+      "kr": "v. (갑자기) 사라지다",
+      "en_ex": "The magician made the rabbit vanish.",
+      "kr_ex": "마술사는 토끼를 사라지게 만들었어요."
+    }
+  ],
+  "2": [
+    {
+      "en": "army",
+      "kr": "n. 군대, 육군",
+      "en_ex": "The army protects the country.",
+      "kr_ex": "군대는 나라를 지켜요."
+    },
+    {
+      "en": "athlete",
+      "kr": "n. 운동선수, 육상 선수",
+      "en_ex": "She is a good athlete.",
+      "kr_ex": "그녀는 좋은 운동선수예요."
+    },
+    {
+      "en": "automobile",
+      "kr": "n. 자동차",
+      "en_ex": "The automobile is fast and shiny.",
+      "kr_ex": "자동차는 빠르고 반짝여요."
+    },
+    {
+      "en": "bark",
+      "kr": "v. (개·여우 등이) 짖다, n. 나무껍질",
+      "en_ex": "The dog’s bark is loud.",
+      "kr_ex": "개의 짖는 소리가 시끄러워요."
+    },
+    {
+      "en": "beyond",
+      "kr": "prep. ~ 너머, ~ 지나",
+      "en_ex": "The stars are beyond the clouds.",
+      "kr_ex": "별은 구름 너머에 있어요."
+    },
+    {
+      "en": "biography",
+      "kr": "n. 전기, 일대기",
+      "en_ex": "I read a biography about a hero.",
+      "kr_ex": "나는 영웅에 관한 전기를 읽었어요."
+    },
+    {
+      "en": "contact",
+      "kr": "n. 접촉, v. 연락하다",
+      "en_ex": "Please contact me by email.",
+      "kr_ex": "이메일로 연락해 주세요."
+    },
+    {
+      "en": "counsel",
+      "kr": "v. 조언하다, 충고하다",
+      "en_ex": "She gave me good counsel.",
+      "kr_ex": "그녀는 나에게 좋은 조언을 했어요."
+    },
+    {
+      "en": "delighted",
+      "kr": "adj. 아주 기뻐하는",
+      "en_ex": "He was delighted with the gift.",
+      "kr_ex": "그는 선물에 기뻐했어요."
+    },
+    {
+      "en": "explore",
+      "kr": "v. 탐험하다",
+      "en_ex": "They explore the jungle.",
+      "kr_ex": "그들은 정글을 탐험해요."
+    },
+    {
+      "en": "fashionable",
+      "kr": "adj. 유행하는",
+      "en_ex": "She wears fashionable clothes.",
+      "kr_ex": "그녀는 유행하는 옷을 입어요."
+    },
+    {
+      "en": "global",
+      "kr": "adj. 세계적인",
+      "en_ex": "We live in a global world.",
+      "kr_ex": "우리는 세계화된 세상에 살아요."
+    },
+    {
+      "en": "goods",
+      "kr": "n. 상품, 제품",
+      "en_ex": "The store sells many goods.",
+      "kr_ex": "가게는 많은 물건을 팔아요."
+    },
+    {
+      "en": "government",
+      "kr": "n. 정부",
+      "en_ex": "The government made new laws.",
+      "kr_ex": "정부는 새 법을 만들었어요."
+    },
+    {
+      "en": "grain",
+      "kr": "n. 곡물, 곡류",
+      "en_ex": "Farmers grow grain on their fields.",
+      "kr_ex": "농부들은 밭에서 곡식을 재배해요."
+    },
+    {
+      "en": "guideline",
+      "kr": "n. 지침, 가이드라인",
+      "en_ex": "Follow the guideline carefully.",
+      "kr_ex": "안내 지침을 주의 깊게 따르세요."
+    },
+    {
+      "en": "increase",
+      "kr": "n. 증가, v. 증가하다, 증가시키다",
+      "en_ex": "The number of students will increase.",
+      "kr_ex": "학생 수가 증가할 거예요."
+    },
+    {
+      "en": "industry",
+      "kr": "n. 산업, 공업",
+      "en_ex": "The industry makes many products.",
+      "kr_ex": "산업은 많은 제품을 만들어요."
+    },
+    {
+      "en": "intelligent",
+      "kr": "adj. 총명한, 똑똑한",
+      "en_ex": "He is very intelligent.",
+      "kr_ex": "그는 매우 똑똑해요."
+    },
+    {
+      "en": "poison",
+      "kr": "n. 독, 독약",
+      "en_ex": "Some plants produce poison.",
+      "kr_ex": "어떤 식물은 독을 만들어 내요."
+    },
+    {
+      "en": "public",
+      "kr": "n. 대중, 일반 사람들, adj. 공공의",
+      "en_ex": "The park is open to the public.",
+      "kr_ex": "공원은 누구에게나 열려 있어요."
+    },
+    {
+      "en": "regulate",
+      "kr": "v. 규제하다",
+      "en_ex": "The government regulates traffic rules.",
+      "kr_ex": "정부는 교통 규칙을 규제해요."
+    },
+    {
+      "en": "slope",
+      "kr": "n. 경사, 비탈",
+      "en_ex": "The slope is steep and dangerous.",
+      "kr_ex": "경사가 가파르고 위험해요."
+    },
+    {
+      "en": "snap",
+      "kr": "v. 딱 하고 소리 내다",
+      "en_ex": "Be careful not to snap the pencil.",
+      "kr_ex": "연필이 부러지지 않게 조심하세요."
+    },
+    {
+      "en": "spokesman",
+      "kr": "n. 대변인",
+      "en_ex": "The spokesman spoke to the press.",
+      "kr_ex": "대변인이 기자회견에서 말했어요."
+    },
+    {
+      "en": "symbol",
+      "kr": "n. 상징, 기호",
+      "en_ex": "The dove is a symbol of peace.",
+      "kr_ex": "비둘기는 평화의 상징이에요."
+    },
+    {
+      "en": "task",
+      "kr": "n. 일, 과업",
+      "en_ex": "I finished my task early.",
+      "kr_ex": "나는 일을 일찍 끝냈어요."
+    },
+    {
+      "en": "touch",
+      "kr": "v. (손을) 대다, 만지다, 감동시키다",
+      "en_ex": "Don’t touch the hot stove.",
+      "kr_ex": "뜨거운 난로를 만지지 마세요."
+    },
+    {
+      "en": "unbelievable",
+      "kr": "adj. 믿을 수 없는",
+      "en_ex": "The story was unbelievable.",
+      "kr_ex": "그 이야기는 믿기 어려웠어요."
+    },
+    {
+      "en": "violent",
+      "kr": "adj. 폭력적인, 난폭한",
+      "en_ex": "Violent storms damaged the town.",
+      "kr_ex": "강한 폭풍이 마을을 파괴했어요."
+    }
+  ],
+  "3": [
+    {
+      "en": "aware",
+      "kr": "adj. 알고 있는",
+      "en_ex": "I am aware of the problem.",
+      "kr_ex": "나는 그 문제를 알고 있어요."
+    },
+    {
+      "en": "bitter",
+      "kr": "adj. 맛이 쓴",
+      "en_ex": "Lemon juice tastes bitter.",
+      "kr_ex": "레몬 주스는 쓴맛이 나요."
+    },
+    {
+      "en": "cancel",
+      "kr": "v. 취소하다",
+      "en_ex": "They had to cancel the game.",
+      "kr_ex": "그들은 경기를 취소해야 했어요."
+    },
+    {
+      "en": "category",
+      "kr": "n. 범주, 부문",
+      "en_ex": "Books are divided into categories.",
+      "kr_ex": "책은 분류로 나뉘어요."
+    },
+    {
+      "en": "composition",
+      "kr": "n. 구성 (요소), (음악·미술) 작품",
+      "en_ex": "The composition of the poem is beautiful.",
+      "kr_ex": "그 시의 구성은 아름다워요."
+    },
+    {
+      "en": "confusing",
+      "kr": "adj. 혼란스러운",
+      "en_ex": "The instructions were confusing.",
+      "kr_ex": "설명이 혼란스러웠어요."
+    },
+    {
+      "en": "exact",
+      "kr": "adj. 정확한",
+      "en_ex": "The answer must be exact.",
+      "kr_ex": "정답은 정확해야 해요."
+    },
+    {
+      "en": "faith",
+      "kr": "n. 믿음, 신뢰",
+      "en_ex": "Faith is important to many people.",
+      "kr_ex": "믿음은 많은 사람에게 중요해요."
+    },
+    {
+      "en": "fake",
+      "kr": "adj. 가짜의, 거짓된, v. ~인 척하다, 꾸미다",
+      "en_ex": "That necklace is fake.",
+      "kr_ex": "그 목걸이는 가짜예요."
+    },
+    {
+      "en": "impolite",
+      "kr": "adj. 무례한, 버릇없는",
+      "en_ex": "It is impolite to interrupt others.",
+      "kr_ex": "남의 말을 가로채는 것은 무례해요."
+    },
+    {
+      "en": "impress",
+      "kr": "v. 깊은 인상(감명)을 주다",
+      "en_ex": "The movie will impress the audience.",
+      "kr_ex": "그 영화는 관객에게 깊은 인상을 줄 거예요."
+    },
+    {
+      "en": "inform",
+      "kr": "v. 알리다, 통지하다",
+      "en_ex": "Please inform me about the changes.",
+      "kr_ex": "변경 사항을 알려 주세요."
+    },
+    {
+      "en": "informal",
+      "kr": "adj. 비공식의, 격식 없는",
+      "en_ex": "We use informal language with friends.",
+      "kr_ex": "우리는 친구들과 비공식적인 말을 사용해요."
+    },
+    {
+      "en": "issue",
+      "kr": "n. 주제, 문제, (정기 간행물의) 호, v. 발급하다, 발행하다",
+      "en_ex": "The issue is very serious.",
+      "kr_ex": "그 문제는 매우 심각해요."
+    },
+    {
+      "en": "kernel",
+      "kr": "n. 알맹이, 낟알",
+      "en_ex": "The kernel of the corn is sweet.",
+      "kr_ex": "옥수수 속 알맹이는 달아요."
+    },
+    {
+      "en": "license",
+      "kr": "n. 면허, 면허증",
+      "en_ex": "I got my driver’s license yesterday.",
+      "kr_ex": "나는 어제 운전면허증을 땄어요."
+    },
+    {
+      "en": "mathematician",
+      "kr": "n. 수학자",
+      "en_ex": "The mathematician solved the problem.",
+      "kr_ex": "그 수학자는 문제를 풀었어요."
+    },
+    {
+      "en": "medical",
+      "kr": "adj. 의학의, 의료의",
+      "en_ex": "He studies medical science.",
+      "kr_ex": "그는 의학을 공부해요."
+    },
+    {
+      "en": "physics",
+      "kr": "n. 물리학",
+      "en_ex": "We learn about physics in school.",
+      "kr_ex": "우리는 학교에서 물리를 배워요."
+    },
+    {
+      "en": "portrait",
+      "kr": "n. 초상화, 인물 사진",
+      "en_ex": "The artist painted a portrait.",
+      "kr_ex": "그 화가는 초상화를 그렸어요."
+    },
+    {
+      "en": "professional",
+      "kr": "adj. 직업의, 전문적인",
+      "en_ex": "She is a professional singer.",
+      "kr_ex": "그녀는 프로 가수예요."
+    },
+    {
+      "en": "respect",
+      "kr": "v. 존중하다, 존경하다",
+      "en_ex": "We should respect our teachers.",
+      "kr_ex": "우리는 선생님을 존경해야 해요."
+    },
+    {
+      "en": "responsible",
+      "kr": "adj. 책임이 있는",
+      "en_ex": "He is responsible for the project.",
+      "kr_ex": "그는 프로젝트를 책임지고 있어요."
+    },
+    {
+      "en": "shift",
+      "kr": "v. 이동하다, 움직이다",
+      "en_ex": "The workers shift every eight hours.",
+      "kr_ex": "근로자들은 8시간마다 교대해요."
+    },
+    {
+      "en": "sort",
+      "kr": "n. 종류, 유형, v. 분류하다",
+      "en_ex": "Please sort the papers by date.",
+      "kr_ex": "서류를 날짜별로 분류하세요."
+    },
+    {
+      "en": "suggest",
+      "kr": "v. 제안하다, 제의하다",
+      "en_ex": "She suggest we take a break.",
+      "kr_ex": "그녀는 휴식을 취하자고 제안했어요."
+    },
+    {
+      "en": "support",
+      "kr": "v. 지지하다, 지원하다",
+      "en_ex": "Parents support their children.",
+      "kr_ex": "부모는 자녀를 지원해요."
+    },
+    {
+      "en": "thrill",
+      "kr": "v. 흥분시키다",
+      "en_ex": "Riding a roller coaster is a thrill.",
+      "kr_ex": "롤러코스터 타는 것은 짜릿해요."
+    },
+    {
+      "en": "volume",
+      "kr": "n. (전집류 등의) 권",
+      "en_ex": "The volume of the box is large.",
+      "kr_ex": "상자의 부피가 커요."
+    },
+    {
+      "en": "worldwide",
+      "kr": "adj. 전 세계적인",
+      "en_ex": "The internet is worldwide.",
+      "kr_ex": "인터넷은 전 세계에 있어요."
+    }
+  ],
+  "4": [
+    {
+      "en": "accept",
+      "kr": "v. 받아들이다, 받다",
+      "en_ex": "I accept your apology.",
+      "kr_ex": "나는 네 사과를 받아들여."
+    },
+    {
+      "en": "admire",
+      "kr": "v. 존경하다, 감탄하다",
+      "en_ex": "I admire people who work hard.",
+      "kr_ex": "나는 열심히 일하는 사람들을 존경해요."
+    },
+    {
+      "en": "ancient",
+      "kr": "adj. 고대의",
+      "en_ex": "We learned about ancient history.",
+      "kr_ex": "우리는 고대 역사를 배웠어요."
+    },
+    {
+      "en": "balance",
+      "kr": "n. 균형",
+      "en_ex": "Keep your balance when riding a bike.",
+      "kr_ex": "자전거 탈 때 균형을 유지하세요."
+    },
+    {
+      "en": "biology",
+      "kr": "n. 생물학",
+      "en_ex": "We study biology at school.",
+      "kr_ex": "우리는 학교에서 생물을 배워요."
+    },
+    {
+      "en": "bleed",
+      "kr": "v. 피를 흘리다",
+      "en_ex": "He began to bleed from his cut.",
+      "kr_ex": "그는 상처에서 피가 나기 시작했어요."
+    },
+    {
+      "en": "caution",
+      "kr": "v. 경고하다, 주의를 주다, n. 조심, 경계",
+      "en_ex": "Use caution when crossing the street.",
+      "kr_ex": "길을 건널 때 조심하세요."
+    },
+    {
+      "en": "climate",
+      "kr": "n. 기후",
+      "en_ex": "The climate here is very hot.",
+      "kr_ex": "여기는 기후가 매우 더워요."
+    },
+    {
+      "en": "confidence",
+      "kr": "n. 신뢰, 자신감",
+      "en_ex": "She has confidence in her abilities.",
+      "kr_ex": "그녀는 자신의 능력에 자신감이 있어요."
+    },
+    {
+      "en": "conversation",
+      "kr": "n. 대화",
+      "en_ex": "They had a long conversation.",
+      "kr_ex": "그들은 긴 대화를 나눴어요."
+    },
+    {
+      "en": "counter",
+      "kr": "n. 계산대, 카운터",
+      "en_ex": "The shop has a long counter.",
+      "kr_ex": "가게에는 긴 계산대가 있어요."
+    },
+    {
+      "en": "demand",
+      "kr": "n. 요구, 수요",
+      "en_ex": "They demand better service.",
+      "kr_ex": "그들은 더 나은 서비스를 요구해요."
+    },
+    {
+      "en": "fasten",
+      "kr": "v. 매다, 묶다, 채우다",
+      "en_ex": "Fasten your seatbelt in the car.",
+      "kr_ex": "차 안에서 안전벨트를 매세요."
+    },
+    {
+      "en": "fatal",
+      "kr": "adj. 치명적인",
+      "en_ex": "The accident was fatal.",
+      "kr_ex": "그 사고는 치명적이었어요."
+    },
+    {
+      "en": "hire",
+      "kr": "v. 고용하다, 채용하다",
+      "en_ex": "The company will hire new workers.",
+      "kr_ex": "회사는 새 직원을 고용할 거예요."
+    },
+    {
+      "en": "kneel",
+      "kr": "v. 무릎을 꿇다",
+      "en_ex": "Please kneel during the ceremony.",
+      "kr_ex": "의식 중에 무릎을 꿇으세요."
+    },
+    {
+      "en": "marine",
+      "kr": "adj. 바다의, 해양의",
+      "en_ex": "Many marine animals live in the ocean.",
+      "kr_ex": "많은 해양 동물이 바다에 살아요."
+    },
+    {
+      "en": "miserable",
+      "kr": "adj. 비참한",
+      "en_ex": "She felt miserable after losing the game.",
+      "kr_ex": "그녀는 경기에서 지고 매우 슬펐어요."
+    },
+    {
+      "en": "nightmare",
+      "kr": "n. 악몽",
+      "en_ex": "He had a nightmare last night.",
+      "kr_ex": "그는 어젯밤 악몽을 꿨어요."
+    },
+    {
+      "en": "opinion",
+      "kr": "n. 의견",
+      "en_ex": "What is your opinion about the movie?",
+      "kr_ex": "그 영화에 대한 너의 의견은 뭐니?"
+    },
+    {
+      "en": "opportunity",
+      "kr": "n. 기회",
+      "en_ex": "This is a great opportunity.",
+      "kr_ex": "이것은 좋은 기회예요."
+    },
+    {
+      "en": "option",
+      "kr": "n. 선택, 선택권",
+      "en_ex": "You have the option to choose.",
+      "kr_ex": "선택할 수 있는 옵션이 있어요."
+    },
+    {
+      "en": "pleasant",
+      "kr": "adj. 즐거운, 유쾌한",
+      "en_ex": "The garden is full of pleasant flowers.",
+      "kr_ex": "정원은 쾌적한 꽃으로 가득해요."
+    },
+    {
+      "en": "posture",
+      "kr": "n. 자세",
+      "en_ex": "Good posture is important for health.",
+      "kr_ex": "좋은 자세는 건강에 중요해요."
+    },
+    {
+      "en": "react",
+      "kr": "v. 반응하다",
+      "en_ex": "How do you react to stress?",
+      "kr_ex": "스트레스에 어떻게 반응하나요?"
+    },
+    {
+      "en": "sculpture",
+      "kr": "n. 조각, 조각품",
+      "en_ex": "The sculpture is very beautiful.",
+      "kr_ex": "그 조각상은 매우 아름다워요."
+    },
+    {
+      "en": "section",
+      "kr": "n. 부분, 구획",
+      "en_ex": "Turn to the next section in the book.",
+      "kr_ex": "책에서 다음 부분을 펴세요."
+    },
+    {
+      "en": "wisdom",
+      "kr": "n. 지혜, 현명함",
+      "en_ex": "Wisdom comes with experience.",
+      "kr_ex": "지혜는 경험에서 나와요."
+    },
+    {
+      "en": "wool",
+      "kr": "n. 털, 양털",
+      "en_ex": "The sweater is made of wool.",
+      "kr_ex": "스웨터는 양모로 만들어졌어요."
+    },
+    {
+      "en": "youth",
+      "kr": "n. 젊음, 젊은이",
+      "en_ex": "Youth is a time for learning.",
+      "kr_ex": "청소년기는 배우는 시기예요."
+    }
+  ],
+  "5": [
+    {
+      "en": "attitude",
+      "kr": "n. 태도, 사고방식",
+      "en_ex": "He has a positive attitude.",
+      "kr_ex": "그는 긍정적인 태도를 가지고 있어요."
+    },
+    {
+      "en": "awful",
+      "kr": "adj. 끔찍한, 지독한",
+      "en_ex": "The weather was awful yesterday.",
+      "kr_ex": "어제 날씨가 끔찍했어요."
+    },
+    {
+      "en": "besides",
+      "kr": "adv. 더욱이, 게다가, prep. ~ 외에",
+      "en_ex": "Besides football, he likes basketball.",
+      "kr_ex": "축구 외에도 농구를 좋아해요."
+    },
+    {
+      "en": "carbon",
+      "kr": "n. 탄소",
+      "en_ex": "Carbon is found in all living things.",
+      "kr_ex": "탄소는 모든 생물에 있어요."
+    },
+    {
+      "en": "command",
+      "kr": "v. 명령하다",
+      "en_ex": "The general gave a command.",
+      "kr_ex": "장군이 명령을 내렸어요."
+    },
+    {
+      "en": "debate",
+      "kr": "n. 토론",
+      "en_ex": "The class had a debate about school rules.",
+      "kr_ex": "수업 시간에 학교 규칙에 대해 토론했어요."
+    },
+    {
+      "en": "decade",
+      "kr": "n. 10년",
+      "en_ex": "It has been a decade since we met.",
+      "kr_ex": "우리가 만난 지 10년이 되었어요."
+    },
+    {
+      "en": "development",
+      "kr": "n. 발달, 발전",
+      "en_ex": "The city's development is fast.",
+      "kr_ex": "도시 개발이 빠르게 진행되고 있어요."
+    },
+    {
+      "en": "element",
+      "kr": "n. 요소, 성분",
+      "en_ex": "Water is an important element for life.",
+      "kr_ex": "물은 생명에 중요한 요소예요."
+    },
+    {
+      "en": "embarrassed",
+      "kr": "adj. 당황스러운",
+      "en_ex": "She felt embarrassed by the mistake.",
+      "kr_ex": "그녀는 실수해서 부끄러웠어요."
+    },
+    {
+      "en": "fluffy",
+      "kr": "adj. 솜털 같은, 폭신폭신한",
+      "en_ex": "The kitten is very fluffy.",
+      "kr_ex": "고양이 새끼는 매우 복슬복슬해요."
+    },
+    {
+      "en": "laundry",
+      "kr": "n. 세탁물, 빨랫감",
+      "en_ex": "I need to do the laundry today.",
+      "kr_ex": "나는 오늘 빨래를 해야 해요."
+    },
+    {
+      "en": "mate",
+      "kr": "n. 짝(한 쌍)의 한쪽",
+      "en_ex": "My best mate helped me with homework.",
+      "kr_ex": "내 가장 친한 친구가 숙제를 도와줬어요."
+    },
+    {
+      "en": "minor",
+      "kr": "adj. 작은, 중요하지 않은",
+      "en_ex": "He had a minor injury in the game.",
+      "kr_ex": "그는 경기에서 작은 부상을 입었어요."
+    },
+    {
+      "en": "multiple",
+      "kr": "adj. 많은, 복수의",
+      "en_ex": "She solved multiple problems.",
+      "kr_ex": "그녀는 여러 문제를 풀었어요."
+    },
+    {
+      "en": "organ",
+      "kr": "n. (인체의) 장기, 기관",
+      "en_ex": "The heart is a vital organ.",
+      "kr_ex": "심장은 중요한 장기예요."
+    },
+    {
+      "en": "patience",
+      "kr": "n. 인내심, 참을성",
+      "en_ex": "Patience is important in learning.",
+      "kr_ex": "인내심은 배우는 데 중요해요."
+    },
+    {
+      "en": "philosophy",
+      "kr": "n. 철학",
+      "en_ex": "Philosophy studies the meaning of life.",
+      "kr_ex": "철학은 삶의 의미를 연구해요."
+    },
+    {
+      "en": "pillar",
+      "kr": "n. 기둥",
+      "en_ex": "The pillar supports the roof.",
+      "kr_ex": "기둥이 지붕을 지탱해요."
+    },
+    {
+      "en": "pleasure",
+      "kr": "n. 기쁨, 즐거움",
+      "en_ex": "It is a pleasure to meet you.",
+      "kr_ex": "만나서 반가워요."
+    },
+    {
+      "en": "plot",
+      "kr": "n. (소설·영화·연극 등의) 구성, 줄거리",
+      "en_ex": "The plot of the story is very interesting.",
+      "kr_ex": "이야기의 줄거리가 아주 흥미로워요."
+    },
+    {
+      "en": "politician",
+      "kr": "n. 정치인",
+      "en_ex": "The politician gave a speech.",
+      "kr_ex": "정치인이 연설했어요."
+    },
+    {
+      "en": "pray",
+      "kr": "v. 기도하다, 기원하다",
+      "en_ex": "We pray for good health.",
+      "kr_ex": "우리는 건강을 위해 기도해요."
+    },
+    {
+      "en": "preview",
+      "kr": "n. 시사회",
+      "en_ex": "Watch the movie preview first.",
+      "kr_ex": "영화 예고편을 먼저 보세요."
+    },
+    {
+      "en": "reject",
+      "kr": "v. 거절하다",
+      "en_ex": "They reject the idea.",
+      "kr_ex": "그들은 그 생각을 거절했어요."
+    },
+    {
+      "en": "scout",
+      "kr": "v. 스카우트(발굴)하다",
+      "en_ex": "The scout found the way through the forest.",
+      "kr_ex": "정찰병이 숲길을 찾았어요."
+    },
+    {
+      "en": "settle",
+      "kr": "v. 자리잡다, 정착하다",
+      "en_ex": "They decided to settle the problem.",
+      "kr_ex": "그들은 문제를 해결하기로 했어요."
+    },
+    {
+      "en": "sniff",
+      "kr": "v. 코를 훌쩍이다, (코를 킁킁거리며) 냄새를 맡다",
+      "en_ex": "Dogs sniff to learn about things.",
+      "kr_ex": "개는 냄새를 맡아 주변을 알아봐요."
+    },
+    {
+      "en": "sore",
+      "kr": "adj. 아픈",
+      "en_ex": "My muscles are sore after exercise.",
+      "kr_ex": "운동 후에 근육이 아파요."
+    },
+    {
+      "en": "trust",
+      "kr": "v. 믿다, 신뢰하다",
+      "en_ex": "I trust my friends.",
+      "kr_ex": "나는 친구들을 믿어요."
+    }
+  ],
+  "6": [
+    {
+      "en": "appeal",
+      "kr": "n. 호소, 간청, v. 흥미를 일으키다",
+      "en_ex": "The advertisement has a strong appeal.",
+      "kr_ex": "그 광고는 강한 호소력이 있어요."
+    },
+    {
+      "en": "attend",
+      "kr": "v. 참석하다, 출석하다",
+      "en_ex": "I will attend the meeting tomorrow.",
+      "kr_ex": "나는 내일 회의에 참석할 거예요."
+    },
+    {
+      "en": "bond",
+      "kr": "n. 유대, 결속",
+      "en_ex": "There is a strong bond between them.",
+      "kr_ex": "그들 사이에 강한 유대가 있어요."
+    },
+    {
+      "en": "charm",
+      "kr": "n. 매력",
+      "en_ex": "She has a special charm.",
+      "kr_ex": "그녀는 특별한 매력이 있어요."
+    },
+    {
+      "en": "complex",
+      "kr": "adj. 복잡한, 복합의",
+      "en_ex": "This math problem is complex.",
+      "kr_ex": "이 수학 문제는 복잡해요."
+    },
+    {
+      "en": "defeat",
+      "kr": "v. 패배시키다",
+      "en_ex": "Our team suffered a defeat.",
+      "kr_ex": "우리 팀은 패배했어요."
+    },
+    {
+      "en": "devil",
+      "kr": "n. 악마",
+      "en_ex": "The devil is often in stories.",
+      "kr_ex": "악마는 종종 이야기 속에 나와요."
+    },
+    {
+      "en": "discussion",
+      "kr": "n. 토론, 논의",
+      "en_ex": "We had a discussion about the book.",
+      "kr_ex": "우리는 책에 대해 토론했어요."
+    },
+    {
+      "en": "drug",
+      "kr": "n. 약, 약품",
+      "en_ex": "The doctor gave me medicine, a drug.",
+      "kr_ex": "의사는 나에게 약을 줬어요."
+    },
+    {
+      "en": "effect",
+      "kr": "n. 영향, 효과",
+      "en_ex": "Exercise has a good effect on health.",
+      "kr_ex": "운동은 건강에 좋은 영향을 줘요."
+    },
+    {
+      "en": "flush",
+      "kr": "v. (얼굴이) 붉어지다, (변기의) 물을 내리다",
+      "en_ex": "Please flush the toilet after use.",
+      "kr_ex": "사용 후에 변기를 내려 주세요."
+    },
+    {
+      "en": "fragile",
+      "kr": "adj. 취약한, 부서지기 쉬운",
+      "en_ex": "The vase is fragile and can break easily.",
+      "kr_ex": "그 꽃병은 깨지기 쉬워요."
+    },
+    {
+      "en": "ideal",
+      "kr": "adj. 이상적인, 가장 알맞은",
+      "en_ex": "Honesty is an ideal quality.",
+      "kr_ex": "정직은 이상적인 성품이에요."
+    },
+    {
+      "en": "lean",
+      "kr": "v. 기울이다, 몸을 숙이다, (몸을) 기대다",
+      "en_ex": "The cat likes to lean on the sofa.",
+      "kr_ex": "고양이는 소파에 기대는 것을 좋아해요."
+    },
+    {
+      "en": "leap",
+      "kr": "v. 뛰다, 도약하다",
+      "en_ex": "The frog can leap very high.",
+      "kr_ex": "개구리는 매우 높이 뛸 수 있어요."
+    },
+    {
+      "en": "maintain",
+      "kr": "v. 유지하다, 보존하다",
+      "en_ex": "We need to maintain our bikes.",
+      "kr_ex": "우리는 자전거를 잘 관리해야 해요."
+    },
+    {
+      "en": "manage",
+      "kr": "v. 관리하다, 운영하다, 간신히 ~하다",
+      "en_ex": "She can manage her time well.",
+      "kr_ex": "그녀는 시간을 잘 관리해요."
+    },
+    {
+      "en": "prayer",
+      "kr": "n. 기도, 기도문",
+      "en_ex": "We say a prayer before meals.",
+      "kr_ex": "우리는 식사 전에 기도해요."
+    },
+    {
+      "en": "prey",
+      "kr": "n. 먹이, 사냥감",
+      "en_ex": "The lion hunts its prey.",
+      "kr_ex": "사자는 먹이를 사냥해요."
+    },
+    {
+      "en": "private",
+      "kr": "adj. 개인적인, 사적인",
+      "en_ex": "That is private information.",
+      "kr_ex": "그것은 개인적인 정보예요."
+    },
+    {
+      "en": "process",
+      "kr": "n. 과정, 절차",
+      "en_ex": "The process takes about an hour.",
+      "kr_ex": "그 과정은 약 한 시간 걸려요."
+    },
+    {
+      "en": "progress",
+      "kr": "n. 진전, 발전",
+      "en_ex": "We made progress in our studies.",
+      "kr_ex": "우리는 공부에서 진전을 이루었어요."
+    },
+    {
+      "en": "purpose",
+      "kr": "n. 목적",
+      "en_ex": "The purpose of school is to learn.",
+      "kr_ex": "학교의 목적은 배우는 거예요."
+    },
+    {
+      "en": "reality",
+      "kr": "n. 현실, 실제",
+      "en_ex": "Reality is different from dreams.",
+      "kr_ex": "현실은 꿈과 달라요."
+    },
+    {
+      "en": "regular",
+      "kr": "adj. 규칙적인, 정기적인",
+      "en_ex": "We have regular classes every day.",
+      "kr_ex": "우리는 매일 정규 수업을 해요."
+    },
+    {
+      "en": "request",
+      "kr": "n. 요청",
+      "en_ex": "I made a request for more time.",
+      "kr_ex": "나는 더 많은 시간을 요청했어요."
+    },
+    {
+      "en": "robe",
+      "kr": "n. (길고 헐거운) 가운, 예복",
+      "en_ex": "He wore a robe at the ceremony.",
+      "kr_ex": "그는 의식에서 가운을 입었어요."
+    },
+    {
+      "en": "rough",
+      "kr": "adj. 거친, 고르지 않은",
+      "en_ex": "The road is rough and full of stones.",
+      "kr_ex": "길은 거칠고 돌투성이예요."
+    },
+    {
+      "en": "spear",
+      "kr": "n. 창, 작살",
+      "en_ex": "The warrior used a spear in battle.",
+      "kr_ex": "전사는 전투에서 창을 사용했어요."
+    },
+    {
+      "en": "whether",
+      "kr": "conj. ~인지 아닌지",
+      "en_ex": "I don’t know whether it will rain.",
+      "kr_ex": "비가 올지 안 올지 모르겠어요."
+    }
+  ],
+  "7": [
+    {
+      "en": "adopt",
+      "kr": "v. (특정 방식을) 쓰다, 택하다, 입양하다",
+      "en_ex": "They will adopt a puppy.",
+      "kr_ex": "그들은 강아지를 입양할 거예요."
+    },
+    {
+      "en": "afraid",
+      "kr": "adj. 두려워하는, 겁내는",
+      "en_ex": "He is afraid of spiders.",
+      "kr_ex": "그는 거미를 무서워해요."
+    },
+    {
+      "en": "aged",
+      "kr": "adj. 나이 든, 오래된, ~세의",
+      "en_ex": "The aged man walks slowly.",
+      "kr_ex": "나이든 남자는 천천히 걸어요."
+    },
+    {
+      "en": "although",
+      "kr": "conj. 비록 ~일지라도",
+      "en_ex": "Although it was raining, we played.",
+      "kr_ex": "비가 왔지만 우리는 놀았어요."
+    },
+    {
+      "en": "borrow",
+      "kr": "v. 빌리다",
+      "en_ex": "Can I borrow your pen?",
+      "kr_ex": "내 펜을 빌릴 수 있나요?"
+    },
+    {
+      "en": "chief",
+      "kr": "n. 최고위자, adj. 주된, 최고의",
+      "en_ex": "The chief of the tribe is wise.",
+      "kr_ex": "부족의 우두머리는 현명해요."
+    },
+    {
+      "en": "delay",
+      "kr": "v. 미루다, 연기하다",
+      "en_ex": "The flight was delayed by an hour.",
+      "kr_ex": "비행기가 한 시간 연착됐어요."
+    },
+    {
+      "en": "diligent",
+      "kr": "adj. 부지런한",
+      "en_ex": "He is a diligent student.",
+      "kr_ex": "그는 부지런한 학생이에요."
+    },
+    {
+      "en": "disguise",
+      "kr": "v. 변장하다",
+      "en_ex": "He wore a disguise to hide.",
+      "kr_ex": "그는 숨기 위해 변장을 했어요."
+    },
+    {
+      "en": "educate",
+      "kr": "v. 교육하다",
+      "en_ex": "Schools educate children.",
+      "kr_ex": "학교는 아이들을 교육해요."
+    },
+    {
+      "en": "embassy",
+      "kr": "n. 대사관",
+      "en_ex": "The embassy helps tourists.",
+      "kr_ex": "대사관은 관광객을 도와줘요."
+    },
+    {
+      "en": "encyclopedia",
+      "kr": "n. 백과사전",
+      "en_ex": "I read an encyclopedia article.",
+      "kr_ex": "나는 백과사전 기사를 읽었어요."
+    },
+    {
+      "en": "episode",
+      "kr": "n. 사건, 에피소드",
+      "en_ex": "I watched the first episode yesterday.",
+      "kr_ex": "나는 어제 첫 번째 에피소드를 봤어요."
+    },
+    {
+      "en": "index",
+      "kr": "n. 색인, 목록",
+      "en_ex": "Look up the word in the index.",
+      "kr_ex": "색인에서 단어를 찾아보세요."
+    },
+    {
+      "en": "lessen",
+      "kr": "v. 줄이다, 완화하다",
+      "en_ex": "Exercise can lessen stress.",
+      "kr_ex": "운동은 스트레스를 줄여 줄 수 있어요."
+    },
+    {
+      "en": "link",
+      "kr": "v. 연결하다",
+      "en_ex": "Please link the two chains together.",
+      "kr_ex": "두 사슬을 연결해 주세요."
+    },
+    {
+      "en": "pace",
+      "kr": "n. 속도",
+      "en_ex": "She walked at a slow pace.",
+      "kr_ex": "그녀는 천천히 걸었어요."
+    },
+    {
+      "en": "persuade",
+      "kr": "v. 설득하다",
+      "en_ex": "She tried to persuade him.",
+      "kr_ex": "그녀는 그를 설득하려고 했어요."
+    },
+    {
+      "en": "poetry",
+      "kr": "n. (집합적) 시, 운문",
+      "en_ex": "She writes beautiful poetry.",
+      "kr_ex": "그녀는 아름다운 시를 써요."
+    },
+    {
+      "en": "prove",
+      "kr": "v. 증명하다",
+      "en_ex": "Can you prove your answer?",
+      "kr_ex": "답을 증명할 수 있나요?"
+    },
+    {
+      "en": "provide",
+      "kr": "v. 제공하다",
+      "en_ex": "The school will provide lunch.",
+      "kr_ex": "학교는 점심을 제공할 거예요."
+    },
+    {
+      "en": "publish",
+      "kr": "v. 출판하다, 발행하다",
+      "en_ex": "The author will publish a new book.",
+      "kr_ex": "작가는 새 책을 출판할 거예요."
+    },
+    {
+      "en": "resort",
+      "kr": "n. 휴양지, 리조트",
+      "en_ex": "We stayed at a beach resort.",
+      "kr_ex": "우리는 해변 리조트에 머물렀어요."
+    },
+    {
+      "en": "secretary",
+      "kr": "n. 비서",
+      "en_ex": "The secretary took notes during the meeting.",
+      "kr_ex": "비서가 회의 중에 필기했어요."
+    },
+    {
+      "en": "series",
+      "kr": "n. 연속, 시리즈",
+      "en_ex": "The TV show has many series.",
+      "kr_ex": "그 TV 프로그램에는 여러 시즌이 있어요."
+    },
+    {
+      "en": "serious",
+      "kr": "adj. 심각한, 진지한",
+      "en_ex": "This is a serious problem.",
+      "kr_ex": "이것은 심각한 문제예요."
+    },
+    {
+      "en": "shame",
+      "kr": "n. 부끄러움, 수치심",
+      "en_ex": "It is a shame to waste food.",
+      "kr_ex": "음식을 낭비하는 것은 부끄러운 일이에요."
+    },
+    {
+      "en": "shore",
+      "kr": "n. 해안, 해변",
+      "en_ex": "We walked along the shore of the lake.",
+      "kr_ex": "우리는 호숫가를 따라 걸었어요."
+    },
+    {
+      "en": "supervise",
+      "kr": "v. 감독하다",
+      "en_ex": "Teachers supervise the students.",
+      "kr_ex": "선생님들은 학생들을 감독해요."
+    },
+    {
+      "en": "wilderness",
+      "kr": "n. 황무지, 황야",
+      "en_ex": "The wilderness is full of animals.",
+      "kr_ex": "야생은 동물로 가득해요."
+    }
+  ],
+  "8": [
+    {
+      "en": "access",
+      "kr": "v. 입장하다, 접근하다",
+      "en_ex": "You need access to the internet.",
+      "kr_ex": "인터넷 접속이 필요해요."
+    },
+    {
+      "en": "advance",
+      "kr": "n. 전진, 진보",
+      "en_ex": "The army will advance tomorrow.",
+      "kr_ex": "군대가 내일 진격할 거예요."
+    },
+    {
+      "en": "amazed",
+      "kr": "adj. 놀란",
+      "en_ex": "I was amazed by the magic trick.",
+      "kr_ex": "나는 마술에 놀랐어요."
+    },
+    {
+      "en": "aspect",
+      "kr": "n. 측면, 양상",
+      "en_ex": "This aspect is very important.",
+      "kr_ex": "이 측면은 매우 중요해요."
+    },
+    {
+      "en": "assist",
+      "kr": "v. 돕다",
+      "en_ex": "She will assist you with the work.",
+      "kr_ex": "그녀가 일을 도와줄 거예요."
+    },
+    {
+      "en": "crowded",
+      "kr": "adj. 붐비는",
+      "en_ex": "The train was crowded with passengers.",
+      "kr_ex": "기차는 승객들로 붐볐어요."
+    },
+    {
+      "en": "decision",
+      "kr": "n. 결정, 판단",
+      "en_ex": "I made a decision to study harder.",
+      "kr_ex": "나는 더 열심히 공부하기로 결정했어요."
+    },
+    {
+      "en": "delightful",
+      "kr": "adj. 매우 기쁜, 즐거운",
+      "en_ex": "The garden is delightful in spring.",
+      "kr_ex": "정원은 봄에 매우 아름다워요."
+    },
+    {
+      "en": "exclude",
+      "kr": "v. 제외하다, 배제하다",
+      "en_ex": "We exclude some information.",
+      "kr_ex": "우리는 일부 정보를 제외해요."
+    },
+    {
+      "en": "fume",
+      "kr": "n. 연기, 가스",
+      "en_ex": "Smoke and fumes are harmful.",
+      "kr_ex": "연기와 연기는 해로워요."
+    },
+    {
+      "en": "function",
+      "kr": "n. 기능",
+      "en_ex": "The phone has many functions.",
+      "kr_ex": "전화에는 많은 기능이 있어요."
+    },
+    {
+      "en": "hardship",
+      "kr": "n. (돈·식품 부족으로 인한) 어려움, 곤란",
+      "en_ex": "They faced many hardships.",
+      "kr_ex": "그들은 많은 어려움을 겪었어요."
+    },
+    {
+      "en": "legend",
+      "kr": "n. 전설, 전설적 인물",
+      "en_ex": "The legend tells a story.",
+      "kr_ex": "전설은 이야기를 전해줘요."
+    },
+    {
+      "en": "loss",
+      "kr": "n. 손실, 상실",
+      "en_ex": "They suffered a big loss in the game.",
+      "kr_ex": "그들은 경기에서 큰 손실을 입었어요."
+    },
+    {
+      "en": "lunar",
+      "kr": "adj. 달의, 음력의",
+      "en_ex": "We follow the lunar calendar.",
+      "kr_ex": "우리는 음력 달력을 따라요."
+    },
+    {
+      "en": "mechanic",
+      "kr": "n. 정비공",
+      "en_ex": "The mechanic fixed the car.",
+      "kr_ex": "기술자가 차를 고쳤어요."
+    },
+    {
+      "en": "mention",
+      "kr": "v. 언급하다, 말하다",
+      "en_ex": "Don’t mention the secret.",
+      "kr_ex": "비밀을 말하지 마세요."
+    },
+    {
+      "en": "method",
+      "kr": "n. 방법",
+      "en_ex": "This is a good method to learn.",
+      "kr_ex": "이것은 배우기에 좋은 방법이에요."
+    },
+    {
+      "en": "mug",
+      "kr": "n. (손잡이가 달린) 잔, 컵, v. 강도 짓을 하다",
+      "en_ex": "He drank coffee from a mug.",
+      "kr_ex": "그는 머그잔으로 커피를 마셨어요."
+    },
+    {
+      "en": "phase",
+      "kr": "n. (달·행성 등의) 상, 위상",
+      "en_ex": "The moon has different phases.",
+      "kr_ex": "달에는 여러 단계가 있어요."
+    },
+    {
+      "en": "playwright",
+      "kr": "n. 극작가, 희곡 작가",
+      "en_ex": "The playwright wrote a new play.",
+      "kr_ex": "극작가는 새 연극을 썼어요."
+    },
+    {
+      "en": "postpone",
+      "kr": "v. 연기하다, 미루다",
+      "en_ex": "They had to postpone the meeting.",
+      "kr_ex": "그들은 회의를 연기해야 했어요."
+    },
+    {
+      "en": "pregnant",
+      "kr": "adj. 임신한",
+      "en_ex": "She is pregnant with twins.",
+      "kr_ex": "그녀는 쌍둥이를 임신했어요."
+    },
+    {
+      "en": "right",
+      "kr": "n. 권리, 권한, adj. 옳은, adv. 바로",
+      "en_ex": "You have the right to ask questions.",
+      "kr_ex": "질문할 권리가 있어요."
+    },
+    {
+      "en": "salary",
+      "kr": "n. 월급, 급여",
+      "en_ex": "He earns a high salary.",
+      "kr_ex": "그는 높은 월급을 받아요."
+    },
+    {
+      "en": "spine",
+      "kr": "n. 가시, 척추, 등뼈",
+      "en_ex": "The spine supports the body.",
+      "kr_ex": "척추는 몸을 지탱해요."
+    },
+    {
+      "en": "supply",
+      "kr": "n. (수요에 대한) 공급",
+      "en_ex": "The supply of water is enough.",
+      "kr_ex": "물이 충분히 공급돼요."
+    },
+    {
+      "en": "suspect",
+      "kr": "v. 의심하다, n. 용의자",
+      "en_ex": "The police suspect him of stealing.",
+      "kr_ex": "경찰은 그가 도둑질했다고 의심해요."
+    },
+    {
+      "en": "tend",
+      "kr": "v. 경향이 있다, (~을) 하기 쉽다",
+      "en_ex": "People tend to be friendly.",
+      "kr_ex": "사람들은 친절한 경향이 있어요."
+    },
+    {
+      "en": "therefore",
+      "kr": "adv. 그러므로, 따라서",
+      "en_ex": "Therefore, we will start early.",
+      "kr_ex": "그러므로 우리는 일찍 시작할 거예요."
+    }
+  ],
+  "9": [
+    {
+      "en": "approach",
+      "kr": "v. 다가가다, n. 접근(법)",
+      "en_ex": "We will approach the station soon.",
+      "kr_ex": "우리는 곧 역에 도착할 거예요."
+    },
+    {
+      "en": "astronomer",
+      "kr": "n. 천문학자",
+      "en_ex": "The astronomer studies the stars.",
+      "kr_ex": "천문학자는 별을 연구해요."
+    },
+    {
+      "en": "backward",
+      "kr": "adv. 뒤로, 거꾸로",
+      "en_ex": "She walked backward slowly.",
+      "kr_ex": "그녀는 천천히 뒤로 걸었어요."
+    },
+    {
+      "en": "blade",
+      "kr": "n. (칼의) 날",
+      "en_ex": "The blade of the knife is sharp.",
+      "kr_ex": "칼날이 날카로워요."
+    },
+    {
+      "en": "border",
+      "kr": "v. (경계를) 접하다",
+      "en_ex": "The river forms a border between two countries.",
+      "kr_ex": "강은 두 나라 사이의 경계를 이뤄요."
+    },
+    {
+      "en": "bundle",
+      "kr": "n. 묶음, 꾸러미",
+      "en_ex": "We carried a bundle of wood.",
+      "kr_ex": "우리는 장작 다발을 나르곤 했어요."
+    },
+    {
+      "en": "cabin",
+      "kr": "n. 객실, 선실, 오두막집",
+      "en_ex": "They stayed in a small cabin.",
+      "kr_ex": "그들은 작은 오두막에 머물렀어요."
+    },
+    {
+      "en": "cancer",
+      "kr": "n. 암",
+      "en_ex": "Cancer is a serious disease.",
+      "kr_ex": "암은 심각한 병이에요."
+    },
+    {
+      "en": "degree",
+      "kr": "n. (각도·온도 등의) 도, 학위",
+      "en_ex": "She has a degree in history.",
+      "kr_ex": "그녀는 역사학 학위를 가지고 있어요."
+    },
+    {
+      "en": "depart",
+      "kr": "v. 떠나다, 출발하다",
+      "en_ex": "The plane will depart at noon.",
+      "kr_ex": "비행기는 정오에 출발할 거예요."
+    },
+    {
+      "en": "fright",
+      "kr": "n. 놀람, 두려움",
+      "en_ex": "He felt fright when he saw the spider.",
+      "kr_ex": "그는 거미를 보고 깜짝 놀랐어요."
+    },
+    {
+      "en": "herd",
+      "kr": "n. (동물의) 떼, 무리, v. (짐승을) 몰다",
+      "en_ex": "A herd of cows grazes in the field.",
+      "kr_ex": "소 떼가 들판에서 풀을 뜯고 있어요."
+    },
+    {
+      "en": "incident",
+      "kr": "n. 사건, 일어난 일",
+      "en_ex": "The incident happened yesterday.",
+      "kr_ex": "사고는 어제 일어났어요."
+    },
+    {
+      "en": "journalist",
+      "kr": "n. (신문·방송) 기자",
+      "en_ex": "The journalist wrote an article.",
+      "kr_ex": "기자가 기사를 썼어요."
+    },
+    {
+      "en": "lyric",
+      "kr": "n. 서정시, (노래) 가사",
+      "en_ex": "The song's lyric is very beautiful.",
+      "kr_ex": "그 노래 가사는 매우 아름다워요."
+    },
+    {
+      "en": "mature",
+      "kr": "adj. 성숙한",
+      "en_ex": "He is mature for his age.",
+      "kr_ex": "그는 나이에 비해 성숙해요."
+    },
+    {
+      "en": "observe",
+      "kr": "v. 관찰하다, 준수하다, 지키다",
+      "en_ex": "We observe the stars at night.",
+      "kr_ex": "우리는 밤에 별을 관찰해요."
+    },
+    {
+      "en": "occur",
+      "kr": "v. 일어나다, 발생하다",
+      "en_ex": "Accidents occur when we are careless.",
+      "kr_ex": "우리가 부주의할 때 사고가 발생해요."
+    },
+    {
+      "en": "offend",
+      "kr": "v. 불쾌하게 하다",
+      "en_ex": "Try not to offend others with your words.",
+      "kr_ex": "말로 다른 사람을 기분 나쁘게 하지 마세요."
+    },
+    {
+      "en": "oppose",
+      "kr": "v. 반대하다",
+      "en_ex": "We oppose the idea.",
+      "kr_ex": "우리는 그 생각에 반대해요."
+    },
+    {
+      "en": "ordinary",
+      "kr": "adj. 보통의, 평범한",
+      "en_ex": "He is an ordinary student.",
+      "kr_ex": "그는 평범한 학생이에요."
+    },
+    {
+      "en": "owe",
+      "kr": "v. (돈 등을) 빚지다",
+      "en_ex": "I owe you five dollars.",
+      "kr_ex": "나는 너에게 5달러를 빚졌어요."
+    },
+    {
+      "en": "population",
+      "kr": "n. 인구",
+      "en_ex": "The population of the city is large.",
+      "kr_ex": "그 도시의 인구가 많아요."
+    },
+    {
+      "en": "preparation",
+      "kr": "n. 준비",
+      "en_ex": "Preparation is important for the test.",
+      "kr_ex": "시험 준비는 중요해요."
+    },
+    {
+      "en": "pretend",
+      "kr": "v. (~하는) 척하다",
+      "en_ex": "Children often pretend to be superheroes.",
+      "kr_ex": "아이들은 종종 슈퍼히어로인 척해요."
+    },
+    {
+      "en": "sensible",
+      "kr": "adj. 분별 있는, 합리적인",
+      "en_ex": "It is sensible to wear a coat in winter.",
+      "kr_ex": "겨울에는 코트를 입는 것이 현명해요."
+    },
+    {
+      "en": "strip",
+      "kr": "n. 가느다란 조각, 끈",
+      "en_ex": "They strip the old paint off the wall.",
+      "kr_ex": "그들은 벽의 오래된 페인트를 벗겨냈어요."
+    },
+    {
+      "en": "transfer",
+      "kr": "v. 옮기다, 이동하다",
+      "en_ex": "They will transfer to a new school.",
+      "kr_ex": "그들은 새 학교로 전학할 거예요."
+    },
+    {
+      "en": "universal",
+      "kr": "adj. 보편적인, 전 세계의",
+      "en_ex": "Love is a universal feeling.",
+      "kr_ex": "사랑은 보편적인 감정이에요."
+    },
+    {
+      "en": "voluntary",
+      "kr": "adj. 자발적인, 자원봉사의",
+      "en_ex": "She does voluntary work at the hospital.",
+      "kr_ex": "그녀는 병원에서 자원봉사를 해요."
+    }
+  ],
+  "10": [
+    {
+      "en": "anxious",
+      "kr": "adj. 불안해하는",
+      "en_ex": "She was anxious before the test.",
+      "kr_ex": "그녀는 시험 전에 불안했어요."
+    },
+    {
+      "en": "arouse",
+      "kr": "v. (느낌을) 불러일으키다",
+      "en_ex": "The movie can arouse strong emotions.",
+      "kr_ex": "그 영화는 강한 감정을 불러일으킬 수 있어요."
+    },
+    {
+      "en": "axis",
+      "kr": "n. (중심) 축",
+      "en_ex": "The Earth rotates around its axis.",
+      "kr_ex": "지구는 축을 중심으로 회전해요."
+    },
+    {
+      "en": "boil",
+      "kr": "v. 끓다, 끓이다",
+      "en_ex": "Boil water before drinking it.",
+      "kr_ex": "물을 끓여서 마셔야 해요."
+    },
+    {
+      "en": "characteristic",
+      "kr": "n. 특징, 특질",
+      "en_ex": "A good characteristic is honesty.",
+      "kr_ex": "좋은 특성은 정직함이에요."
+    },
+    {
+      "en": "chemical",
+      "kr": "n. 화학 물질, adj. 화학의",
+      "en_ex": "Chemicals can be dangerous.",
+      "kr_ex": "화학 물질은 위험할 수 있어요."
+    },
+    {
+      "en": "concern",
+      "kr": "n. 관심사, v. 걱정하다",
+      "en_ex": "Parents show concern for their children.",
+      "kr_ex": "부모는 자녀를 걱정해요."
+    },
+    {
+      "en": "especially",
+      "kr": "adv. 특히, 특별히",
+      "en_ex": "I especially like reading books.",
+      "kr_ex": "나는 특히 책 읽는 것을 좋아해요."
+    },
+    {
+      "en": "fearless",
+      "kr": "adj. 겁 없는, 용감한",
+      "en_ex": "He is fearless in dangerous situations.",
+      "kr_ex": "그는 위험한 상황에서도 두려움이 없어요."
+    },
+    {
+      "en": "flood",
+      "kr": "n. 홍수, 범람",
+      "en_ex": "The flood damaged many houses.",
+      "kr_ex": "홍수가 많은 집을 파괴했어요."
+    },
+    {
+      "en": "invest",
+      "kr": "v. 투자하다",
+      "en_ex": "I want to invest in my education.",
+      "kr_ex": "나는 내 교육에 투자하고 싶어요."
+    },
+    {
+      "en": "justice",
+      "kr": "n. 정의, 공정",
+      "en_ex": "Justice means fairness for all.",
+      "kr_ex": "정의는 모두에게 공평함을 의미해요."
+    },
+    {
+      "en": "knowledge",
+      "kr": "n. 지식",
+      "en_ex": "Knowledge helps us understand the world.",
+      "kr_ex": "지식은 우리가 세상을 이해하는 데 도움을 줘요."
+    },
+    {
+      "en": "landscape",
+      "kr": "n. 풍경",
+      "en_ex": "The landscape is beautiful in autumn.",
+      "kr_ex": "가을에 경치가 아름다워요."
+    },
+    {
+      "en": "law",
+      "kr": "n. 법, 법률",
+      "en_ex": "We must follow the law.",
+      "kr_ex": "우리는 법을 따라야 해요."
+    },
+    {
+      "en": "luxurious",
+      "kr": "adj. 호화로운, 사치스러운",
+      "en_ex": "They live in a luxurious house.",
+      "kr_ex": "그들은 호화로운 집에 살아요."
+    },
+    {
+      "en": "mean",
+      "kr": "v. 의미하다, adj. 심술궂은, 못된",
+      "en_ex": "What does this word mean?",
+      "kr_ex": "이 단어는 무슨 뜻인가요?"
+    },
+    {
+      "en": "necessary",
+      "kr": "adj. 필요한",
+      "en_ex": "Water is necessary for life.",
+      "kr_ex": "물은 생명에 필수예요."
+    },
+    {
+      "en": "possess",
+      "kr": "v. 소유하다, 지니다",
+      "en_ex": "She possesses a rare talent.",
+      "kr_ex": "그녀는 희귀한 재능을 가지고 있어요."
+    },
+    {
+      "en": "prevent",
+      "kr": "v. 막다, 예방하다",
+      "en_ex": "Exercise can prevent illness.",
+      "kr_ex": "운동은 병을 예방할 수 있어요."
+    },
+    {
+      "en": "pride",
+      "kr": "n. 자부심, 긍지",
+      "en_ex": "He felt pride after winning the game.",
+      "kr_ex": "그는 경기에서 이겨서 자부심을 느꼈어요."
+    },
+    {
+      "en": "professor",
+      "kr": "n. 교수",
+      "en_ex": "The professor teaches math.",
+      "kr_ex": "교수님은 수학을 가르치세요."
+    },
+    {
+      "en": "proof",
+      "kr": "n. 증거, 증명",
+      "en_ex": "Can you show proof of your ticket?",
+      "kr_ex": "티켓 증명을 보여줄 수 있나요?"
+    },
+    {
+      "en": "quality",
+      "kr": "n. 특성, 자질, 질, 품질",
+      "en_ex": "Quality is more important than quantity.",
+      "kr_ex": "질은 양보다 더 중요해요."
+    },
+    {
+      "en": "rural",
+      "kr": "adj. 시골의, 지방의",
+      "en_ex": "They live in a rural village.",
+      "kr_ex": "그들은 시골 마을에 살아요."
+    },
+    {
+      "en": "signature",
+      "kr": "n. 서명",
+      "en_ex": "Please write your signature here.",
+      "kr_ex": "여기에 서명해 주세요."
+    },
+    {
+      "en": "sparkling",
+      "kr": "adj. 반짝거리는",
+      "en_ex": "The lake was sparkling in the sun.",
+      "kr_ex": "호수가 햇빛에 반짝였어요."
+    },
+    {
+      "en": "spoil",
+      "kr": "v. 망치다",
+      "en_ex": "Food will spoil if left outside.",
+      "kr_ex": "음식은 밖에 두면 상해요."
+    },
+    {
+      "en": "tendency",
+      "kr": "n. 경향, 성향",
+      "en_ex": "There is a tendency to forget things.",
+      "kr_ex": "사람들은 잊어버리는 경향이 있어요."
+    },
+    {
+      "en": "threat",
+      "kr": "n. 협박, 위협",
+      "en_ex": "The storm was a serious threat.",
+      "kr_ex": "폭풍은 심각한 위협이었어요."
+    }
+  ],
+  "11": [
+    {
+      "en": "attach",
+      "kr": "v. 붙이다, 첨부하다",
+      "en_ex": "Please attach the file to the email.",
+      "kr_ex": "이메일에 파일을 첨부해 주세요."
+    },
+    {
+      "en": "clarify",
+      "kr": "v. 명확하게 하다",
+      "en_ex": "Please clarify your answer.",
+      "kr_ex": "답변을 명확히 해 주세요."
+    },
+    {
+      "en": "content",
+      "kr": "n. 내용",
+      "en_ex": "The content of the book is interesting.",
+      "kr_ex": "그 책의 내용은 흥미로워요."
+    },
+    {
+      "en": "detect",
+      "kr": "v. 알아내다, 발견하다, 감지하다",
+      "en_ex": "The doctor can detect illness early.",
+      "kr_ex": "의사는 질병을 조기에 발견할 수 있어요."
+    },
+    {
+      "en": "determine",
+      "kr": "v. 결정하다",
+      "en_ex": "We will determine the winner soon.",
+      "kr_ex": "우리는 곧 승자를 결정할 거예요."
+    },
+    {
+      "en": "distant",
+      "kr": "adj. 먼, (멀리) 떨어져 있는",
+      "en_ex": "They live in a distant city.",
+      "kr_ex": "그들은 먼 도시에 살아요."
+    },
+    {
+      "en": "emergency",
+      "kr": "n. 비상 (상황), 긴급",
+      "en_ex": "Call 911 in case of emergency.",
+      "kr_ex": "긴급 상황 시 911에 전화하세요."
+    },
+    {
+      "en": "feature",
+      "kr": "n. 특징",
+      "en_ex": "The phone has many features.",
+      "kr_ex": "그 전화기는 많은 기능이 있어요."
+    },
+    {
+      "en": "flu",
+      "kr": "n. 독감",
+      "en_ex": "He caught the flu last winter.",
+      "kr_ex": "그는 지난 겨울에 독감에 걸렸어요."
+    },
+    {
+      "en": "foundation",
+      "kr": "n. 토대, 기초, 재단, 협회",
+      "en_ex": "The building's foundation is strong.",
+      "kr_ex": "건물의 기초가 튼튼해요."
+    },
+    {
+      "en": "gaze",
+      "kr": "v. 응시하다",
+      "en_ex": "She gazed at the stars all night.",
+      "kr_ex": "그녀는 밤새 별을 응시했어요."
+    },
+    {
+      "en": "instruction",
+      "kr": "n. 지시, 명령",
+      "en_ex": "Follow the instructions carefully.",
+      "kr_ex": "설명서를 주의 깊게 따라세요."
+    },
+    {
+      "en": "literature",
+      "kr": "n. 문학",
+      "en_ex": "She reads classic literature.",
+      "kr_ex": "그녀는 고전 문학을 읽어요."
+    },
+    {
+      "en": "logical",
+      "kr": "adj. 논리적인",
+      "en_ex": "She gave a logical explanation.",
+      "kr_ex": "그녀는 논리적인 설명을 했어요."
+    },
+    {
+      "en": "meteor",
+      "kr": "n. 별똥별, 유성",
+      "en_ex": "A meteor flew across the sky.",
+      "kr_ex": "운석이 하늘을 가로질러 날았어요."
+    },
+    {
+      "en": "physical",
+      "kr": "adj. 육체(신체)의, 물리적인, 물질의",
+      "en_ex": "Physical exercise is good for health.",
+      "kr_ex": "신체 운동은 건강에 좋아요."
+    },
+    {
+      "en": "possible",
+      "kr": "adj. 가능한",
+      "en_ex": "It is possible to finish on time.",
+      "kr_ex": "제시간에 끝내는 것이 가능해요."
+    },
+    {
+      "en": "priest",
+      "kr": "n. 성직자, 사제",
+      "en_ex": "The priest led the ceremony.",
+      "kr_ex": "신부가 의식을 진행했어요."
+    },
+    {
+      "en": "property",
+      "kr": "n. 재산, 소유물",
+      "en_ex": "The property is for sale.",
+      "kr_ex": "그 부동산은 매물이에요."
+    },
+    {
+      "en": "relief",
+      "kr": "n. 안도, 안심",
+      "en_ex": "The rain brought relief to farmers.",
+      "kr_ex": "비가 농부들에게 안도감을 주었어요."
+    },
+    {
+      "en": "responsibility",
+      "kr": "n. 책임, 의무",
+      "en_ex": "It is our responsibility to recycle.",
+      "kr_ex": "재활용은 우리의 책임이에요."
+    },
+    {
+      "en": "reuse",
+      "kr": "v. 다시 사용하다",
+      "en_ex": "We should reuse plastic bottles.",
+      "kr_ex": "우리는 플라스틱 병을 재사용해야 해요."
+    },
+    {
+      "en": "rover",
+      "kr": "n. 탐사선",
+      "en_ex": "The rover explores the planet.",
+      "kr_ex": "탐사 로봇이 행성을 탐험해요."
+    },
+    {
+      "en": "sphere",
+      "kr": "n. 구, 구형",
+      "en_ex": "Earth is shaped like a sphere.",
+      "kr_ex": "지구는 구체 모양이에요."
+    },
+    {
+      "en": "sprinkle",
+      "kr": "v. 뿌리다",
+      "en_ex": "Sprinkle some sugar on the cake.",
+      "kr_ex": "케이크 위에 설탕을 뿌리세요."
+    },
+    {
+      "en": "strait",
+      "kr": "n. (-s) 해협",
+      "en_ex": "The strait connects two seas.",
+      "kr_ex": "해협은 두 바다를 연결해요."
+    },
+    {
+      "en": "version",
+      "kr": "n. 버전, 판",
+      "en_ex": "I bought the latest version of the game.",
+      "kr_ex": "나는 최신 버전 게임을 샀어요."
+    },
+    {
+      "en": "viewpoint",
+      "kr": "n. (어떤 주제에 대한) 관점",
+      "en_ex": "I like the viewpoint from the hill.",
+      "kr_ex": "나는 언덕에서 보는 전망을 좋아해요."
+    },
+    {
+      "en": "witness",
+      "kr": "n. 목격자, 증인, v. 목격하다",
+      "en_ex": "He was a witness to the accident.",
+      "kr_ex": "그는 사고의 목격자였어요."
+    },
+    {
+      "en": "wound",
+      "kr": "n. 상처, 부상",
+      "en_ex": "He got a wound on his arm.",
+      "kr_ex": "그는 팔에 상처가 났어요."
+    }
+  ],
+  "12": [
+    {
+      "en": "appreciate",
+      "kr": "v. 고마워하다, 가치를 알아보다",
+      "en_ex": "I appreciate your help.",
+      "kr_ex": "당신의 도움에 감사합니다."
+    },
+    {
+      "en": "cabinet",
+      "kr": "n. 보관함, 캐비닛",
+      "en_ex": "The cabinet holds many books.",
+      "kr_ex": "캐비닛에는 많은 책이 있어요."
+    },
+    {
+      "en": "calculator",
+      "kr": "n. 계산기",
+      "en_ex": "I use a calculator for math problems.",
+      "kr_ex": "나는 수학 문제에 계산기를 사용해요."
+    },
+    {
+      "en": "context",
+      "kr": "n. 맥락, 전후 관계",
+      "en_ex": "Understand the context of the story.",
+      "kr_ex": "이야기의 맥락을 이해하세요."
+    },
+    {
+      "en": "contrary",
+      "kr": "adj. 다른, 반대의",
+      "en_ex": "Contrary to popular belief, cats like water.",
+      "kr_ex": "일반적인 믿음과 달리 고양이는 물을 좋아해요."
+    },
+    {
+      "en": "crucial",
+      "kr": "adj. 중대한, 결정적인",
+      "en_ex": "It is crucial to study for tests.",
+      "kr_ex": "시험 공부는 매우 중요해요."
+    },
+    {
+      "en": "defense",
+      "kr": "n. 방어",
+      "en_ex": "The castle had strong defense walls.",
+      "kr_ex": "성은 강한 방어벽을 가지고 있었어요."
+    },
+    {
+      "en": "deny",
+      "kr": "v. 부인하다, 부정하다",
+      "en_ex": "He denies breaking the window.",
+      "kr_ex": "그는 창문을 깼다는 것을 부인해요."
+    },
+    {
+      "en": "economy",
+      "kr": "n. 경제, 경기",
+      "en_ex": "The economy is growing fast.",
+      "kr_ex": "경제가 빠르게 성장하고 있어요."
+    },
+    {
+      "en": "electric",
+      "kr": "adj. 전기의",
+      "en_ex": "Electric cars are better for the environment.",
+      "kr_ex": "전기차는 환경에 더 좋아요."
+    },
+    {
+      "en": "except",
+      "kr": "prep. ~을 제외하고는",
+      "en_ex": "Everyone went except John.",
+      "kr_ex": "존을 제외한 모두 갔어요."
+    },
+    {
+      "en": "iron",
+      "kr": "n. 쇠, 철, v. 다리미질하다",
+      "en_ex": "The iron is hot and ready to use.",
+      "kr_ex": "다리미가 뜨겁고 사용할 준비가 됐어요."
+    },
+    {
+      "en": "material",
+      "kr": "n. 재료, 물질",
+      "en_ex": "Wood is a common building material.",
+      "kr_ex": "나무는 흔한 건축 자재예요."
+    },
+    {
+      "en": "mimic",
+      "kr": "v. 흉내 내다",
+      "en_ex": "The child can mimic animal sounds.",
+      "kr_ex": "아이는 동물 소리를 흉내 낼 수 있어요."
+    },
+    {
+      "en": "navy",
+      "kr": "n. 해군",
+      "en_ex": "The navy protects the country’s coast.",
+      "kr_ex": "해군은 나라 해안을 보호해요."
+    },
+    {
+      "en": "pest",
+      "kr": "n. 해충",
+      "en_ex": "Bugs can be a pest in the garden.",
+      "kr_ex": "벌레는 정원에서 해충이 될 수 있어요."
+    },
+    {
+      "en": "previous",
+      "kr": "adj. 이전의",
+      "en_ex": "The previous lesson was easy.",
+      "kr_ex": "이전 수업은 쉬웠어요."
+    },
+    {
+      "en": "primary",
+      "kr": "adj. 주된, 주요한",
+      "en_ex": "Primary school comes before middle school.",
+      "kr_ex": "초등학교는 중학교 전에 있어요."
+    },
+    {
+      "en": "proper",
+      "kr": "adj. 적절한",
+      "en_ex": "It is proper to say thank you.",
+      "kr_ex": "감사하다고 말하는 것이 예의예요."
+    },
+    {
+      "en": "protective",
+      "kr": "adj. 보호하는",
+      "en_ex": "Protective gear keeps us safe.",
+      "kr_ex": "보호 장비는 우리를 안전하게 해줘요."
+    },
+    {
+      "en": "recall",
+      "kr": "v. 기억해 내다",
+      "en_ex": "I recall my first day at school.",
+      "kr_ex": "나는 학교 첫날을 기억해요."
+    },
+    {
+      "en": "relaxation",
+      "kr": "n. 휴식",
+      "en_ex": "Relaxation is important after work.",
+      "kr_ex": "일 후에는 휴식이 중요해요."
+    },
+    {
+      "en": "rely",
+      "kr": "v. 의지하다, 믿다",
+      "en_ex": "We rely on the internet for information.",
+      "kr_ex": "우리는 정보를 위해 인터넷에 의존해요."
+    },
+    {
+      "en": "remind",
+      "kr": "v. 생각나게 하다",
+      "en_ex": "Please remind me to do my homework.",
+      "kr_ex": "숙제하라고 저에게 상기시켜 주세요."
+    },
+    {
+      "en": "represent",
+      "kr": "v. 대표하다, 대변하다, 나타내다, 상징하다",
+      "en_ex": "The flag represents the country.",
+      "kr_ex": "국기는 나라를 대표해요."
+    },
+    {
+      "en": "reservation",
+      "kr": "n. 예약",
+      "en_ex": "Make a reservation for dinner.",
+      "kr_ex": "저녁 식사 예약을 하세요."
+    },
+    {
+      "en": "royalty",
+      "kr": "n. 왕족",
+      "en_ex": "The royal family has a long history.",
+      "kr_ex": "왕실은 오랜 역사를 가지고 있어요."
+    },
+    {
+      "en": "rumor",
+      "kr": "n. 소문",
+      "en_ex": "There is a rumor about the new student.",
+      "kr_ex": "새 학생에 관한 소문이 있어요."
+    },
+    {
+      "en": "satellite",
+      "kr": "n. 인공위성",
+      "en_ex": "The satellite orbits the Earth.",
+      "kr_ex": "위성은 지구를 공전해요."
+    },
+    {
+      "en": "stall",
+      "kr": "n. 가판대",
+      "en_ex": "The stall sells fresh vegetables.",
+      "kr_ex": "가게에서는 신선한 채소를 팔아요."
+    }
+  ],
+  "13": [
+    {
+      "en": "acid",
+      "kr": "n. 산, 산성 물질, adj. 신맛이 나는",
+      "en_ex": "Lemon juice contains acid.",
+      "kr_ex": "레몬 주스에는 산이 포함돼 있어요."
+    },
+    {
+      "en": "blank",
+      "kr": "adj. 빈, 공백의",
+      "en_ex": "The paper is blank.",
+      "kr_ex": "종이는 빈 칸이에요."
+    },
+    {
+      "en": "celebration",
+      "kr": "n. 기념, 축하 행사",
+      "en_ex": "The celebration was fun.",
+      "kr_ex": "축하 행사는 즐거웠어요."
+    },
+    {
+      "en": "civilian",
+      "kr": "n. 민간인, 일반인",
+      "en_ex": "Civilians live in the city.",
+      "kr_ex": "민간인은 도시에 살아요."
+    },
+    {
+      "en": "drown",
+      "kr": "v. 익사하다, 물에 빠지다",
+      "en_ex": "Be careful not to drown in the pool.",
+      "kr_ex": "수영장에서 익사하지 않도록 조심하세요."
+    },
+    {
+      "en": "elegance",
+      "kr": "n. 우아함",
+      "en_ex": "She showed elegance in her dance.",
+      "kr_ex": "그녀는 춤에서 우아함을 보였어요."
+    },
+    {
+      "en": "era",
+      "kr": "n. 시대, 시기",
+      "en_ex": "The era of dinosaurs ended long ago.",
+      "kr_ex": "공룡 시대는 오래 전에 끝났어요."
+    },
+    {
+      "en": "fabric",
+      "kr": "n. 천, 옷감",
+      "en_ex": "The fabric is soft and warm.",
+      "kr_ex": "천이 부드럽고 따뜻해요."
+    },
+    {
+      "en": "forehead",
+      "kr": "n. 이마",
+      "en_ex": "He wiped his forehead with a towel.",
+      "kr_ex": "그는 수건으로 이마를 닦았어요."
+    },
+    {
+      "en": "glide",
+      "kr": "v. 미끄러지듯이 움직이다, 활공하다",
+      "en_ex": "Birds glide through the air.",
+      "kr_ex": "새들은 하늘을 활공해요."
+    },
+    {
+      "en": "grant",
+      "kr": "v. 승인하다, 허락하다, n. 보조금",
+      "en_ex": "The school will grant scholarships.",
+      "kr_ex": "학교가 장학금을 줄 거예요."
+    },
+    {
+      "en": "livelihood",
+      "kr": "n. 생계(살아 나갈 방도)",
+      "en_ex": "Farming is their livelihood.",
+      "kr_ex": "농사는 그들의 생계예요."
+    },
+    {
+      "en": "mine",
+      "kr": "pron. 나의 것, n. 광산",
+      "en_ex": "The gold mine is closed.",
+      "kr_ex": "금광이 문을 닫았어요."
+    },
+    {
+      "en": "narrow",
+      "kr": "adj. 좁은",
+      "en_ex": "The path is narrow and long.",
+      "kr_ex": "길은 좁고 길어요."
+    },
+    {
+      "en": "nearly",
+      "kr": "adv. 거의",
+      "en_ex": "I nearly finished my homework.",
+      "kr_ex": "나는 숙제를 거의 끝냈어요."
+    },
+    {
+      "en": "obstacle",
+      "kr": "n. 장애물",
+      "en_ex": "The obstacle was hard to overcome.",
+      "kr_ex": "장애물을 극복하기 어려웠어요."
+    },
+    {
+      "en": "occasion",
+      "kr": "n. 행사, 의식, 경우, 때",
+      "en_ex": "This is a special occasion.",
+      "kr_ex": "이것은 특별한 행사예요."
+    },
+    {
+      "en": "odor",
+      "kr": "n. 냄새",
+      "en_ex": "The odor was very strong.",
+      "kr_ex": "냄새가 아주 강했어요."
+    },
+    {
+      "en": "protein",
+      "kr": "n. 단백질",
+      "en_ex": "Meat has a lot of protein.",
+      "kr_ex": "고기는 단백질이 많아요."
+    },
+    {
+      "en": "reliable",
+      "kr": "adj. 믿을 만한",
+      "en_ex": "He is a reliable friend.",
+      "kr_ex": "그는 믿을 만한 친구예요."
+    },
+    {
+      "en": "remarkable",
+      "kr": "adj. 놀라운, 주목할 만한",
+      "en_ex": "She gave a remarkable speech.",
+      "kr_ex": "그녀는 놀라운 연설을 했어요."
+    },
+    {
+      "en": "satisfy",
+      "kr": "v. 만족시키다",
+      "en_ex": "The food did not satisfy me.",
+      "kr_ex": "음식이 나를 만족시키지 못했어요."
+    },
+    {
+      "en": "selfish",
+      "kr": "adj. 이기적인",
+      "en_ex": "Being selfish is not good.",
+      "kr_ex": "이기적인 것은 좋지 않아요."
+    },
+    {
+      "en": "simmer",
+      "kr": "v. (은근히) 끓이다",
+      "en_ex": "Let the soup simmer for 20 minutes.",
+      "kr_ex": "수프를 20분 동안 끓이세요."
+    },
+    {
+      "en": "situation",
+      "kr": "n. 상황",
+      "en_ex": "The situation is under control.",
+      "kr_ex": "상황이 통제되고 있어요."
+    },
+    {
+      "en": "society",
+      "kr": "n. 사회, 집단",
+      "en_ex": "Society needs kindness.",
+      "kr_ex": "사회는 친절이 필요해요."
+    },
+    {
+      "en": "soul",
+      "kr": "n. 영혼",
+      "en_ex": "Music can touch the soul.",
+      "kr_ex": "음악은 영혼을 울릴 수 있어요."
+    },
+    {
+      "en": "standard",
+      "kr": "n. 표준, 기준",
+      "en_ex": "This is the standard rule.",
+      "kr_ex": "이것이 표준 규칙이에요."
+    },
+    {
+      "en": "stare",
+      "kr": "v. 응시하다, 빤히 보다",
+      "en_ex": "She stared at the painting.",
+      "kr_ex": "그녀는 그림을 뚫어지게 바라봤어요."
+    },
+    {
+      "en": "value",
+      "kr": "n. 가치",
+      "en_ex": "Honesty has great value.",
+      "kr_ex": "정직은 큰 가치를 가지고 있어요."
+    }
+  ],
+  "14": [
+    {
+      "en": "achieve",
+      "kr": "v. 달성하다, 이루다",
+      "en_ex": "You can achieve your goals.",
+      "kr_ex": "너는 목표를 이룰 수 있어요."
+    },
+    {
+      "en": "adjust",
+      "kr": "v. 맞추다, 조절하다, 적응하다",
+      "en_ex": "You should adjust the volume.",
+      "kr_ex": "음량을 조절해야 해요."
+    },
+    {
+      "en": "advantage",
+      "kr": "n. 유리한 점, 이점",
+      "en_ex": "This method has an advantage.",
+      "kr_ex": "이 방법에는 장점이 있어요."
+    },
+    {
+      "en": "certainly",
+      "kr": "adv. 분명히, 틀림없이",
+      "en_ex": "I will certainly help you.",
+      "kr_ex": "나는 분명히 도와줄게요."
+    },
+    {
+      "en": "criticize",
+      "kr": "v. 비난하다, 비판하다",
+      "en_ex": "Critics criticize the new movie.",
+      "kr_ex": "비평가들은 새 영화를 비판해요."
+    },
+    {
+      "en": "decay",
+      "kr": "v. 부패하다, 썩다",
+      "en_ex": "Leaves decay in the fall.",
+      "kr_ex": "가을에는 잎이 썩어요."
+    },
+    {
+      "en": "expedition",
+      "kr": "n. 탐험, 원정",
+      "en_ex": "The expedition lasted two weeks.",
+      "kr_ex": "원정대는 2주 동안 지속되었어요."
+    },
+    {
+      "en": "export",
+      "kr": "v. 수출하다",
+      "en_ex": "They export goods to other countries.",
+      "kr_ex": "그들은 물건을 다른 나라로 수출해요."
+    },
+    {
+      "en": "flake",
+      "kr": "n. 얇은 조각",
+      "en_ex": "Snowflakes are falling gently.",
+      "kr_ex": "눈송이가 부드럽게 내리고 있어요."
+    },
+    {
+      "en": "grip",
+      "kr": "n. 꽉 붙잡음",
+      "en_ex": "Hold the rope with a firm grip.",
+      "kr_ex": "밧줄을 단단히 잡으세요."
+    },
+    {
+      "en": "harmony",
+      "kr": "n. 화음, 조화, 화합",
+      "en_ex": "Music can create harmony.",
+      "kr_ex": "음악은 조화를 만들어 낼 수 있어요."
+    },
+    {
+      "en": "impossible",
+      "kr": "adj. 불가능한",
+      "en_ex": "It is impossible to fly without wings.",
+      "kr_ex": "날개 없이 나는 것은 불가능해요."
+    },
+    {
+      "en": "install",
+      "kr": "v. 설치하다",
+      "en_ex": "They install software on the computer.",
+      "kr_ex": "그들은 컴퓨터에 소프트웨어를 설치해요."
+    },
+    {
+      "en": "irritate",
+      "kr": "v. 짜증나게 하다",
+      "en_ex": "Loud noises irritate me.",
+      "kr_ex": "큰 소음은 나를 짜증나게 해요."
+    },
+    {
+      "en": "kettle",
+      "kr": "n. 주전자",
+      "en_ex": "The kettle is boiling water.",
+      "kr_ex": "주전자는 물을 끓이고 있어요."
+    },
+    {
+      "en": "mist",
+      "kr": "n. 안개",
+      "en_ex": "The morning mist covered the field.",
+      "kr_ex": "아침 안개가 들판을 덮었어요."
+    },
+    {
+      "en": "native",
+      "kr": "adj. 원산의, 토착의",
+      "en_ex": "He is a native of this town.",
+      "kr_ex": "그는 이 마을 출신이에요."
+    },
+    {
+      "en": "negative",
+      "kr": "adj. 부정적인, 나쁜",
+      "en_ex": "His attitude is often negative.",
+      "kr_ex": "그의 태도는 종종 부정적이에요."
+    },
+    {
+      "en": "particle",
+      "kr": "n. 입자, 작은 조각",
+      "en_ex": "Dust is made of tiny particles.",
+      "kr_ex": "먼지는 아주 작은 입자로 이루어져 있어요."
+    },
+    {
+      "en": "passage",
+      "kr": "n. 통로, 복도",
+      "en_ex": "The passage in the book is very long.",
+      "kr_ex": "책의 그 부분은 매우 길어요."
+    },
+    {
+      "en": "purchase",
+      "kr": "v. 사다, 구입하다",
+      "en_ex": "I will purchase a new phone.",
+      "kr_ex": "나는 새 휴대전화를 살 거예요."
+    },
+    {
+      "en": "purify",
+      "kr": "v. 정화하다",
+      "en_ex": "We use filters to purify water.",
+      "kr_ex": "우리는 물을 정화하기 위해 필터를 사용해요."
+    },
+    {
+      "en": "scatter",
+      "kr": "v. 흩어지다",
+      "en_ex": "The wind will scatter the leaves.",
+      "kr_ex": "바람이 나뭇잎을 흩날릴 거예요."
+    },
+    {
+      "en": "sociable",
+      "kr": "adj. 사교적인",
+      "en_ex": "She is very sociable and friendly.",
+      "kr_ex": "그녀는 매우 사교적이고 친절해요."
+    },
+    {
+      "en": "spit",
+      "kr": "v. 침을 뱉다",
+      "en_ex": "Please don’t spit on the floor.",
+      "kr_ex": "바닥에 침 뱉지 마세요."
+    },
+    {
+      "en": "starve",
+      "kr": "v. 굶주리다, 굶어 죽다",
+      "en_ex": "Some people starve without enough food.",
+      "kr_ex": "음식이 부족하면 어떤 사람들은 굶어요."
+    },
+    {
+      "en": "tax",
+      "kr": "n. 세금",
+      "en_ex": "People must pay tax to the government.",
+      "kr_ex": "사람들은 정부에 세금을 내야 해요."
+    },
+    {
+      "en": "transform",
+      "kr": "v. 변형시키다",
+      "en_ex": "The caterpillar will transform into a butterfly.",
+      "kr_ex": "애벌레는 나비로 변해요."
+    },
+    {
+      "en": "union",
+      "kr": "n. 조합, 연합",
+      "en_ex": "The union works for workers' rights.",
+      "kr_ex": "노동조합은 노동자 권리를 위해 일해요."
+    },
+    {
+      "en": "volunteer",
+      "kr": "n. 자원봉사자, v. 자원하다",
+      "en_ex": "She is a volunteer at the hospital.",
+      "kr_ex": "그녀는 병원에서 자원봉사해요."
+    }
+  ],
+  "15": [
+    {
+      "en": "ancestor",
+      "kr": "n. 조상, 선조",
+      "en_ex": "My ancestor came from Europe.",
+      "kr_ex": "나의 조상은 유럽에서 왔어요."
+    },
+    {
+      "en": "asset",
+      "kr": "n. 자산, 재산",
+      "en_ex": "His house is a valuable asset.",
+      "kr_ex": "그의 집은 귀중한 자산이에요."
+    },
+    {
+      "en": "bullet",
+      "kr": "n. 총알",
+      "en_ex": "The bullet hit the target.",
+      "kr_ex": "총알이 목표를 맞췄어요."
+    },
+    {
+      "en": "cruise",
+      "kr": "n. 유람선 여행",
+      "en_ex": "We went on a cruise last summer.",
+      "kr_ex": "우리는 지난 여름에 크루즈 여행을 갔어요."
+    },
+    {
+      "en": "demonstrate",
+      "kr": "v. 증명하다, 입증하다",
+      "en_ex": "We will demonstrate the experiment.",
+      "kr_ex": "우리는 실험을 시연할 거예요."
+    },
+    {
+      "en": "depict",
+      "kr": "v. 그리다, 묘사하다",
+      "en_ex": "The painting depicts a battle.",
+      "kr_ex": "그 그림은 전투를 묘사해요."
+    },
+    {
+      "en": "deserve",
+      "kr": "v. 받을 만하다, 누릴 자격이 있다",
+      "en_ex": "You deserve a reward.",
+      "kr_ex": "넌 상을 받을 자격이 있어요."
+    },
+    {
+      "en": "desperate",
+      "kr": "adj. 간절히 필요로 하는",
+      "en_ex": "She was desperate for help.",
+      "kr_ex": "그녀는 도움을 간절히 원했어요."
+    },
+    {
+      "en": "disorder",
+      "kr": "n. 엉망, 무질서, 장애, 이상",
+      "en_ex": "He has a learning disorder.",
+      "kr_ex": "그는 학습 장애가 있어요."
+    },
+    {
+      "en": "distinct",
+      "kr": "adj. 뚜렷한, 분명한",
+      "en_ex": "There is a distinct smell here.",
+      "kr_ex": "여기에는 뚜렷한 냄새가 있어요."
+    },
+    {
+      "en": "entire",
+      "kr": "adj. 전체의",
+      "en_ex": "The entire class passed the exam.",
+      "kr_ex": "반 전체가 시험에 합격했어요."
+    },
+    {
+      "en": "factor",
+      "kr": "n. 요인, 요소",
+      "en_ex": "Hard work is an important factor.",
+      "kr_ex": "열심히 일하는 것은 중요한 요인이에요."
+    },
+    {
+      "en": "fare",
+      "kr": "n. (교통) 요금, 운임",
+      "en_ex": "The bus fare is two dollars.",
+      "kr_ex": "버스 요금은 2달러예요."
+    },
+    {
+      "en": "fundamental",
+      "kr": "adj. 기본적인, 근본적인",
+      "en_ex": "Reading is a fundamental skill.",
+      "kr_ex": "독서는 기본적인 기술이에요."
+    },
+    {
+      "en": "grassland",
+      "kr": "n. 초원, 풀밭",
+      "en_ex": "The grassland is full of animals.",
+      "kr_ex": "초원에는 동물이 가득해요."
+    },
+    {
+      "en": "greeting",
+      "kr": "n. 인사, 환영의 말",
+      "en_ex": "He gave me a warm greeting.",
+      "kr_ex": "그가 따뜻하게 인사했어요."
+    },
+    {
+      "en": "immigrant",
+      "kr": "n. (다른 나라로 온) 이민자",
+      "en_ex": "Many immigrants live in the city.",
+      "kr_ex": "많은 이민자가 도시에 살아요."
+    },
+    {
+      "en": "independent",
+      "kr": "adj. 독립의",
+      "en_ex": "She is an independent person.",
+      "kr_ex": "그녀는 독립적인 사람이에요."
+    },
+    {
+      "en": "interrupt",
+      "kr": "v. 방해하다",
+      "en_ex": "Please don’t interrupt me.",
+      "kr_ex": "방해하지 마세요."
+    },
+    {
+      "en": "lap",
+      "kr": "n. 무릎",
+      "en_ex": "The cat sat on my lap.",
+      "kr_ex": "고양이가 내 무릎에 앉았어요."
+    },
+    {
+      "en": "literally",
+      "kr": "adv. 말 그대로, 그야말로",
+      "en_ex": "He literally ran five kilometers.",
+      "kr_ex": "그는 말 그대로 5킬로미터를 달렸어요."
+    },
+    {
+      "en": "narrator",
+      "kr": "n. 서술자, 내레이터",
+      "en_ex": "The narrator tells the story.",
+      "kr_ex": "내레이터가 이야기를 해요."
+    },
+    {
+      "en": "numeral",
+      "kr": "n. 숫자",
+      "en_ex": "The numeral five is written as “5”.",
+      "kr_ex": "숫자 5는 “5”로 써요."
+    },
+    {
+      "en": "organize",
+      "kr": "v. 조직하다, 준비하다",
+      "en_ex": "Let’s organize the books.",
+      "kr_ex": "책을 정리합시다."
+    },
+    {
+      "en": "predator",
+      "kr": "n. 포식자, 육식 동물",
+      "en_ex": "The lion is a dangerous predator.",
+      "kr_ex": "사자는 위험한 포식자예요."
+    },
+    {
+      "en": "procedure",
+      "kr": "n. 절차, 과정",
+      "en_ex": "Follow the procedure carefully.",
+      "kr_ex": "절차를 주의 깊게 따라야 해요."
+    },
+    {
+      "en": "puzzled",
+      "kr": "adj. 어리둥절한",
+      "en_ex": "He looked puzzled by the question.",
+      "kr_ex": "그는 그 질문에 당황했어요."
+    },
+    {
+      "en": "span",
+      "kr": "n. 기간, 시간",
+      "en_ex": "The bridge spans the river.",
+      "kr_ex": "다리가 강을 가로지르고 있어요."
+    },
+    {
+      "en": "steep",
+      "kr": "adj. 가파른, 경사가 급한",
+      "en_ex": "The mountain path is very steep.",
+      "kr_ex": "산길이 매우 가파르다."
+    },
+    {
+      "en": "terribly",
+      "kr": "adv. 몹시, 너무",
+      "en_ex": "She felt terribly sad.",
+      "kr_ex": "그녀는 매우 슬펐어요."
+    }
+  ],
+  "16": [
+    {
+      "en": "advertisement",
+      "kr": "n. 광고",
+      "en_ex": "The advertisement was on TV.",
+      "kr_ex": "그 광고는 TV에 나왔어요."
+    },
+    {
+      "en": "affection",
+      "kr": "n. 애정, 애착",
+      "en_ex": "She showed affection to her pet.",
+      "kr_ex": "그녀는 애완동물에게 애정을 보였어요."
+    },
+    {
+      "en": "agriculture",
+      "kr": "n. 농업, 농사",
+      "en_ex": "Agriculture provides food for us.",
+      "kr_ex": "농업은 우리에게 음식을 제공해요."
+    },
+    {
+      "en": "alter",
+      "kr": "v. 바꾸다, 고치다",
+      "en_ex": "We need to alter our plans.",
+      "kr_ex": "우리는 계획을 바꿔야 해요."
+    },
+    {
+      "en": "bacteria",
+      "kr": "n. 박테리아, 세균",
+      "en_ex": "Bacteria can cause sickness.",
+      "kr_ex": "박테리아는 병을 일으킬 수 있어요."
+    },
+    {
+      "en": "conflict",
+      "kr": "n. 갈등, 충돌",
+      "en_ex": "There is a conflict between the two groups.",
+      "kr_ex": "두 집단 사이에 갈등이 있어요."
+    },
+    {
+      "en": "continent",
+      "kr": "n. 대륙",
+      "en_ex": "Asia is the largest continent.",
+      "kr_ex": "아시아는 가장 큰 대륙이에요."
+    },
+    {
+      "en": "courage",
+      "kr": "n. 용기",
+      "en_ex": "He showed courage in the competition.",
+      "kr_ex": "그는 대회에서 용기를 보였어요."
+    },
+    {
+      "en": "cozy",
+      "kr": "adj. 아늑한",
+      "en_ex": "The room is warm and cozy.",
+      "kr_ex": "방이 따뜻하고 아늑해요."
+    },
+    {
+      "en": "distinguish",
+      "kr": "v. 구별하다, 구분하다",
+      "en_ex": "Can you distinguish these colors?",
+      "kr_ex": "이 색들을 구분할 수 있나요?"
+    },
+    {
+      "en": "essential",
+      "kr": "adj. 필수의, 본질적인",
+      "en_ex": "Water is essential for life.",
+      "kr_ex": "물은 생명에 필수예요."
+    },
+    {
+      "en": "ethnic",
+      "kr": "adj. 민족의",
+      "en_ex": "There are many ethnic groups in the country.",
+      "kr_ex": "그 나라에는 많은 민족 그룹이 있어요."
+    },
+    {
+      "en": "fitness",
+      "kr": "n. 건강, 신체 단련",
+      "en_ex": "Fitness is important for health.",
+      "kr_ex": "건강을 위해 체력이 중요해요."
+    },
+    {
+      "en": "forbidden",
+      "kr": "adj. 금지된",
+      "en_ex": "Smoking is forbidden here.",
+      "kr_ex": "여기서는 흡연이 금지돼 있어요."
+    },
+    {
+      "en": "grave",
+      "kr": "n. 무덤, 산소",
+      "en_ex": "The grave was old and quiet.",
+      "kr_ex": "무덤은 오래되고 조용했어요."
+    },
+    {
+      "en": "guilty",
+      "kr": "adj. 죄책감이 드는, 유죄의",
+      "en_ex": "He felt guilty for breaking the vase.",
+      "kr_ex": "그는 꽃병을 깨뜨려 죄책감을 느꼈어요."
+    },
+    {
+      "en": "gymnasium",
+      "kr": "n. 체육관, 실내 경기장",
+      "en_ex": "The gymnasium is full of students.",
+      "kr_ex": "체육관은 학생들로 가득해요."
+    },
+    {
+      "en": "inject",
+      "kr": "v. 주사하다, 주입하다",
+      "en_ex": "The nurse will inject the vaccine.",
+      "kr_ex": "간호사가 백신을 주사할 거예요."
+    },
+    {
+      "en": "kinetic",
+      "kr": "adj. 운동의",
+      "en_ex": "Kinetic energy moves objects.",
+      "kr_ex": "운동 에너지는 물체를 움직여요."
+    },
+    {
+      "en": "lastly",
+      "kr": "adv. 마지막으로",
+      "en_ex": "Lastly, I want to thank you all.",
+      "kr_ex": "마지막으로, 여러분 모두에게 감사해요."
+    },
+    {
+      "en": "multiply",
+      "kr": "v. 크게 증가하다, 곱하다",
+      "en_ex": "You can multiply numbers easily.",
+      "kr_ex": "숫자를 쉽게 곱할 수 있어요."
+    },
+    {
+      "en": "navigation",
+      "kr": "n. 항해, 운항",
+      "en_ex": "Navigation helps us find directions.",
+      "kr_ex": "항법은 우리가 길을 찾는 데 도움을 줘요."
+    },
+    {
+      "en": "origin",
+      "kr": "n. 기원, 근원",
+      "en_ex": "The origin of the story is unknown.",
+      "kr_ex": "이야기의 기원은 알려지지 않았어요."
+    },
+    {
+      "en": "paternal",
+      "kr": "adj. 아버지의",
+      "en_ex": "Paternal love is special.",
+      "kr_ex": "아버지의 사랑은 특별해요."
+    },
+    {
+      "en": "political",
+      "kr": "adj. 정치의",
+      "en_ex": "He is interested in political news.",
+      "kr_ex": "그는 정치 뉴스에 관심이 있어요."
+    },
+    {
+      "en": "positive",
+      "kr": "adj. 긍정적인, (검사 결과가) 양성의",
+      "en_ex": "She has a positive attitude.",
+      "kr_ex": "그녀는 긍정적인 태도를 가지고 있어요."
+    },
+    {
+      "en": "predict",
+      "kr": "v. 예측하다",
+      "en_ex": "I predict it will snow tomorrow.",
+      "kr_ex": "내일 눈이 올 거라고 예측해요."
+    },
+    {
+      "en": "relieve",
+      "kr": "v. (고통 등을) 덜다, 풀다",
+      "en_ex": "Medicine can relieve pain.",
+      "kr_ex": "약은 통증을 완화할 수 있어요."
+    },
+    {
+      "en": "sting",
+      "kr": "v. 찌르다, 쏘다",
+      "en_ex": "A bee can sting you.",
+      "kr_ex": "벌이 쏠 수 있어요."
+    },
+    {
+      "en": "success",
+      "kr": "n. 성공",
+      "en_ex": "Hard work leads to success.",
+      "kr_ex": "노력은 성공으로 이어져요."
+    }
+  ],
+  "17": [
+    {
+      "en": "accord",
+      "kr": "v. 일치하다, 부합하다",
+      "en_ex": "The countries signed an accord.",
+      "kr_ex": "나라들이 협정을 맺었어요."
+    },
+    {
+      "en": "advertise",
+      "kr": "v. 광고하다, 홍보하다",
+      "en_ex": "They advertise their products on TV.",
+      "kr_ex": "그들은 TV에서 제품을 광고해요."
+    },
+    {
+      "en": "awkward",
+      "kr": "adj. 어색한, 서투른",
+      "en_ex": "He felt awkward in the new school.",
+      "kr_ex": "그는 새 학교에서 어색함을 느꼈어요."
+    },
+    {
+      "en": "binoculars",
+      "kr": "n. 쌍안경",
+      "en_ex": "We used binoculars to see the birds.",
+      "kr_ex": "우리는 망원경으로 새를 봤어요."
+    },
+    {
+      "en": "boundary",
+      "kr": "n. 경계, 영역",
+      "en_ex": "The boundary between the two countries is a river.",
+      "kr_ex": "두 나라 사이의 경계는 강이에요."
+    },
+    {
+      "en": "conference",
+      "kr": "n. 회의, 회담",
+      "en_ex": "They attended a conference last week.",
+      "kr_ex": "그들은 지난주에 회의에 참석했어요."
+    },
+    {
+      "en": "diplomat",
+      "kr": "n. 외교관",
+      "en_ex": "The diplomat visited many countries.",
+      "kr_ex": "그 외교관은 여러 나라를 방문했어요."
+    },
+    {
+      "en": "evolve",
+      "kr": "v. 진화하다, 발전하다",
+      "en_ex": "Animals evolve over time.",
+      "kr_ex": "동물은 시간이 지나면서 진화해요."
+    },
+    {
+      "en": "financial",
+      "kr": "adj. 재무의, 금융의",
+      "en_ex": "He has financial problems.",
+      "kr_ex": "그는 재정 문제를 겪고 있어요."
+    },
+    {
+      "en": "flexible",
+      "kr": "adj. 잘 구부러지는, 유연한, 융통성 있는",
+      "en_ex": "Yoga makes the body flexible.",
+      "kr_ex": "요가는 몸을 유연하게 해줘요."
+    },
+    {
+      "en": "foreign",
+      "kr": "adj. 외국의",
+      "en_ex": "He speaks a foreign language.",
+      "kr_ex": "그는 외국어를 말해요."
+    },
+    {
+      "en": "halfway",
+      "kr": "adj. 중간의, 절반의",
+      "en_ex": "We are halfway there.",
+      "kr_ex": "우리는 중간쯤 왔어요."
+    },
+    {
+      "en": "harmful",
+      "kr": "adj. 해로운",
+      "en_ex": "Smoking is harmful to your health.",
+      "kr_ex": "흡연은 건강에 해로워요."
+    },
+    {
+      "en": "honestly",
+      "kr": "adv. 솔직히, 정직하게",
+      "en_ex": "Honestly, I don’t know the answer.",
+      "kr_ex": "솔직히, 나는 답을 몰라요."
+    },
+    {
+      "en": "instant",
+      "kr": "adj. 즉각적인",
+      "en_ex": "I need an instant answer.",
+      "kr_ex": "나는 즉각적인 답변이 필요해요."
+    },
+    {
+      "en": "internal",
+      "kr": "adj. 내부의",
+      "en_ex": "The internal parts of the machine are broken.",
+      "kr_ex": "기계의 내부 부품이 고장 났어요."
+    },
+    {
+      "en": "latitude",
+      "kr": "n. (지리) 위도",
+      "en_ex": "The city is located at a high latitude.",
+      "kr_ex": "그 도시는 높은 위도에 있어요."
+    },
+    {
+      "en": "leash",
+      "kr": "n. 개 줄, 가죽끈",
+      "en_ex": "Put the dog on a leash.",
+      "kr_ex": "개를 목줄에 매세요."
+    },
+    {
+      "en": "nationality",
+      "kr": "n. 국적, 국민",
+      "en_ex": "My nationality is Korean.",
+      "kr_ex": "내 국적은 한국이에요."
+    },
+    {
+      "en": "nod",
+      "kr": "v. (고개를) 끄덕이다",
+      "en_ex": "She gave a nod of approval.",
+      "kr_ex": "그녀는 승낙의 뜻으로 고개를 끄덕였어요."
+    },
+    {
+      "en": "offspring",
+      "kr": "n. 자손, 새끼",
+      "en_ex": "The offspring looks like its parents.",
+      "kr_ex": "자손은 부모를 닮았어요."
+    },
+    {
+      "en": "participate",
+      "kr": "v. 참여하다, 참가하다",
+      "en_ex": "She will participate in the contest.",
+      "kr_ex": "그녀는 대회에 참여할 거예요."
+    },
+    {
+      "en": "poverty",
+      "kr": "n. 가난, 결핍",
+      "en_ex": "Many people live in poverty.",
+      "kr_ex": "많은 사람들이 가난하게 살아요."
+    },
+    {
+      "en": "preference",
+      "kr": "n. 더 좋아함, 선호",
+      "en_ex": "My preference is for chocolate.",
+      "kr_ex": "나는 초콜릿을 더 좋아해요."
+    },
+    {
+      "en": "primitive",
+      "kr": "adj. 원시의, 초기의",
+      "en_ex": "Humans lived in primitive times.",
+      "kr_ex": "인간은 원시 시대에 살았어요."
+    },
+    {
+      "en": "rainforest",
+      "kr": "n. (열대) 우림",
+      "en_ex": "The rainforest is full of animals.",
+      "kr_ex": "열대우림에는 동물이 가득해요."
+    },
+    {
+      "en": "recruit",
+      "kr": "v. 모집하다, 채용하다",
+      "en_ex": "The company wants to recruit new workers.",
+      "kr_ex": "회사는 새 직원을 모집하려고 해요."
+    },
+    {
+      "en": "resolve",
+      "kr": "v. 결심하다, 해결하다",
+      "en_ex": "We must resolve the problem quickly.",
+      "kr_ex": "우리는 문제를 빨리 해결해야 해요."
+    },
+    {
+      "en": "sprout",
+      "kr": "v. 싹이 나다",
+      "en_ex": "The seeds will sprout soon.",
+      "kr_ex": "씨앗이 곧 싹틀 거예요."
+    },
+    {
+      "en": "stink",
+      "kr": "v. 악취(냄새)가 나다",
+      "en_ex": "The trash began to stink.",
+      "kr_ex": "쓰레기에서 악취가 나기 시작했어요."
+    }
+  ],
+  "18": [
+    {
+      "en": "blast",
+      "kr": "n. 폭발",
+      "en_ex": "The blast shook the windows.",
+      "kr_ex": "폭발이 창문을 흔들었어요."
+    },
+    {
+      "en": "blend",
+      "kr": "v. 섞다",
+      "en_ex": "Mix the colors to blend.",
+      "kr_ex": "색을 섞어 혼합하세요."
+    },
+    {
+      "en": "brook",
+      "kr": "n. 시내, 개울",
+      "en_ex": "The brook flows through the forest.",
+      "kr_ex": "개울이 숲을 지나 흘러요."
+    },
+    {
+      "en": "chairperson",
+      "kr": "n. 의장, 회장",
+      "en_ex": "She was elected chairperson.",
+      "kr_ex": "그녀는 의장으로 선출되었어요."
+    },
+    {
+      "en": "copper",
+      "kr": "n. (광물) 구리",
+      "en_ex": "Copper is a useful metal.",
+      "kr_ex": "구리는 유용한 금속이에요."
+    },
+    {
+      "en": "flourish",
+      "kr": "v. 번영하다, 번창하다",
+      "en_ex": "Flowers flourish in spring.",
+      "kr_ex": "꽃들은 봄에 잘 자라요."
+    },
+    {
+      "en": "generate",
+      "kr": "v. 발생시키다, 만들어 내다",
+      "en_ex": "Solar panels generate electricity.",
+      "kr_ex": "태양광 패널은 전기를 생산해요."
+    },
+    {
+      "en": "grasp",
+      "kr": "v. 꽉 잡다, 쥐다, (완전히) 이해하다",
+      "en_ex": "Grasp the meaning of the word.",
+      "kr_ex": "단어의 의미를 파악하세요."
+    },
+    {
+      "en": "hollow",
+      "kr": "adj. 속이 빈, 공허한",
+      "en_ex": "The tree trunk is hollow inside.",
+      "kr_ex": "나무 줄기 속이 속이 비어 있어요."
+    },
+    {
+      "en": "honeymoon",
+      "kr": "n. 신혼여행",
+      "en_ex": "They went on a honeymoon to Hawaii.",
+      "kr_ex": "그들은 하와이로 신혼여행을 갔어요."
+    },
+    {
+      "en": "immigration",
+      "kr": "n. (다른 나라로 온) 이민",
+      "en_ex": "Immigration can change a country.",
+      "kr_ex": "이민은 나라를 바꿀 수 있어요."
+    },
+    {
+      "en": "insight",
+      "kr": "n. 통찰력, 이해",
+      "en_ex": "He has good insight into the problem.",
+      "kr_ex": "그는 문제에 대해 좋은 통찰력이 있어요."
+    },
+    {
+      "en": "labor",
+      "kr": "n. 노동(력), 근로",
+      "en_ex": "Labor day is a national holiday.",
+      "kr_ex": "노동절은 국가 공휴일이에요."
+    },
+    {
+      "en": "moss",
+      "kr": "n. (식물) 이끼",
+      "en_ex": "Moss grows on the old tree.",
+      "kr_ex": "이끼가 오래된 나무에 자라요."
+    },
+    {
+      "en": "naughty",
+      "kr": "adj. 버릇없는, 장난이 심한",
+      "en_ex": "The naughty boy broke the vase.",
+      "kr_ex": "말썽꾸러기 소년이 꽃병을 깨뜨렸어요."
+    },
+    {
+      "en": "neglect",
+      "kr": "v. 소홀히 하다, 방치하다",
+      "en_ex": "Don’t neglect your homework.",
+      "kr_ex": "숙제를 소홀히 하지 마세요."
+    },
+    {
+      "en": "nuclear",
+      "kr": "adj. 핵의, 원자력의",
+      "en_ex": "Nuclear energy is powerful.",
+      "kr_ex": "핵 에너지는 강력해요."
+    },
+    {
+      "en": "numb",
+      "kr": "adj. 감각이 없는",
+      "en_ex": "My fingers went numb in the cold.",
+      "kr_ex": "추워서 손가락이 저렸어요."
+    },
+    {
+      "en": "obey",
+      "kr": "v. 복종하다, 따르다",
+      "en_ex": "You should obey the rules.",
+      "kr_ex": "규칙을 따라야 해요."
+    },
+    {
+      "en": "pause",
+      "kr": "n. 멈춤",
+      "en_ex": "Please pause the video.",
+      "kr_ex": "비디오를 잠시 멈춰 주세요."
+    },
+    {
+      "en": "pronunciation",
+      "kr": "n. 발음",
+      "en_ex": "Practice your pronunciation daily.",
+      "kr_ex": "매일 발음 연습을 하세요."
+    },
+    {
+      "en": "rebuild",
+      "kr": "v. 다시 짓다, 재건하다",
+      "en_ex": "They plan to rebuild the house.",
+      "kr_ex": "그들은 집을 재건할 계획이에요."
+    },
+    {
+      "en": "reception",
+      "kr": "n. 접대, 환영 (연회)",
+      "en_ex": "The reception was warm and friendly.",
+      "kr_ex": "환영회는 따뜻하고 친절했어요."
+    },
+    {
+      "en": "refugee",
+      "kr": "n. 난민, 망명자",
+      "en_ex": "The refugee found safety here.",
+      "kr_ex": "난민은 이곳에서 안전을 찾았어요."
+    },
+    {
+      "en": "renowned",
+      "kr": "adj. 유명한, 명성 있는",
+      "en_ex": "He is a renowned artist.",
+      "kr_ex": "그는 유명한 예술가예요."
+    },
+    {
+      "en": "severe",
+      "kr": "adj. 심각한, 가혹한",
+      "en_ex": "The storm caused severe damage.",
+      "kr_ex": "폭풍이 심각한 피해를 입혔어요."
+    },
+    {
+      "en": "silent",
+      "kr": "adj. 조용한",
+      "en_ex": "The room was silent after the speech.",
+      "kr_ex": "연설 후 방 안이 조용했어요."
+    },
+    {
+      "en": "squeeze",
+      "kr": "v. (쥐어) 짜다",
+      "en_ex": "Please squeeze the bottle gently.",
+      "kr_ex": "병을 부드럽게 짜세요."
+    },
+    {
+      "en": "stock",
+      "kr": "v. 저장하다, 갖추다, n. 재고품, 주식",
+      "en_ex": "The store has a lot of stock.",
+      "kr_ex": "가게에는 많은 재고가 있어요."
+    },
+    {
+      "en": "tropical",
+      "kr": "adj. 열대의",
+      "en_ex": "Tropical fruits are sweet.",
+      "kr_ex": "열대 과일은 달콤해요."
+    }
+  ],
+  "19": [
+    {
+      "en": "abroad",
+      "kr": "adv. 해외에, 해외로",
+      "en_ex": "She studied abroad last year.",
+      "kr_ex": "그녀는 작년에 해외에서 공부했어요."
+    },
+    {
+      "en": "concentrate",
+      "kr": "v. 집중하다",
+      "en_ex": "Please concentrate on your work.",
+      "kr_ex": "일에 집중하세요."
+    },
+    {
+      "en": "conclude",
+      "kr": "v. 결론 내리다",
+      "en_ex": "We conclude the meeting now.",
+      "kr_ex": "우리는 이제 회의를 끝냅니다."
+    },
+    {
+      "en": "convention",
+      "kr": "n. 관습, 관례",
+      "en_ex": "The convention starts tomorrow.",
+      "kr_ex": "그 대회는 내일 시작해요."
+    },
+    {
+      "en": "credit",
+      "kr": "n. 외상(신용) 거래",
+      "en_ex": "She got credit for her hard work.",
+      "kr_ex": "그녀는 열심히 일한 공로를 인정받았어요."
+    },
+    {
+      "en": "crisis",
+      "kr": "n. 위기",
+      "en_ex": "The country is facing a crisis.",
+      "kr_ex": "그 나라는 위기를 맞았어요."
+    },
+    {
+      "en": "define",
+      "kr": "v. (뜻을) 정의하다",
+      "en_ex": "Please define this word.",
+      "kr_ex": "이 단어를 정의해 주세요."
+    },
+    {
+      "en": "deposit",
+      "kr": "n. 예금, 예치금",
+      "en_ex": "I made a deposit at the bank.",
+      "kr_ex": "나는 은행에 예금을 했어요."
+    },
+    {
+      "en": "harsh",
+      "kr": "adj. 가혹한, 혹독한",
+      "en_ex": "The teacher’s voice was harsh.",
+      "kr_ex": "선생님의 목소리가 거셌어요."
+    },
+    {
+      "en": "hopeless",
+      "kr": "adj. 절망적인",
+      "en_ex": "He felt hopeless after losing.",
+      "kr_ex": "그는 지고 난 후 절망했어요."
+    },
+    {
+      "en": "identify",
+      "kr": "v. 식별하다, 확인하다",
+      "en_ex": "Can you identify the animal?",
+      "kr_ex": "그 동물을 식별할 수 있나요?"
+    },
+    {
+      "en": "import",
+      "kr": "v. 수입하다",
+      "en_ex": "They import goods from other countries.",
+      "kr_ex": "그들은 다른 나라에서 물건을 수입해요."
+    },
+    {
+      "en": "improvement",
+      "kr": "n. 향상, 개선",
+      "en_ex": "There was an improvement in her grades.",
+      "kr_ex": "그녀의 성적이 향상되었어요."
+    },
+    {
+      "en": "infection",
+      "kr": "n. 감염, 전염(병)",
+      "en_ex": "The infection spread quickly.",
+      "kr_ex": "감염이 빠르게 퍼졌어요."
+    },
+    {
+      "en": "nutrient",
+      "kr": "n. 영양소, 영양분",
+      "en_ex": "Vegetables provide nutrients.",
+      "kr_ex": "야채는 영양분을 제공해요."
+    },
+    {
+      "en": "occupation",
+      "kr": "n. 직업",
+      "en_ex": "His occupation is a teacher.",
+      "kr_ex": "그의 직업은 교사예요."
+    },
+    {
+      "en": "odd",
+      "kr": "adj. 이상한, 홀수의",
+      "en_ex": "That’s an odd way to do it.",
+      "kr_ex": "그것은 이상한 방법이에요."
+    },
+    {
+      "en": "operate",
+      "kr": "v. (기계를) 조작하다, 수술하다",
+      "en_ex": "The machine operates well.",
+      "kr_ex": "기계가 잘 작동해요."
+    },
+    {
+      "en": "peer",
+      "kr": "n. 또래, 동료",
+      "en_ex": "He is a peer in my class.",
+      "kr_ex": "그는 내 반 또래 친구예요."
+    },
+    {
+      "en": "penalty",
+      "kr": "n. 처벌, 불이익",
+      "en_ex": "He got a penalty for breaking the rules.",
+      "kr_ex": "그는 규칙을 어겨 벌점을 받았어요."
+    },
+    {
+      "en": "permanent",
+      "kr": "adj. 영구적인, 영원의",
+      "en_ex": "This building is permanent.",
+      "kr_ex": "이 건물은 영구적이에요."
+    },
+    {
+      "en": "politics",
+      "kr": "n. 정치, 정치학",
+      "en_ex": "He is interested in politics.",
+      "kr_ex": "그는 정치에 관심이 있어요."
+    },
+    {
+      "en": "potential",
+      "kr": "n. 가능성, 잠재력, adj. 가능성이 있는, 잠재적인",
+      "en_ex": "She has great potential.",
+      "kr_ex": "그녀는 큰 잠재력을 가지고 있어요."
+    },
+    {
+      "en": "reed",
+      "kr": "n. (식물) 갈대",
+      "en_ex": "The reeds grow near the lake.",
+      "kr_ex": "갈대는 호숫가에서 자라요."
+    },
+    {
+      "en": "referee",
+      "kr": "n. (운동 경기의) 심판",
+      "en_ex": "The referee blew the whistle.",
+      "kr_ex": "심판이 휘슬을 불었어요."
+    },
+    {
+      "en": "scholarship",
+      "kr": "n. 장학금",
+      "en_ex": "He received a scholarship.",
+      "kr_ex": "그는 장학금을 받았어요."
+    },
+    {
+      "en": "shallow",
+      "kr": "adj. 얕은",
+      "en_ex": "The water is shallow here.",
+      "kr_ex": "여기 물이 얕아요."
+    },
+    {
+      "en": "strict",
+      "kr": "adj. 엄격한",
+      "en_ex": "The principal is strict with rules.",
+      "kr_ex": "교장은 규칙에 엄격해요."
+    },
+    {
+      "en": "stutter",
+      "kr": "v. 말을 더듬다",
+      "en_ex": "She stutters when she speaks.",
+      "kr_ex": "그녀는 말할 때 말을 더듬어요."
+    },
+    {
+      "en": "temporary",
+      "kr": "adj. 일시적인, 임시의",
+      "en_ex": "This is temporary housing.",
+      "kr_ex": "여기는 임시 주택이에요."
+    }
+  ],
+  "20": [
+    {
+      "en": "adequate",
+      "kr": "adj. 충분한, 적당한",
+      "en_ex": "We have adequate food and water.",
+      "kr_ex": "우리는 충분한 음식과 물이 있어요."
+    },
+    {
+      "en": "affect",
+      "kr": "v. 영향을 주다",
+      "en_ex": "Cold weather can affect your health.",
+      "kr_ex": "추운 날씨는 건강에 영향을 줄 수 있어요."
+    },
+    {
+      "en": "atomic",
+      "kr": "adj. 원자의, 원자력의",
+      "en_ex": "Atomic energy is powerful.",
+      "kr_ex": "원자력은 강력해요."
+    },
+    {
+      "en": "bind",
+      "kr": "v. (밧줄·노끈 등으로) 묶다",
+      "en_ex": "We bind the books together.",
+      "kr_ex": "우리는 책을 함께 묶어요."
+    },
+    {
+      "en": "bless",
+      "kr": "v. 축복하다",
+      "en_ex": "The priest will bless the couple.",
+      "kr_ex": "신부가 부부를 축복할 거예요."
+    },
+    {
+      "en": "cathedral",
+      "kr": "n. (대)성당",
+      "en_ex": "The cathedral is very old.",
+      "kr_ex": "그 대성당은 매우 오래됐어요."
+    },
+    {
+      "en": "confront",
+      "kr": "v. 직면하다, 맞서다",
+      "en_ex": "We must confront our fears.",
+      "kr_ex": "우리는 두려움에 맞서야 해요."
+    },
+    {
+      "en": "conquer",
+      "kr": "v. 정복하다, 극복하다",
+      "en_ex": "The army will conquer the land.",
+      "kr_ex": "군대가 땅을 정복할 거예요."
+    },
+    {
+      "en": "dispose of",
+      "kr": "phr v. 처리하다, 없애다",
+      "en_ex": "Please dispose of the trash properly.",
+      "kr_ex": "쓰레기를 제대로 버려 주세요."
+    },
+    {
+      "en": "domestic",
+      "kr": "adj. 국내의, 가정의",
+      "en_ex": "This is a domestic cat.",
+      "kr_ex": "이것은 집 고양이예요."
+    },
+    {
+      "en": "dynamic",
+      "kr": "adj. 활기찬, 활동적인",
+      "en_ex": "She is very dynamic and energetic.",
+      "kr_ex": "그녀는 매우 역동적이고 에너지가 넘쳐요."
+    },
+    {
+      "en": "elect",
+      "kr": "v. (선거로) 선출하다",
+      "en_ex": "The people elect a new leader.",
+      "kr_ex": "사람들이 새 지도자를 선출해요."
+    },
+    {
+      "en": "employ",
+      "kr": "v. 고용하다",
+      "en_ex": "They employ many workers.",
+      "kr_ex": "그들은 많은 노동자를 고용해요."
+    },
+    {
+      "en": "hatch",
+      "kr": "v. (알이) 부화하다, 깨다",
+      "en_ex": "The eggs will hatch soon.",
+      "kr_ex": "알이 곧 부화할 거예요."
+    },
+    {
+      "en": "illness",
+      "kr": "n. 병, 질환",
+      "en_ex": "Illness kept him from school.",
+      "kr_ex": "병 때문에 그는 학교에 가지 못했어요."
+    },
+    {
+      "en": "innovate",
+      "kr": "v. 혁신하다",
+      "en_ex": "They innovate new technology.",
+      "kr_ex": "그들은 새로운 기술을 혁신해요."
+    },
+    {
+      "en": "literary",
+      "kr": "adj. 문학의",
+      "en_ex": "She loves literary books.",
+      "kr_ex": "그녀는 문학 책을 좋아해요."
+    },
+    {
+      "en": "mend",
+      "kr": "v. 수리하다, 수선하다",
+      "en_ex": "She will mend the torn shirt.",
+      "kr_ex": "그녀는 찢어진 셔츠를 꿰맬 거예요."
+    },
+    {
+      "en": "ostrich",
+      "kr": "n. 타조",
+      "en_ex": "An ostrich cannot fly.",
+      "kr_ex": "타조는 날지 못해요."
+    },
+    {
+      "en": "province",
+      "kr": "n. (행정 단위인) 도, 주",
+      "en_ex": "The province is far from the city.",
+      "kr_ex": "그 지방은 도시에서 멀어요."
+    },
+    {
+      "en": "relative",
+      "kr": "n. 친척, adj. 상대적인, 비교적인",
+      "en_ex": "He is my relative.",
+      "kr_ex": "그는 내 친척이에요."
+    },
+    {
+      "en": "religion",
+      "kr": "n. 종교",
+      "en_ex": "Religion teaches us values.",
+      "kr_ex": "종교는 우리에게 가치를 가르쳐요."
+    },
+    {
+      "en": "revolution",
+      "kr": "n. 혁명, 큰 변혁",
+      "en_ex": "The revolution changed the country.",
+      "kr_ex": "혁명이 나라를 바꿨어요."
+    },
+    {
+      "en": "sacrifice",
+      "kr": "n. 희생",
+      "en_ex": "He made a sacrifice for his family.",
+      "kr_ex": "그는 가족을 위해 희생했어요."
+    },
+    {
+      "en": "slender",
+      "kr": "adj. 날씬한",
+      "en_ex": "She has a slender figure.",
+      "kr_ex": "그녀는 날씬한 체격이에요."
+    },
+    {
+      "en": "strategy",
+      "kr": "n. 전략, 전술",
+      "en_ex": "We need a good strategy to win.",
+      "kr_ex": "우리는 이기기 위한 좋은 전략이 필요해요."
+    },
+    {
+      "en": "string",
+      "kr": "n. 끈, 줄, (악기의) 현, 줄",
+      "en_ex": "Tie the string tightly.",
+      "kr_ex": "끈을 단단히 묶으세요."
+    },
+    {
+      "en": "survey",
+      "kr": "n. 설문 조사",
+      "en_ex": "We did a survey about school lunches.",
+      "kr_ex": "우리는 학교 급식에 대해 설문조사를 했어요."
+    },
+    {
+      "en": "sympathy",
+      "kr": "n. 동정심, 측은히 여김",
+      "en_ex": "I feel sympathy for the poor.",
+      "kr_ex": "나는 가난한 사람들을 안타깝게 생각해요."
+    },
+    {
+      "en": "theory",
+      "kr": "n. 이론",
+      "en_ex": "He explained the theory well.",
+      "kr_ex": "그는 이론을 잘 설명했어요."
+    }
+  ],
+  "21": [
+    {
+      "en": "aim",
+      "kr": "v. 겨누다, 조준하다, n. 목표",
+      "en_ex": "Our aim is to learn English well.",
+      "kr_ex": "우리 목표는 영어를 잘 배우는 거예요."
+    },
+    {
+      "en": "amount",
+      "kr": "n. 양, 총액",
+      "en_ex": "The amount of water is enough.",
+      "kr_ex": "물이 충분한 양이에요."
+    },
+    {
+      "en": "breed",
+      "kr": "v. 기르다, 사육하다, 새끼를 낳다",
+      "en_ex": "Farmers breed animals on their farms.",
+      "kr_ex": "농부들은 농장에서 동물을 기릅니다."
+    },
+    {
+      "en": "capital",
+      "kr": "n. (나라의) 수도",
+      "en_ex": "Seoul is the capital of South Korea.",
+      "kr_ex": "서울은 한국의 수도예요."
+    },
+    {
+      "en": "consultant",
+      "kr": "n. 상담가",
+      "en_ex": "He is a consultant for the company.",
+      "kr_ex": "그는 회사의 컨설턴트예요."
+    },
+    {
+      "en": "contain",
+      "kr": "v. 포함하다, 들어 있다",
+      "en_ex": "This box contains books.",
+      "kr_ex": "이 상자에는 책이 들어 있어요."
+    },
+    {
+      "en": "director",
+      "kr": "n. 감독, 책임자",
+      "en_ex": "The director made a good movie.",
+      "kr_ex": "감독은 좋은 영화를 만들었어요."
+    },
+    {
+      "en": "downtown",
+      "kr": "adv. 시내에, 시내로",
+      "en_ex": "We went to downtown yesterday.",
+      "kr_ex": "우리는 어제 도심에 갔어요."
+    },
+    {
+      "en": "emotion",
+      "kr": "n. 감정",
+      "en_ex": "She showed strong emotion.",
+      "kr_ex": "그녀는 강한 감정을 보여줬어요."
+    },
+    {
+      "en": "enroll",
+      "kr": "v. 등록하다",
+      "en_ex": "I want to enroll in the art class.",
+      "kr_ex": "나는 미술 수업에 등록하고 싶어요."
+    },
+    {
+      "en": "environment",
+      "kr": "n. 환경",
+      "en_ex": "We must protect the environment.",
+      "kr_ex": "우리는 환경을 보호해야 해요."
+    },
+    {
+      "en": "formal",
+      "kr": "adj. 공식의, 격식을 차린",
+      "en_ex": "Wear formal clothes to the event.",
+      "kr_ex": "행사에 정장을 입으세요."
+    },
+    {
+      "en": "leadership",
+      "kr": "n. 지도력, 리더십",
+      "en_ex": "Good leadership helps a team succeed.",
+      "kr_ex": "좋은 리더십은 팀을 성공하게 해요."
+    },
+    {
+      "en": "legal",
+      "kr": "adj. 법적인, 적법한",
+      "en_ex": "The contract is legal.",
+      "kr_ex": "계약은 합법적이에요."
+    },
+    {
+      "en": "motion",
+      "kr": "n. 움직임, 동작",
+      "en_ex": "The motion of the car was smooth.",
+      "kr_ex": "차의 움직임이 부드러웠어요."
+    },
+    {
+      "en": "outfit",
+      "kr": "n. 복장, 의상",
+      "en_ex": "She wore a new outfit.",
+      "kr_ex": "그녀는 새 옷을 입었어요."
+    },
+    {
+      "en": "parade",
+      "kr": "n. 행진, 퍼레이드",
+      "en_ex": "The parade was colorful and fun.",
+      "kr_ex": "퍼레이드는 다채롭고 재미있었어요."
+    },
+    {
+      "en": "port",
+      "kr": "n. 항구",
+      "en_ex": "The ship arrived at the port.",
+      "kr_ex": "배가 항구에 도착했어요."
+    },
+    {
+      "en": "position",
+      "kr": "n. 위치, 자세",
+      "en_ex": "He holds a high position.",
+      "kr_ex": "그는 높은 직책을 맡고 있어요."
+    },
+    {
+      "en": "prescribe",
+      "kr": "v. (약을) 처방하다",
+      "en_ex": "The doctor will prescribe medicine.",
+      "kr_ex": "의사가 약을 처방할 거예요."
+    },
+    {
+      "en": "product",
+      "kr": "n. 생산물, 상품",
+      "en_ex": "The product is made in Korea.",
+      "kr_ex": "그 제품은 한국에서 만들어졌어요."
+    },
+    {
+      "en": "rescue",
+      "kr": "v. 구출하다, 구조하다",
+      "en_ex": "The firefighters rescue people.",
+      "kr_ex": "소방관들이 사람들을 구해요."
+    },
+    {
+      "en": "romantic",
+      "kr": "adj. 낭만적인",
+      "en_ex": "They watched a romantic film.",
+      "kr_ex": "그들은 로맨틱 영화를 봤어요."
+    },
+    {
+      "en": "silence",
+      "kr": "n. 고요, 침묵",
+      "en_ex": "Please keep silence in the library.",
+      "kr_ex": "도서관에서는 조용히 해 주세요."
+    },
+    {
+      "en": "social",
+      "kr": "adj. 사회의",
+      "en_ex": "Social events bring people together.",
+      "kr_ex": "사회적 행사는 사람들을 모아요."
+    },
+    {
+      "en": "steel",
+      "kr": "n. 강철",
+      "en_ex": "The bridge is made of steel.",
+      "kr_ex": "다리는 강철로 만들어졌어요."
+    },
+    {
+      "en": "stressful",
+      "kr": "adj. 스트레스가 많은",
+      "en_ex": "School can be stressful sometimes.",
+      "kr_ex": "학교는 때때로 스트레스가 많아요."
+    },
+    {
+      "en": "toxic",
+      "kr": "adj. 독이 있는, 독성의",
+      "en_ex": "Some chemicals are toxic.",
+      "kr_ex": "일부 화학 물질은 독성이 있어요."
+    },
+    {
+      "en": "tradition",
+      "kr": "n. 전통",
+      "en_ex": "It is our tradition to celebrate holidays.",
+      "kr_ex": "휴일을 기념하는 것이 우리의 전통이에요."
+    },
+    {
+      "en": "vocal",
+      "kr": "adj. 목소리의, 노래의",
+      "en_ex": "She has a vocal talent.",
+      "kr_ex": "그녀는 노래 재능이 있어요."
+    }
+  ],
+  "22": [
+    {
+      "en": "absorb",
+      "kr": "v. 흡수하다",
+      "en_ex": "The police made an inquiry.",
+      "kr_ex": "경찰이 조사를 했어요."
+    },
+    {
+      "en": "abuse",
+      "kr": "v. 악용하다, 남용하다, 학대하다",
+      "en_ex": "Plants absorb sunlight to grow.",
+      "kr_ex": "식물은 자라기 위해 햇빛을 흡수해요."
+    },
+    {
+      "en": "accent",
+      "kr": "n. 억양, 말투",
+      "en_ex": "She speaks with a French accent.",
+      "kr_ex": "그녀는 프랑스 억양으로 말해요."
+    },
+    {
+      "en": "ash",
+      "kr": "n. (불에 타고 남은) 재",
+      "en_ex": "The volcano left a lot of ash.",
+      "kr_ex": "화산은 많은 재를 남겼어요."
+    },
+    {
+      "en": "charity",
+      "kr": "n. 자선 (단체)",
+      "en_ex": "",
+      "kr_ex": ""
+    },
+    {
+      "en": "differ",
+      "kr": "v. 다르다",
+      "en_ex": "Opinions differ on this topic.",
+      "kr_ex": "이 주제에 대한 의견이 다릅니다."
+    },
+    {
+      "en": "expert",
+      "kr": "n. 전문가",
+      "en_ex": "He is an expert in computers.",
+      "kr_ex": "그는 컴퓨터 전문가예요."
+    },
+    {
+      "en": "faraway",
+      "kr": "adj. 먼, 멀리 떨어진",
+      "en_ex": "She has a wild imagination.",
+      "kr_ex": "그녀는 상상력이 풍부해요."
+    },
+    {
+      "en": "forecast",
+      "kr": "n. 예보, 예측",
+      "en_ex": "The weather forecast says it will rain.",
+      "kr_ex": "일기예보에서 비가 올 거라고 해요."
+    },
+    {
+      "en": "foreigner",
+      "kr": "n. 외국인",
+      "en_ex": "A foreigner visited our school.",
+      "kr_ex": "외국인이 우리 학교를 방문했어요."
+    },
+    {
+      "en": "fortnight",
+      "kr": "n. 2주일",
+      "en_ex": "We will meet again in a fortnight.",
+      "kr_ex": "우리는 2주 후에 다시 만날 거예요."
+    },
+    {
+      "en": "glance",
+      "kr": "v. 흘낏 보다",
+      "en_ex": "He uses a special technique.",
+      "kr_ex": "그는 특별한 기술을 사용해요."
+    },
+    {
+      "en": "imagination",
+      "kr": "n. 상상력, 상상",
+      "en_ex": "The building has a strong structure.",
+      "kr_ex": "건물은 튼튼한 구조를 가지고 있어요."
+    },
+    {
+      "en": "inquiry",
+      "kr": "n. 질문, 문의",
+      "en_ex": "It was a miracle that he survived.",
+      "kr_ex": "그가 살아남은 것은 기적이었어요."
+    },
+    {
+      "en": "kidnap",
+      "kr": "v. 납치하다",
+      "en_ex": "The criminals tried to kidnap the child.",
+      "kr_ex": "범죄자들이 아이를 납치하려 했어요."
+    },
+    {
+      "en": "limit",
+      "kr": "n. 한계, 제한, v. 제한하다",
+      "en_ex": "There is a limit to how much you can carry.",
+      "kr_ex": "들 수 있는 무게에 한계가 있어요."
+    },
+    {
+      "en": "loose",
+      "kr": "adj. 헐거운, 느슨한",
+      "en_ex": "The shirt is loose and comfortable.",
+      "kr_ex": "셔츠가 헐렁하고 편안해요."
+    },
+    {
+      "en": "miracle",
+      "kr": "n. 기적",
+      "en_ex": "The result was unexpected.",
+      "kr_ex": "결과는 예상 밖이었어요."
+    },
+    {
+      "en": "myth",
+      "kr": "n. 신화",
+      "en_ex": "They donated money to charity.",
+      "kr_ex": "그들은 자선단체에 돈을 기부했어요."
+    },
+    {
+      "en": "parental",
+      "kr": "adj. 부모의",
+      "en_ex": "The myth explains the stars.",
+      "kr_ex": "그 신화는 별들을 설명해요."
+    },
+    {
+      "en": "quit",
+      "kr": "v. 그만두다",
+      "en_ex": "He decided to quit the game.",
+      "kr_ex": "그는 게임을 그만두기로 했어요."
+    },
+    {
+      "en": "stroller",
+      "kr": "n. 유모차",
+      "en_ex": "The baby rides in a stroller.",
+      "kr_ex": "아기는 유모차를 타요."
+    },
+    {
+      "en": "structure",
+      "kr": "n. 구조, 건축물",
+      "en_ex": "He suffered abuse as a child.",
+      "kr_ex": "그는 어릴 때 학대를 당했어요."
+    },
+    {
+      "en": "succeed",
+      "kr": "v. 성공하다",
+      "en_ex": "She wants to succeed in life.",
+      "kr_ex": "그녀는 인생에서 성공하고 싶어해요."
+    },
+    {
+      "en": "sudden",
+      "kr": "adj. 갑작스러운",
+      "en_ex": "There was a sudden noise outside.",
+      "kr_ex": "밖에서 갑작스러운 소리가 났어요."
+    },
+    {
+      "en": "tackle",
+      "kr": "n. 태클, 공 뺏기",
+      "en_ex": "They will tackle the problem together.",
+      "kr_ex": "그들은 함께 문제를 해결할 거예요."
+    },
+    {
+      "en": "technique",
+      "kr": "n. 기법, 기술",
+      "en_ex": "Parental love is very important.",
+      "kr_ex": "부모의 사랑은 매우 중요해요."
+    },
+    {
+      "en": "teenager",
+      "kr": "n. 십 대",
+      "en_ex": "The teenager studies hard for exams.",
+      "kr_ex": "청소년은 시험을 위해 열심히 공부해요."
+    },
+    {
+      "en": "tribe",
+      "kr": "n. 종족, 부족",
+      "en_ex": "The tribe lives in the mountains.",
+      "kr_ex": "그 부족은 산속에 살아요."
+    },
+    {
+      "en": "unexpected",
+      "kr": "adj. 예상 밖의, 예기치 않은",
+      "en_ex": "She gave a quick glance.",
+      "kr_ex": "그녀는 빠르게 흘낏 봤어요."
+    }
+  ],
+  "23": [
+    {
+      "en": "admit",
+      "kr": "v. 인정하다",
+      "en_ex": "She admitted her mistake.",
+      "kr_ex": "그녀는 실수를 인정했어요."
+    },
+    {
+      "en": "aspire",
+      "kr": "v. 열망하다, 갈망하다",
+      "en_ex": "I aspire to be a scientist.",
+      "kr_ex": "나는 과학자가 되고 싶어요."
+    },
+    {
+      "en": "average",
+      "kr": "n. 평균, adj. 보통의, 일반적인",
+      "en_ex": "The average score was high.",
+      "kr_ex": "평균 점수가 높았어요."
+    },
+    {
+      "en": "bloom",
+      "kr": "v. 꽃을 피우다",
+      "en_ex": "The flowers bloom in spring.",
+      "kr_ex": "꽃들은 봄에 피어요."
+    },
+    {
+      "en": "bold",
+      "kr": "adj. 대담한, 용감한",
+      "en_ex": "He made a bold decision.",
+      "kr_ex": "그는 대담한 결정을 내렸어요."
+    },
+    {
+      "en": "citizen",
+      "kr": "n. 시민",
+      "en_ex": "Every citizen has rights.",
+      "kr_ex": "모든 시민은 권리를 가지고 있어요."
+    },
+    {
+      "en": "contract",
+      "kr": "n. 계약, 계약서",
+      "en_ex": "They signed a contract yesterday.",
+      "kr_ex": "그들은 어제 계약서에 서명했어요."
+    },
+    {
+      "en": "display",
+      "kr": "v. 전시하다, 나타내다",
+      "en_ex": "The museum has a new display.",
+      "kr_ex": "박물관에 새 전시가 있어요."
+    },
+    {
+      "en": "drip",
+      "kr": "v. 똑똑 떨어지다",
+      "en_ex": "Water drips from the faucet.",
+      "kr_ex": "수도꼭지에서 물이 똑똑 떨어져요."
+    },
+    {
+      "en": "heritage",
+      "kr": "n. (앞 세대가 물려주는 사물·문화) 유산",
+      "en_ex": "The castle is a cultural heritage.",
+      "kr_ex": "그 성은 문화 유산이에요."
+    },
+    {
+      "en": "interval",
+      "kr": "n. (장소·시간의) 간격",
+      "en_ex": "There is a short interval between classes.",
+      "kr_ex": "수업 사이에 짧은 휴식 시간이 있어요."
+    },
+    {
+      "en": "local",
+      "kr": "adj. 지역의, 현지의",
+      "en_ex": "We visited the local market.",
+      "kr_ex": "우리는 지역 시장을 방문했어요."
+    },
+    {
+      "en": "log",
+      "kr": "n. 통나무, v. 기록하다",
+      "en_ex": "We cut a log for the fire.",
+      "kr_ex": "우리는 불을 위해 통나무를 잘랐어요."
+    },
+    {
+      "en": "mental",
+      "kr": "adj. 정신의, 마음의",
+      "en_ex": "Mental health is important.",
+      "kr_ex": "정신 건강도 중요해요."
+    },
+    {
+      "en": "moisturize",
+      "kr": "v. 촉촉하게 하다",
+      "en_ex": "Use lotion to moisturize your skin.",
+      "kr_ex": "로션을 발라 피부를 촉촉하게 하세요."
+    },
+    {
+      "en": "motive",
+      "kr": "n. 동기, 이유",
+      "en_ex": "What is the motive for his actions?",
+      "kr_ex": "그의 행동 동기는 무엇인가요?"
+    },
+    {
+      "en": "oxygen",
+      "kr": "n. (화학) 산소",
+      "en_ex": "Plants need oxygen to live.",
+      "kr_ex": "식물은 살기 위해 산소가 필요해요."
+    },
+    {
+      "en": "passion",
+      "kr": "n. 열정, 정열",
+      "en_ex": "He has a passion for painting.",
+      "kr_ex": "그는 그림에 대한 열정이 있어요."
+    },
+    {
+      "en": "pollution",
+      "kr": "n. 오염",
+      "en_ex": "Pollution harms the environment.",
+      "kr_ex": "오염은 환경에 해로워요."
+    },
+    {
+      "en": "pressure",
+      "kr": "n. 압박, 압력",
+      "en_ex": "There is pressure to do well in school.",
+      "kr_ex": "학교에서 잘해야 한다는 압박감이 있어요."
+    },
+    {
+      "en": "rod",
+      "kr": "n. 막대",
+      "en_ex": "He used a fishing rod.",
+      "kr_ex": "그는 낚싯대를 사용했어요."
+    },
+    {
+      "en": "submarine",
+      "kr": "n. 잠수함",
+      "en_ex": "A submarine can travel underwater.",
+      "kr_ex": "잠수함은 물속을 여행할 수 있어요."
+    },
+    {
+      "en": "suck",
+      "kr": "v. 빨아 먹다(마시다), 빨다",
+      "en_ex": "The baby sucks milk from a bottle.",
+      "kr_ex": "아기는 젖병에서 우유를 빨아요."
+    },
+    {
+      "en": "suppose",
+      "kr": "v. 가정하다, 상상하다",
+      "en_ex": "Suppose we go to the park today.",
+      "kr_ex": "오늘 공원에 가는 건 어때요?"
+    },
+    {
+      "en": "talent",
+      "kr": "n. 재능",
+      "en_ex": "She has a talent for singing.",
+      "kr_ex": "그녀는 노래에 재능이 있어요."
+    },
+    {
+      "en": "timetable",
+      "kr": "n. 시간표",
+      "en_ex": "Check the timetable for the train.",
+      "kr_ex": "기차 시간표를 확인하세요."
+    },
+    {
+      "en": "typical",
+      "kr": "adj. 대표적인, 전형적인",
+      "en_ex": "This is a typical school day.",
+      "kr_ex": "이것은 전형적인 학교 생활이에요."
+    },
+    {
+      "en": "vacuum",
+      "kr": "v. (진공청소기로) 청소하다",
+      "en_ex": "Use the vacuum to clean the floor.",
+      "kr_ex": "진공청소기로 바닥을 청소하세요."
+    },
+    {
+      "en": "vision",
+      "kr": "n. 상상, 환상, 시력",
+      "en_ex": "The doctor has good vision.",
+      "kr_ex": "의사는 시력이 좋아요."
+    },
+    {
+      "en": "wealth",
+      "kr": "n. 부, 재산",
+      "en_ex": "He has a lot of wealth.",
+      "kr_ex": "그는 많은 부를 가지고 있어요."
+    }
+  ],
+  "24": [
+    {
+      "en": "advanced",
+      "kr": "adj. 상급의, 고급의, 선진의, 앞서 발달한",
+      "en_ex": "The advanced robot can do many tasks.",
+      "kr_ex": "첨단 로봇은 많은 일을 할 수 있어요."
+    },
+    {
+      "en": "artistic",
+      "kr": "adj. 예술의",
+      "en_ex": "She has an artistic talent.",
+      "kr_ex": "그녀는 예술적 재능이 있어요."
+    },
+    {
+      "en": "brotherhood",
+      "kr": "n. 형제애, 인류애",
+      "en_ex": "The brotherhood helps each other.",
+      "kr_ex": "형제애는 서로 돕습니다."
+    },
+    {
+      "en": "cell",
+      "kr": "n. 세포",
+      "en_ex": "The body is made of many cells.",
+      "kr_ex": "몸은 많은 세포로 이루어져 있어요."
+    },
+    {
+      "en": "convince",
+      "kr": "v. 납득시키다, 확신시키다",
+      "en_ex": "I want to convince him to come.",
+      "kr_ex": "나는 그를 설득하고 싶어요."
+    },
+    {
+      "en": "crew",
+      "kr": "n. 승무원",
+      "en_ex": "The ship’s crew works hard.",
+      "kr_ex": "배 승무원들은 열심히 일해요."
+    },
+    {
+      "en": "departure",
+      "kr": "n. 출발",
+      "en_ex": "The departure time is 3 PM.",
+      "kr_ex": "출발 시간은 오후 3시예요."
+    },
+    {
+      "en": "depressed",
+      "kr": "adj. 우울한",
+      "en_ex": "He felt depressed after the test.",
+      "kr_ex": "그는 시험 후 우울했어요."
+    },
+    {
+      "en": "document",
+      "kr": "n. 문서, 서류",
+      "en_ex": "Please sign the document.",
+      "kr_ex": "문서에 서명해 주세요."
+    },
+    {
+      "en": "exist",
+      "kr": "v. 존재하다",
+      "en_ex": "Dinosaurs no longer exist.",
+      "kr_ex": "공룡은 더 이상 존재하지 않아요."
+    },
+    {
+      "en": "horrible",
+      "kr": "adj. 무서운, 끔찍한",
+      "en_ex": "The accident was horrible.",
+      "kr_ex": "사고는 끔찍했어요."
+    },
+    {
+      "en": "instance",
+      "kr": "n. 사례, 경우",
+      "en_ex": "For instance, cats like milk.",
+      "kr_ex": "예를 들어, 고양이는 우유를 좋아해요."
+    },
+    {
+      "en": "judge",
+      "kr": "n. 판사, v. 판단하다",
+      "en_ex": "The judge made a fair decision.",
+      "kr_ex": "판사는 공정한 판결을 내렸어요."
+    },
+    {
+      "en": "memorize",
+      "kr": "v. 암기하다, 외우다",
+      "en_ex": "I try to memorize new words.",
+      "kr_ex": "나는 새 단어를 외우려고 노력해요."
+    },
+    {
+      "en": "military",
+      "kr": "adj. 군사의",
+      "en_ex": "The military protects the country.",
+      "kr_ex": "군대는 나라를 지켜요."
+    },
+    {
+      "en": "modern",
+      "kr": "adj. 현대의",
+      "en_ex": "They live in a modern city.",
+      "kr_ex": "그들은 현대적인 도시에 살아요."
+    },
+    {
+      "en": "overcome",
+      "kr": "v. 극복하다",
+      "en_ex": "We must overcome our fears.",
+      "kr_ex": "우리는 두려움을 극복해야 해요."
+    },
+    {
+      "en": "pale",
+      "kr": "adj. (색깔이) 옅은, 연한",
+      "en_ex": "Her face looked pale.",
+      "kr_ex": "그녀의 얼굴은 창백했어요."
+    },
+    {
+      "en": "parachute",
+      "kr": "n. 낙하산",
+      "en_ex": "The parachute opened during the jump.",
+      "kr_ex": "낙하산은 점프할 때 열려요."
+    },
+    {
+      "en": "payment",
+      "kr": "n. 지불, 납부",
+      "en_ex": "I made the payment yesterday.",
+      "kr_ex": "나는 어제 지불했어요."
+    },
+    {
+      "en": "peak",
+      "kr": "n. 꼭대기, 절정",
+      "en_ex": "The mountain peak is very high.",
+      "kr_ex": "산 꼭대기는 매우 높아요."
+    },
+    {
+      "en": "period",
+      "kr": "n. 기간, 시기",
+      "en_ex": "The period of the movie is two hours.",
+      "kr_ex": "영화의 상영 시간은 2시간이에요."
+    },
+    {
+      "en": "praise",
+      "kr": "v. 칭찬하다",
+      "en_ex": "The teacher gave praise for my work.",
+      "kr_ex": "선생님이 내 일에 칭찬을 해주셨어요."
+    },
+    {
+      "en": "rental",
+      "kr": "n. 임대, 대여",
+      "en_ex": "We rented a car for the trip.",
+      "kr_ex": "우리는 여행을 위해 차를 빌렸어요."
+    },
+    {
+      "en": "rubber",
+      "kr": "n. 고무",
+      "en_ex": "I use a rubber to erase mistakes.",
+      "kr_ex": "나는 실수를 지우기 위해 지우개를 사용해요."
+    },
+    {
+      "en": "suitable",
+      "kr": "adj. 적당한, 적절한",
+      "en_ex": "This book is suitable for children.",
+      "kr_ex": "이 책은 아이들에게 적합해요."
+    },
+    {
+      "en": "target",
+      "kr": "n. 목표, v. 대상으로 삼다",
+      "en_ex": "The target is in the center.",
+      "kr_ex": "표적은 중앙에 있어요."
+    },
+    {
+      "en": "technology",
+      "kr": "n. 기술",
+      "en_ex": "Technology helps us every day.",
+      "kr_ex": "기술은 우리를 매일 도와줘요."
+    },
+    {
+      "en": "vapor",
+      "kr": "n. 증기, 수증기",
+      "en_ex": "Water turns into vapor when heated.",
+      "kr_ex": "물을 가열하면 증기로 변해요."
+    },
+    {
+      "en": "vary",
+      "kr": "v. 다르다",
+      "en_ex": "Prices vary in different stores.",
+      "kr_ex": "가격은 가게마다 달라요."
+    }
+  ],
+  "25": [
+    {
+      "en": "brief",
+      "kr": "adj. 짧은, 간략한",
+      "en_ex": "The speech was very brief.",
+      "kr_ex": "연설은 매우 짧았어요."
+    },
+    {
+      "en": "childhood",
+      "kr": "n. 어린 시절",
+      "en_ex": "My childhood was happy.",
+      "kr_ex": "내 어린 시절은 행복했어요."
+    },
+    {
+      "en": "column",
+      "kr": "n. (신문 등의) 칼럼, 사설, 기둥",
+      "en_ex": "The newspaper has a column about sports.",
+      "kr_ex": "신문에는 스포츠 칼럼이 있어요."
+    },
+    {
+      "en": "composer",
+      "kr": "n. 작곡가",
+      "en_ex": "The composer wrote beautiful music.",
+      "kr_ex": "작곡가는 아름다운 음악을 썼어요."
+    },
+    {
+      "en": "description",
+      "kr": "n. 서술, 묘사",
+      "en_ex": "The book has a good description.",
+      "kr_ex": "그 책에는 좋은 설명이 있어요."
+    },
+    {
+      "en": "desire",
+      "kr": "n. 욕망, 욕구, v. 바라다",
+      "en_ex": "She has a strong desire to learn.",
+      "kr_ex": "그녀는 배우고자 하는 강한 욕망이 있어요."
+    },
+    {
+      "en": "device",
+      "kr": "n. 장치, 기구",
+      "en_ex": "The device is easy to use.",
+      "kr_ex": "그 기기는 사용하기 쉬워요."
+    },
+    {
+      "en": "dictionary",
+      "kr": "n. 사전",
+      "en_ex": "I looked up the word in the dictionary.",
+      "kr_ex": "나는 사전에서 단어를 찾아봤어요."
+    },
+    {
+      "en": "effort",
+      "kr": "n. 노력",
+      "en_ex": "She made an effort to finish her homework.",
+      "kr_ex": "그녀는 숙제를 끝내기 위해 노력했어요."
+    },
+    {
+      "en": "favor",
+      "kr": "n. 호의, 친절",
+      "en_ex": "Can you do me a favor?",
+      "kr_ex": "나에게 부탁 하나 해줄래?"
+    },
+    {
+      "en": "fireproof",
+      "kr": "adj. 불에 타지 않는",
+      "en_ex": "The building is fireproof.",
+      "kr_ex": "그 건물은 방화 건물이에요."
+    },
+    {
+      "en": "gap",
+      "kr": "n. 틈, 차이",
+      "en_ex": "There is a gap between the two buildings.",
+      "kr_ex": "두 건물 사이에 틈이 있어요."
+    },
+    {
+      "en": "hibernate",
+      "kr": "v. 겨울잠을 자다",
+      "en_ex": "Bears hibernate in winter.",
+      "kr_ex": "곰은 겨울에 동면해요."
+    },
+    {
+      "en": "highlight",
+      "kr": "v. 강조하다",
+      "en_ex": "The highlight of the show was the dance.",
+      "kr_ex": "쇼의 하이라이트는 춤이었어요."
+    },
+    {
+      "en": "hump",
+      "kr": "n. 혹, 솟아오른 곳",
+      "en_ex": "The camel has a hump on its back.",
+      "kr_ex": "낙타는 등에 혹이 있어요."
+    },
+    {
+      "en": "lawyer",
+      "kr": "n. 변호사",
+      "en_ex": "The lawyer helped his client.",
+      "kr_ex": "변호사가 의뢰인을 도왔어요."
+    },
+    {
+      "en": "layer",
+      "kr": "n. 층, 겹",
+      "en_ex": "The cake has three layers.",
+      "kr_ex": "케이크는 세 겹이에요."
+    },
+    {
+      "en": "lecture",
+      "kr": "n. 강의, 강연",
+      "en_ex": "The teacher gave a lecture.",
+      "kr_ex": "선생님이 강의를 했어요."
+    },
+    {
+      "en": "measure",
+      "kr": "v. 측정하다, 재다",
+      "en_ex": "We measure the length with a ruler.",
+      "kr_ex": "우리는 자로 길이를 측정해요."
+    },
+    {
+      "en": "original",
+      "kr": "adj. 독창적인",
+      "en_ex": "The painting is the original work.",
+      "kr_ex": "그 그림은 원본 작품이에요."
+    },
+    {
+      "en": "paste",
+      "kr": "n. (밀가루 등의) 반죽, v. (풀로) 붙이다",
+      "en_ex": "Paste the paper on the board.",
+      "kr_ex": "종이를 칠판에 붙이세요."
+    },
+    {
+      "en": "pit",
+      "kr": "n. 구덩이",
+      "en_ex": "The apple fell into a pit.",
+      "kr_ex": "사과가 구덩이에 빠졌어요."
+    },
+    {
+      "en": "rainfall",
+      "kr": "n. 강우(량)",
+      "en_ex": "The rainfall was heavy last night.",
+      "kr_ex": "어젯밤에는 비가 많이 왔어요."
+    },
+    {
+      "en": "rear",
+      "kr": "n. 뒤쪽",
+      "en_ex": "The rear door is locked.",
+      "kr_ex": "뒷문이 잠겨 있어요."
+    },
+    {
+      "en": "recipe",
+      "kr": "n. 조리법, 요리법",
+      "en_ex": "I followed the recipe to bake a cake.",
+      "kr_ex": "나는 케이크를 굽기 위해 레시피를 따랐어요."
+    },
+    {
+      "en": "scold",
+      "kr": "v. 야단치다, 꾸짖다",
+      "en_ex": "The mother scolded the child.",
+      "kr_ex": "어머니가 아이를 꾸짖었어요."
+    },
+    {
+      "en": "surface",
+      "kr": "n. 표면",
+      "en_ex": "The surface of the lake is calm.",
+      "kr_ex": "호수 표면은 고요해요."
+    },
+    {
+      "en": "university",
+      "kr": "n. 대학",
+      "en_ex": "She studies at the university.",
+      "kr_ex": "그녀는 대학에서 공부해요."
+    },
+    {
+      "en": "vendor",
+      "kr": "n. 판매인",
+      "en_ex": "The vendor sells fresh fruit.",
+      "kr_ex": "상인이 신선한 과일을 팔아요."
+    },
+    {
+      "en": "vocation",
+      "kr": "n. 직업, 천직",
+      "en_ex": "He chose teaching as his vocation.",
+      "kr_ex": "그는 교사를 직업으로 선택했어요."
+    }
+  ],
+  "26": [
+    {
+      "en": "accompany",
+      "kr": "v. 동행하다, 수반하다, 반주하다",
+      "en_ex": "I will accompany you to the store.",
+      "kr_ex": "나는 너와 함께 가게에 갈 거야."
+    },
+    {
+      "en": "announcement",
+      "kr": "n. 발표",
+      "en_ex": "The announcement was made yesterday.",
+      "kr_ex": "그 발표는 어제 있었어요."
+    },
+    {
+      "en": "arrest",
+      "kr": "v. 체포하다",
+      "en_ex": "The police will arrest the suspect.",
+      "kr_ex": "경찰이 용의자를 체포할 거예요."
+    },
+    {
+      "en": "assign",
+      "kr": "v. 할당하다, 배정하다",
+      "en_ex": "The teacher will assign homework.",
+      "kr_ex": "선생님이 숙제를 내줄 거예요."
+    },
+    {
+      "en": "colleague",
+      "kr": "n. (직업상의) 동료",
+      "en_ex": "My colleague helps me at work.",
+      "kr_ex": "나의 동료는 일할 때 나를 도와줘요."
+    },
+    {
+      "en": "concept",
+      "kr": "n. 개념, 생각",
+      "en_ex": "The concept is easy to understand.",
+      "kr_ex": "개념은 이해하기 쉬워요."
+    },
+    {
+      "en": "crime",
+      "kr": "n. 범죄",
+      "en_ex": "Crime rates have decreased this year.",
+      "kr_ex": "올해 범죄율이 줄었어요."
+    },
+    {
+      "en": "criterion",
+      "kr": "n. 기준, 표준",
+      "en_ex": "The criterion for success is effort.",
+      "kr_ex": "성공의 기준은 노력이에요."
+    },
+    {
+      "en": "custom",
+      "kr": "n. 관습, 풍습, (-s) 세관",
+      "en_ex": "It is our custom to greet guests.",
+      "kr_ex": "손님을 맞이하는 것이 우리의 관습이에요."
+    },
+    {
+      "en": "disgusting",
+      "kr": "adj. 역겨운",
+      "en_ex": "The smell was disgusting.",
+      "kr_ex": "냄새가 역겨웠어요."
+    },
+    {
+      "en": "dramatic",
+      "kr": "adj. 극적인",
+      "en_ex": "The play had a dramatic ending.",
+      "kr_ex": "연극은 극적인 결말을 가졌어요."
+    },
+    {
+      "en": "effective",
+      "kr": "adj. 효과적인",
+      "en_ex": "This medicine is very effective.",
+      "kr_ex": "이 약은 매우 효과적이에요."
+    },
+    {
+      "en": "emphasize",
+      "kr": "v. 강조하다",
+      "en_ex": "The teacher will emphasize the main points.",
+      "kr_ex": "선생님은 주요 내용을 강조할 거예요."
+    },
+    {
+      "en": "endure",
+      "kr": "v. 참다, 견디다",
+      "en_ex": "She can endure difficult times.",
+      "kr_ex": "그녀는 어려운 시기를 견딜 수 있어요."
+    },
+    {
+      "en": "entertain",
+      "kr": "v. 즐겁게 해주다",
+      "en_ex": "The show will entertain the audience.",
+      "kr_ex": "그 쇼는 관객을 즐겁게 할 거예요."
+    },
+    {
+      "en": "gardener",
+      "kr": "n. 정원사",
+      "en_ex": "The gardener waters the plants daily.",
+      "kr_ex": "정원사는 매일 식물에 물을 줘요."
+    },
+    {
+      "en": "income",
+      "kr": "n. 수입, 소득",
+      "en_ex": "He earns a good income.",
+      "kr_ex": "그는 좋은 수입을 벌어요."
+    },
+    {
+      "en": "lottery",
+      "kr": "n. 복권",
+      "en_ex": "He won the lottery last year.",
+      "kr_ex": "그는 작년에 복권에 당첨됐어요."
+    },
+    {
+      "en": "patch",
+      "kr": "n. (덧대는) 조각",
+      "en_ex": "There is a patch of grass in the yard.",
+      "kr_ex": "마당에 잔디 한 구역이 있어요."
+    },
+    {
+      "en": "practical",
+      "kr": "adj. 실제적인, 실용적인",
+      "en_ex": "This tool is practical to use.",
+      "kr_ex": "이 도구는 사용하기에 실용적이에요."
+    },
+    {
+      "en": "precise",
+      "kr": "adj. 정확한, 정밀한",
+      "en_ex": "Be precise when measuring.",
+      "kr_ex": "측정할 때 정확해야 해요."
+    },
+    {
+      "en": "punish",
+      "kr": "v. 처벌하다, 벌주다",
+      "en_ex": "The judge will punish the guilty.",
+      "kr_ex": "판사는 유죄인 사람을 처벌할 거예요."
+    },
+    {
+      "en": "recite",
+      "kr": "v. 암송하다(입으로 외다)",
+      "en_ex": "Please recite the poem.",
+      "kr_ex": "시를 암송해 주세요."
+    },
+    {
+      "en": "region",
+      "kr": "n. 지역, 지방",
+      "en_ex": "This region is famous for its mountains.",
+      "kr_ex": "이 지역은 산으로 유명해요."
+    },
+    {
+      "en": "relationship",
+      "kr": "n. 관계",
+      "en_ex": "They have a good relationship.",
+      "kr_ex": "그들은 좋은 관계를 가지고 있어요."
+    },
+    {
+      "en": "resident",
+      "kr": "n. 거주자, 주민",
+      "en_ex": "She is a resident of this city.",
+      "kr_ex": "그녀는 이 도시 주민이에요."
+    },
+    {
+      "en": "restrict",
+      "kr": "v. 제한하다, 한정하다",
+      "en_ex": "Rules restrict what we can do.",
+      "kr_ex": "규칙은 우리가 할 수 있는 것을 제한해요."
+    },
+    {
+      "en": "sculptor",
+      "kr": "n. 조각가",
+      "en_ex": "The sculptor made a statue.",
+      "kr_ex": "조각가는 조각상을 만들었어요."
+    },
+    {
+      "en": "survive",
+      "kr": "v. 생존하다, 살아남다",
+      "en_ex": "Some animals survive in the desert.",
+      "kr_ex": "어떤 동물들은 사막에서 살아남아요."
+    },
+    {
+      "en": "wander",
+      "kr": "v. 돌아다니다, 헤매다",
+      "en_ex": "We like to wander in the park.",
+      "kr_ex": "우리는 공원에서 방황하는 것을 좋아해요."
+    }
+  ],
+  "27": [
+    {
+      "en": "acceptable",
+      "kr": "adj. 받아들일 수 있는, 허용되는",
+      "en_ex": "It is acceptable to be late once.",
+      "kr_ex": "한 번 늦는 것은 괜찮아요."
+    },
+    {
+      "en": "antique",
+      "kr": "n. 골동품, adj. 골동품인",
+      "en_ex": "The museum has many antiques.",
+      "kr_ex": "박물관에는 많은 골동품이 있어요."
+    },
+    {
+      "en": "approve",
+      "kr": "v. 승인하다, 찬성하다",
+      "en_ex": "The teacher will approve your plan.",
+      "kr_ex": "선생님이 네 계획을 승인할 거예요."
+    },
+    {
+      "en": "candidate",
+      "kr": "n. 지원자, 후보자",
+      "en_ex": "She is a candidate for president.",
+      "kr_ex": "그녀는 대통령 후보예요."
+    },
+    {
+      "en": "censor",
+      "kr": "v. 검열하다",
+      "en_ex": "Some movies censor bad words.",
+      "kr_ex": "일부 영화는 욕설을 검열해요."
+    },
+    {
+      "en": "district",
+      "kr": "n. 지역, 구역",
+      "en_ex": "The school is in a safe district.",
+      "kr_ex": "학교는 안전한 지역에 있어요."
+    },
+    {
+      "en": "diverse",
+      "kr": "adj. 다양한",
+      "en_ex": "The city is diverse and busy.",
+      "kr_ex": "그 도시는 다양하고 바빠요."
+    },
+    {
+      "en": "duty",
+      "kr": "n. 의무, 임무",
+      "en_ex": "It is my duty to help others.",
+      "kr_ex": "남을 돕는 것은 나의 의무예요."
+    },
+    {
+      "en": "entry",
+      "kr": "n. 입장, 입구",
+      "en_ex": "Entry to the museum is free.",
+      "kr_ex": "박물관 입장은 무료예요."
+    },
+    {
+      "en": "exceed",
+      "kr": "v. 넘다, 초과하다",
+      "en_ex": "Don’t exceed the speed limit.",
+      "kr_ex": "속도 제한을 초과하지 마세요."
+    },
+    {
+      "en": "expand",
+      "kr": "v. 확장하다, 팽창하다",
+      "en_ex": "The company plans to expand.",
+      "kr_ex": "회사는 확장할 계획이에요."
+    },
+    {
+      "en": "extinct",
+      "kr": "adj. 멸종된, 사라진",
+      "en_ex": "Dinosaurs are extinct now.",
+      "kr_ex": "공룡은 지금 멸종했어요."
+    },
+    {
+      "en": "fierce",
+      "kr": "adj. 사나운",
+      "en_ex": "The tiger is fierce and strong.",
+      "kr_ex": "호랑이는 사납고 강해요."
+    },
+    {
+      "en": "joint",
+      "kr": "n. 관절, 연결 부위",
+      "en_ex": "Our knees form a joint.",
+      "kr_ex": "우리 무릎은 관절을 이루어요."
+    },
+    {
+      "en": "noble",
+      "kr": "adj. 고귀한, 고결한",
+      "en_ex": "He is a noble person.",
+      "kr_ex": "그는 고귀한 사람이에요."
+    },
+    {
+      "en": "orphan",
+      "kr": "n. (부모가 없는) 고아",
+      "en_ex": "The orphan lives in a care home.",
+      "kr_ex": "고아는 보호 시설에서 살아요."
+    },
+    {
+      "en": "perceive",
+      "kr": "v. 알아차리다, 인지하다",
+      "en_ex": "We perceive colors with our eyes.",
+      "kr_ex": "우리는 눈으로 색을 인지해요."
+    },
+    {
+      "en": "poetic",
+      "kr": "adj. 시의, 시적인",
+      "en_ex": "She writes poetic poems.",
+      "kr_ex": "그녀는 시적인 시를 써요."
+    },
+    {
+      "en": "press",
+      "kr": "v. 누르다, n. 언론",
+      "en_ex": "Please press the button to start.",
+      "kr_ex": "시작하려면 버튼을 눌러 주세요."
+    },
+    {
+      "en": "quantity",
+      "kr": "n. 양, 분량",
+      "en_ex": "The quantity of food is enough.",
+      "kr_ex": "음식 양이 충분해요."
+    },
+    {
+      "en": "reform",
+      "kr": "v. 개혁하다",
+      "en_ex": "The government wants to reform schools.",
+      "kr_ex": "정부는 학교를 개혁하려 해요."
+    },
+    {
+      "en": "riddle",
+      "kr": "n. 수수께끼",
+      "en_ex": "Can you solve the riddle?",
+      "kr_ex": "수수께끼를 풀 수 있나요?"
+    },
+    {
+      "en": "roast",
+      "kr": "v. (오븐·불 위에) 굽다",
+      "en_ex": "We roast marshmallows on the fire.",
+      "kr_ex": "우리는 불에 마시멜로를 구워 먹어요."
+    },
+    {
+      "en": "rotate",
+      "kr": "v. 회전시키다",
+      "en_ex": "The Earth rotates every 24 hours.",
+      "kr_ex": "지구는 24시간마다 한 바퀴 돌아요."
+    },
+    {
+      "en": "ruin",
+      "kr": "v. 망치다, 파괴하다, n. (-s) 유적, 잔해",
+      "en_ex": "The old castle is in ruin.",
+      "kr_ex": "오래된 성은 폐허가 되었어요."
+    },
+    {
+      "en": "shelter",
+      "kr": "n. 피난처, 대피소",
+      "en_ex": "The shelter protects us from rain.",
+      "kr_ex": "대피소는 비를 막아줘요."
+    },
+    {
+      "en": "shrink",
+      "kr": "v. 줄어들다, 오그라들다",
+      "en_ex": "Clothes shrink after washing.",
+      "kr_ex": "옷은 세탁 후 줄어들어요."
+    },
+    {
+      "en": "source",
+      "kr": "n. 근원, 원천",
+      "en_ex": "The source of the river is a lake.",
+      "kr_ex": "강의 근원은 호수예요."
+    },
+    {
+      "en": "spiral",
+      "kr": "adj. 나선형의",
+      "en_ex": "The spiral staircase goes up.",
+      "kr_ex": "나선형 계단이 위로 올라가요."
+    },
+    {
+      "en": "swallow",
+      "kr": "v. 삼키다",
+      "en_ex": "Swallow the medicine with water.",
+      "kr_ex": "약을 물과 함께 삼키세요."
+    }
+  ],
+  "28": [
+    {
+      "en": "analyze",
+      "kr": "v. 분석하다",
+      "en_ex": "We analyze the data carefully.",
+      "kr_ex": "우리는 데이터를 주의 깊게 분석해요."
+    },
+    {
+      "en": "broaden",
+      "kr": "v. 넓히다",
+      "en_ex": "Travel can broaden your mind.",
+      "kr_ex": "여행은 마음을 넓혀 줘요."
+    },
+    {
+      "en": "combine",
+      "kr": "v. 결합하다, 조합하다",
+      "en_ex": "Combine red and blue to make purple.",
+      "kr_ex": "빨강과 파랑을 섞으면 보라색이 돼요."
+    },
+    {
+      "en": "connection",
+      "kr": "n. 연결, 관련",
+      "en_ex": "The connection is very strong.",
+      "kr_ex": "연결이 아주 강해요."
+    },
+    {
+      "en": "cottage",
+      "kr": "n. 작은 집, 오두막집",
+      "en_ex": "They live in a small cottage.",
+      "kr_ex": "그들은 작은 오두막에 살아요."
+    },
+    {
+      "en": "definition",
+      "kr": "n. 정의, 개념, 해상도, 선명도",
+      "en_ex": "Can you give the definition?",
+      "kr_ex": "정의를 설명해 줄 수 있나요?"
+    },
+    {
+      "en": "entertainment",
+      "kr": "n. 오락(거리), 즐거움",
+      "en_ex": "Movies provide entertainment.",
+      "kr_ex": "영화는 오락을 제공해요."
+    },
+    {
+      "en": "exhibit",
+      "kr": "v. 전시하다, 진열하다",
+      "en_ex": "The museum will exhibit new art.",
+      "kr_ex": "박물관에서 새 미술품을 전시할 거예요."
+    },
+    {
+      "en": "extremely",
+      "kr": "adv. 극도로, 극히",
+      "en_ex": "The weather is extremely hot.",
+      "kr_ex": "날씨가 매우 더워요."
+    },
+    {
+      "en": "frequent",
+      "kr": "adj. 자주 일어나는, 빈번한",
+      "en_ex": "Buses are frequent in the city.",
+      "kr_ex": "도시에는 버스가 자주 다녀요."
+    },
+    {
+      "en": "gene",
+      "kr": "n. 유전자",
+      "en_ex": "Genes determine many traits.",
+      "kr_ex": "유전자는 많은 특성을 결정해요."
+    },
+    {
+      "en": "genre",
+      "kr": "n. 장르",
+      "en_ex": "I like the genre of mystery books.",
+      "kr_ex": "나는 미스터리 장르 책을 좋아해요."
+    },
+    {
+      "en": "halt",
+      "kr": "v. 정지하다, 멈추다",
+      "en_ex": "The car came to a halt.",
+      "kr_ex": "자동차가 멈췄어요."
+    },
+    {
+      "en": "honor",
+      "kr": "n. 명예, 영예",
+      "en_ex": "It is an honor to meet you.",
+      "kr_ex": "만나서 영광이에요."
+    },
+    {
+      "en": "horizontal",
+      "kr": "adj. 가로의, 수평의",
+      "en_ex": "The line is horizontal.",
+      "kr_ex": "선은 수평이에요."
+    },
+    {
+      "en": "illegal",
+      "kr": "adj. 불법의",
+      "en_ex": "Stealing is illegal.",
+      "kr_ex": "도둑질은 불법이에요."
+    },
+    {
+      "en": "incredible",
+      "kr": "adj. 믿어지지 않는",
+      "en_ex": "The view was incredible.",
+      "kr_ex": "경치가 믿을 수 없을 만큼 아름다웠어요."
+    },
+    {
+      "en": "insert",
+      "kr": "v. 끼워 넣다",
+      "en_ex": "Please insert your card here.",
+      "kr_ex": "여기에 카드를 넣으세요."
+    },
+    {
+      "en": "invade",
+      "kr": "v. 침략하다, 침입하다",
+      "en_ex": "The army will invade tomorrow.",
+      "kr_ex": "군대가 내일 침략할 거예요."
+    },
+    {
+      "en": "objective",
+      "kr": "n. 목적, 목표",
+      "en_ex": "His objective is to win.",
+      "kr_ex": "그의 목표는 이기는 거예요."
+    },
+    {
+      "en": "obtain",
+      "kr": "v. 얻다, 획득하다",
+      "en_ex": "You can obtain a license here.",
+      "kr_ex": "여기서 면허를 받을 수 있어요."
+    },
+    {
+      "en": "panic",
+      "kr": "v. 겁먹다, 공포에 질리다",
+      "en_ex": "She felt panic during the fire.",
+      "kr_ex": "그녀는 화재 중에 공황 상태에 빠졌어요."
+    },
+    {
+      "en": "polish",
+      "kr": "v. (윤이 나도록) 닦다, n. 광택제",
+      "en_ex": "Polish the table until it shines.",
+      "kr_ex": "테이블을 빛날 때까지 닦으세요."
+    },
+    {
+      "en": "roar",
+      "kr": "v. 으르렁거리다",
+      "en_ex": "The lion’s roar was loud.",
+      "kr_ex": "사자의 포효가 컸어요."
+    },
+    {
+      "en": "sensation",
+      "kr": "n. (신체적) 감각, 느낌, 센세이션, 돌풍",
+      "en_ex": "I felt a strange sensation.",
+      "kr_ex": "나는 이상한 느낌이 들었어요."
+    },
+    {
+      "en": "sensitive",
+      "kr": "adj. 민감한, 예민한",
+      "en_ex": "She is sensitive to noise.",
+      "kr_ex": "그녀는 소음에 민감해요."
+    },
+    {
+      "en": "sleeve",
+      "kr": "n. 소매",
+      "en_ex": "He rolled up his sleeve.",
+      "kr_ex": "그는 소매를 걷었어요."
+    },
+    {
+      "en": "swamp",
+      "kr": "n. 늪, 습지",
+      "en_ex": "The swamp is full of water.",
+      "kr_ex": "늪에는 물이 가득해요."
+    },
+    {
+      "en": "theme",
+      "kr": "n. 주제",
+      "en_ex": "The theme of the story is friendship.",
+      "kr_ex": "이야기의 주제는 우정이에요."
+    },
+    {
+      "en": "trial",
+      "kr": "n. 재판",
+      "en_ex": "The trial lasted for two days.",
+      "kr_ex": "재판은 이틀 동안 계속됐어요."
+    }
+  ],
+  "29": [
+    {
+      "en": "abdomen",
+      "kr": "n. 복부, 배",
+      "en_ex": "The abdomen is part of the body.",
+      "kr_ex": "복부는 몸의 일부예요."
+    },
+    {
+      "en": "alternative",
+      "kr": "n. 대안, 양자택일",
+      "en_ex": "This is an alternative plan.",
+      "kr_ex": "이것은 대체 계획이에요."
+    },
+    {
+      "en": "ambition",
+      "kr": "n. 야망, 열망",
+      "en_ex": "He has the ambition to be a pilot.",
+      "kr_ex": "그는 조종사가 되려는 야망이 있어요."
+    },
+    {
+      "en": "argument",
+      "kr": "n. 논쟁, 주장",
+      "en_ex": "They had an argument about the rules.",
+      "kr_ex": "그들은 규칙에 대해 논쟁했어요."
+    },
+    {
+      "en": "cocoon",
+      "kr": "n. (누에) 고치",
+      "en_ex": "The caterpillar forms a cocoon.",
+      "kr_ex": "애벌레는 고치를 만들어요."
+    },
+    {
+      "en": "conduct",
+      "kr": "n. 행동, 행위",
+      "en_ex": "We conduct experiments in science class.",
+      "kr_ex": "우리는 과학 시간에 실험을 해요."
+    },
+    {
+      "en": "confirm",
+      "kr": "v. 확정하다, 확인하다, 입증하다",
+      "en_ex": "Please confirm your appointment.",
+      "kr_ex": "약속을 확인해 주세요."
+    },
+    {
+      "en": "consume",
+      "kr": "v. 소비하다, 소모하다",
+      "en_ex": "We consume a lot of energy.",
+      "kr_ex": "우리는 많은 에너지를 소비해요."
+    },
+    {
+      "en": "critical",
+      "kr": "adj. 비판의, 비판적인, 중대한, 결정적인",
+      "en_ex": "It is critical to study hard.",
+      "kr_ex": "열심히 공부하는 것이 중요해요."
+    },
+    {
+      "en": "disappoint",
+      "kr": "v. 실망시키다",
+      "en_ex": "She was disappointed with the test result.",
+      "kr_ex": "그녀는 시험 결과에 실망했어요."
+    },
+    {
+      "en": "essay",
+      "kr": "n. (짧은) 글, 수필, 에세이",
+      "en_ex": "I wrote an essay about my summer vacation.",
+      "kr_ex": "나는 여름 방학에 관한 에세이를 썼어요."
+    },
+    {
+      "en": "evidence",
+      "kr": "n. 증거",
+      "en_ex": "There is evidence of his success.",
+      "kr_ex": "그의 성공에 대한 증거가 있어요."
+    },
+    {
+      "en": "examination",
+      "kr": "n. 시험",
+      "en_ex": "The examination starts at nine.",
+      "kr_ex": "시험은 9시에 시작해요."
+    },
+    {
+      "en": "fairly",
+      "kr": "adv. 꽤, 상당히, 공정하게",
+      "en_ex": "She answered fairly in the game.",
+      "kr_ex": "그녀는 게임에서 공정하게 대답했어요."
+    },
+    {
+      "en": "formula",
+      "kr": "n. 수학 공식, 방식",
+      "en_ex": "Use the formula to calculate the answer.",
+      "kr_ex": "공식을 사용해 답을 계산하세요."
+    },
+    {
+      "en": "geography",
+      "kr": "n. 지리(학)",
+      "en_ex": "Geography is my favorite subject.",
+      "kr_ex": "지리는 내가 가장 좋아하는 과목이에요."
+    },
+    {
+      "en": "identity",
+      "kr": "n. 신원, 정체성",
+      "en_ex": "She lost her identity card.",
+      "kr_ex": "그녀는 신분증을 잃어버렸어요."
+    },
+    {
+      "en": "ignore",
+      "kr": "v. 무시하다",
+      "en_ex": "Don’t ignore your health.",
+      "kr_ex": "건강을 무시하지 마세요."
+    },
+    {
+      "en": "indicate",
+      "kr": "v. 가리키다, 나타내다",
+      "en_ex": "The arrow indicates the direction.",
+      "kr_ex": "화살표는 방향을 가리켜요."
+    },
+    {
+      "en": "logic",
+      "kr": "n. 논리, 논리학",
+      "en_ex": "Use logic to solve the problem.",
+      "kr_ex": "문제를 해결하려면 논리를 사용하세요."
+    },
+    {
+      "en": "polite",
+      "kr": "adj. 예의 바른, 공손한",
+      "en_ex": "Be polite to your teachers.",
+      "kr_ex": "선생님께 예의를 갖추세요."
+    },
+    {
+      "en": "profession",
+      "kr": "n. (전문적) 직업, 직종",
+      "en_ex": "Her profession is a doctor.",
+      "kr_ex": "그녀의 직업은 의사예요."
+    },
+    {
+      "en": "profit",
+      "kr": "n. 이익, 이득",
+      "en_ex": "The company made a big profit.",
+      "kr_ex": "회사는 큰 이익을 냈어요."
+    },
+    {
+      "en": "religious",
+      "kr": "adj. 종교의",
+      "en_ex": "Many people follow religious beliefs.",
+      "kr_ex": "많은 사람들이 종교를 믿어요."
+    },
+    {
+      "en": "remote",
+      "kr": "adj. (거리가) 먼, 원격의",
+      "en_ex": "He lives in a remote village.",
+      "kr_ex": "그는 외딴 마을에 살아요."
+    },
+    {
+      "en": "remove",
+      "kr": "v. 제거하다, 없애다",
+      "en_ex": "Please remove your shoes before entering.",
+      "kr_ex": "들어가기 전에 신발을 벗으세요."
+    },
+    {
+      "en": "resource",
+      "kr": "n. 자원, 재원",
+      "en_ex": "Water is an important resource.",
+      "kr_ex": "물은 중요한 자원이예요."
+    },
+    {
+      "en": "stereotype",
+      "kr": "n. 고정 관념",
+      "en_ex": "There is a stereotype about teenagers.",
+      "kr_ex": "십대에 대한 고정관념이 있어요."
+    },
+    {
+      "en": "strap",
+      "kr": "n. 끈, 줄",
+      "en_ex": "Fasten the strap tightly.",
+      "kr_ex": "끈을 꽉 조이세요."
+    },
+    {
+      "en": "sweep",
+      "kr": "v. 쓸다, 청소하다",
+      "en_ex": "I sweep the floor every day.",
+      "kr_ex": "나는 매일 바닥을 쓸어요."
+    }
+  ],
+  "30": [
+    {
+      "en": "absolute",
+      "kr": "adj. 절대적인, 제한이 없는",
+      "en_ex": "He has absolute control over the team.",
+      "kr_ex": "그는 팀을 완전히 통제해요."
+    },
+    {
+      "en": "adapt",
+      "kr": "v. 적응하다, 맞추다",
+      "en_ex": "Animals adapt to their environment.",
+      "kr_ex": "동물들은 환경에 적응해요."
+    },
+    {
+      "en": "alert",
+      "kr": "v. 위험을 알리다",
+      "en_ex": "Be alert for any danger.",
+      "kr_ex": "위험에 대비하세요."
+    },
+    {
+      "en": "annual",
+      "kr": "adj. 매년의, 연례의",
+      "en_ex": "The annual festival is in October.",
+      "kr_ex": "연례 축제는 10월에 열려요."
+    },
+    {
+      "en": "application",
+      "kr": "n. 지원서, 신청서",
+      "en_ex": "I filled out the application form.",
+      "kr_ex": "나는 지원서를 작성했어요."
+    },
+    {
+      "en": "civil",
+      "kr": "adj. 시민의, 민간인의",
+      "en_ex": "The civil rights are important.",
+      "kr_ex": "시민권은 중요해요."
+    },
+    {
+      "en": "consumption",
+      "kr": "n. 소비",
+      "en_ex": "Energy consumption is increasing.",
+      "kr_ex": "에너지 소비가 증가하고 있어요."
+    },
+    {
+      "en": "criminal",
+      "kr": "n. 범죄자",
+      "en_ex": "The criminal was sent to jail.",
+      "kr_ex": "범죄자는 감옥에 갔어요."
+    },
+    {
+      "en": "eligible",
+      "kr": "adj. 자격이 있는",
+      "en_ex": "She is eligible to join the team.",
+      "kr_ex": "그녀는 팀에 가입할 자격이 있어요."
+    },
+    {
+      "en": "evil",
+      "kr": "n. 악, 악행",
+      "en_ex": "The evil villain was caught.",
+      "kr_ex": "악당이 잡혔어요."
+    },
+    {
+      "en": "expose",
+      "kr": "v. 노출하다, 드러내다",
+      "en_ex": "The sun can expose your skin to UV rays.",
+      "kr_ex": "태양은 피부를 자외선에 노출시켜요."
+    },
+    {
+      "en": "frankly",
+      "kr": "adv. 솔직하게",
+      "en_ex": "Frankly, I don’t agree with you.",
+      "kr_ex": "솔직히 말해서, 나는 동의하지 않아요."
+    },
+    {
+      "en": "generation",
+      "kr": "n. 세대",
+      "en_ex": "My generation uses smartphones.",
+      "kr_ex": "내 세대는 스마트폰을 사용해요."
+    },
+    {
+      "en": "intelligence",
+      "kr": "n. 지능, 이해력",
+      "en_ex": "Intelligence is important for solving problems.",
+      "kr_ex": "지능은 문제 해결에 중요해요."
+    },
+    {
+      "en": "interpret",
+      "kr": "v. 해석하다, 통역하다",
+      "en_ex": "We interpret the poem in class.",
+      "kr_ex": "우리는 수업에서 시를 해석해요."
+    },
+    {
+      "en": "mute",
+      "kr": "adj. 무언의, 소리 없는",
+      "en_ex": "The baby was mute and could not speak.",
+      "kr_ex": "그 아기는 말을 못했어요."
+    },
+    {
+      "en": "outstanding",
+      "kr": "adj. 두드러진, 뛰어난",
+      "en_ex": "He did an outstanding job.",
+      "kr_ex": "그는 뛰어난 일을 했어요."
+    },
+    {
+      "en": "pitch",
+      "kr": "v. (천막을) 치다, 던지다, 투구하다",
+      "en_ex": "The baseball player threw a strong pitch.",
+      "kr_ex": "야구 선수는 강한 공을 던졌어요."
+    },
+    {
+      "en": "policy",
+      "kr": "n. 정책, 방침",
+      "en_ex": "The school has a new policy.",
+      "kr_ex": "학교에는 새 정책이 있어요."
+    },
+    {
+      "en": "popularity",
+      "kr": "n. 인기",
+      "en_ex": "The singer gained popularity quickly.",
+      "kr_ex": "그 가수는 빠르게 인기를 얻었어요."
+    },
+    {
+      "en": "promote",
+      "kr": "v. 촉진하다, 홍보하다",
+      "en_ex": "The company promotes healthy living.",
+      "kr_ex": "그 회사는 건강한 생활을 홍보해요."
+    },
+    {
+      "en": "protest",
+      "kr": "v. 항의하다, 저항하다",
+      "en_ex": "They protest against unfair laws.",
+      "kr_ex": "그들은 불공평한 법에 항의해요."
+    },
+    {
+      "en": "robotics",
+      "kr": "n. 로봇 공학",
+      "en_ex": "Robotics is a field of science.",
+      "kr_ex": "로봇공학은 과학 분야예요."
+    },
+    {
+      "en": "salmon",
+      "kr": "n. (물고기) 연어",
+      "en_ex": "We ate grilled salmon for dinner.",
+      "kr_ex": "우리는 저녁으로 연어 구이를 먹었어요."
+    },
+    {
+      "en": "script",
+      "kr": "n. 대본, 원고",
+      "en_ex": "The actors read the script carefully.",
+      "kr_ex": "배우들은 대본을 주의 깊게 읽어요."
+    },
+    {
+      "en": "skeleton",
+      "kr": "n. 뼈대, 골격",
+      "en_ex": "The skeleton supports the body.",
+      "kr_ex": "골격은 몸을 지탱해요."
+    },
+    {
+      "en": "slave",
+      "kr": "n. 노예",
+      "en_ex": "Slaves were freed long ago.",
+      "kr_ex": "노예들은 오래전에 해방되었어요."
+    },
+    {
+      "en": "slippery",
+      "kr": "adj. 미끄러운",
+      "en_ex": "The road is slippery after rain.",
+      "kr_ex": "비 온 후 길이 미끄러워요."
+    },
+    {
+      "en": "tadpole",
+      "kr": "n. 올챙이",
+      "en_ex": "The tadpole will become a frog.",
+      "kr_ex": "올챙이는 개구리가 될 거예요."
+    },
+    {
+      "en": "urgent",
+      "kr": "adj. 긴급한, 응급의",
+      "en_ex": "This is an urgent matter.",
+      "kr_ex": "이것은 긴급한 문제예요."
+    }
+  ]
+}

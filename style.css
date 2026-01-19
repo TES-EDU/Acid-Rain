@@ -106,7 +106,7 @@ body {
 
 /* 모든 화면에서 전체 너비 사용 */
 
-/* 전체 화면 배경 이미지 */
+/* 전체 화면 배경 이미지 - 항상 화면을 채움 */
 #background-image {
     position: absolute;
     top: 0;
@@ -115,20 +115,11 @@ body {
     height: 100%;
     background-image: url('img_data/fresh_city.png');
     background-size: cover;
-    background-position: center bottom;
+    /* 항상 화면을 완전히 채움 */
+    background-position: center center;
     background-repeat: no-repeat;
     z-index: 0;
     transition: filter 0.5s ease;
-}
-
-/* PC에서는 이미지 전체가 보이도록 */
-@media (min-width: 769px) {
-    #background-image {
-        background-size: contain;
-        background-position: center center;
-        background-color: #87CEEB;
-        /* 하늘색 배경으로 빈 공간 채우기 */
-    }
 }
 
 #background-image.destroyed {
@@ -669,6 +660,9 @@ body {
     z-index: 5;
     pointer-events: none;
     overflow: hidden;
+    /* 키보드가 열렸을 때 JavaScript에서 조정 */
+    min-height: 200px;
+    /* 최소 높이 보장 */
 }
 
 /* 떨어지는 단어 */
@@ -950,7 +944,7 @@ body {
     }
 }
 
-/* 가로 모드 대응 */
+/* 가로 모드 대응 (태블릿/모바일 가로 + 키보드 열림) */
 @media (orientation: landscape) and (max-height: 500px) {
     #game-container {
         max-width: none;
@@ -970,5 +964,60 @@ body {
         flex-wrap: wrap;
         max-width: 90%;
         max-height: 95vh;
+    }
+
+    /* 게임 UI 높이 축소 */
+    #game-ui {
+        padding: 8px 15px;
+    }
+
+    /* 입력창 위치 및 크기 조정 */
+    #input-area {
+        top: 45px;
+        padding: 0 10px;
+    }
+
+    #word-input {
+        padding: 10px 15px;
+        font-size: 0.95rem;
+        max-width: 300px;
+    }
+
+    /* 게임 영역 상단 조정 */
+    #play-area {
+        top: 90px;
+        height: calc(100% - 90px);
+    }
+
+    /* 떨어지는 단어 크기 축소 */
+    .falling-word {
+        padding: 6px 12px;
+        font-size: 0.85rem;
+    }
+}
+
+/* 매우 낮은 높이 (키보드로 인해 극단적으로 좁을 때) */
+@media (orientation: landscape) and (max-height: 350px) {
+    #game-ui {
+        padding: 5px 10px;
+    }
+
+    #input-area {
+        top: 35px;
+    }
+
+    #word-input {
+        padding: 8px 12px;
+        font-size: 0.85rem;
+    }
+
+    #play-area {
+        top: 70px;
+        height: calc(100% - 70px);
+    }
+
+    .falling-word {
+        padding: 4px 10px;
+        font-size: 0.75rem;
     }
 }

@@ -56,6 +56,45 @@ async function init() {
 
     // 4. 생명 아이콘 초기화
     updateLifeIcons();
+
+    // 5. 모바일 키보드 대응 (visualViewport API)
+    setupViewportHandler();
+}
+
+/* 모바일 키보드 대응 - visualViewport API */
+let viewportHeight = window.innerHeight;
+
+function setupViewportHandler() {
+    // visualViewport API 지원 확인
+    if (window.visualViewport) {
+        window.visualViewport.addEventListener('resize', handleViewportResize);
+        window.visualViewport.addEventListener('scroll', handleViewportResize);
+    }
+
+    // orientation change 대응
+    window.addEventListener('orientationchange', () => {
+        setTimeout(handleViewportResize, 100);
+    });
+
+    // 초기값 설정
+    handleViewportResize();
+}
+
+function handleViewportResize() {
+    if (window.visualViewport) {
+        viewportHeight = window.visualViewport.height;
+    } else {
+        viewportHeight = window.innerHeight;
+    }
+
+    // 게임 컨테이너 높이 조정 (키보드가 열렸을 때)
+    const gameContainer = document.getElementById('game-container');
+    if (gameContainer && gameRunning) {
+        // 키보드가 열린 경우 높이 조정
+        gameContainer.style.height = viewportHeight + 'px';
+    }
+
+    console.log('Viewport height:', viewportHeight);
 }
 
 /* 데이터 로드 */
@@ -385,8 +424,9 @@ function gameLoop(timestamp) {
     }
 
     // 단어 위치 업데이트
-    const containerHeight = gameContainer.offsetHeight;
-    const groundLevel = containerHeight - 150;
+    // playArea의 실제 높이를 기반으로 바닥 레벨 계산 (키보드 열림 시에도 정확히 계산)
+    const playAreaHeight = playArea.offsetHeight;
+    const groundLevel = playAreaHeight - 50; // 바닥에서 50px 위
 
     for (let i = activeWordsObj.length - 1; i >= 0; i--) {
         const wordObj = activeWordsObj[i];

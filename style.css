@@ -1,21 +1,77 @@
 /* Base Reset & Font */
+/* ============================================
+   폰트 정의
+   ============================================ */
+/* 1. 타이틀용: Cafe24PROUP */
+@font-face {
+    font-family: 'Cafe24Title';
+    src: url('fonts/Cafe24PROUP_v0.2_for Title/Cafe24PROUP.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 2. UI 버튼용: Stardust (기존 PF스타더스트) */
+@font-face {
+    font-family: 'StardustUI';
+    src: url('fonts/Stardust Font _for_UI/PF스타더스트 3.0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'StardustUI';
+    src: url('fonts/Stardust Font _for_UI/PF스타더스트 3.0 Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* 3. 본문/게임용: YPairingFont */
+@font-face {
+    font-family: 'YPairingContent';
+    src: url('fonts/YPairingFont_for_how-to description/YPairingFont_font/TTF/YPairingFont-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YPairingContent';
+    src: url('fonts/YPairingFont_for_how-to description/YPairingFont_font/TTF/YPairingFont-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Outfit:wght@500;700&display=swap');
 
 :root {
-    --primary-color: #4A90E2;
-    --primary-dark: #357ABD;
-    --accent-color: #FF6B6B;
-    --success-color: #4CAF50;
+    /* 색상 팔레트 */
+    --primary-color: #4a90e2;
+    --primary-dark: #357abd;
+    --accent-color: #e74c3c;
+    --success-color: #2ecc71;
     --warning-color: #FFC107;
+    /* Kept from original */
+    --bg-color: #f0f2f5;
     --panel-bg: rgba(255, 255, 255, 0.95);
+    /* Kept from original */
     --glass-bg: rgba(255, 255, 255, 0.85);
-    --text-color: #333333;
-    --text-light: #666666;
-    --font-main: 'Noto Sans KR', sans-serif;
-    --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.15);
-    --shadow-strong: 0 10px 40px rgba(0, 0, 0, 0.25);
-    --border-radius: 16px;
+    --text-color: #2c3e50;
+    --text-light: #7f8c8d;
+
+    /* UI 요소 */
+    --border-radius: 12px;
     --border-radius-sm: 10px;
+    /* Kept from original */
+    --shadow-soft: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-strong: 0 10px 40px rgba(0, 0, 0, 0.25);
+    /* Kept from original */
+
+    /* 폰트 변수 */
+    --font-title: 'Cafe24Title', sans-serif;
+    /* 타이틀 */
+    --font-ui: 'StardustUI', sans-serif;
+    /* 버튼, 짧은 UI */
+    --font-main: 'YPairingContent', 'Noto Sans KR', sans-serif;
+    /* 본문, 단어, 설명 */
 }
 
 * {
@@ -118,42 +174,75 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     height: 100%;
-    padding-bottom: 80px;
-    gap: 30px;
+    gap: 60px;
 }
 
 .title-area {
     text-align: center;
-    padding: 30px 40px;
-    background: var(--glass-bg);
-    backdrop-filter: blur(10px);
-    border-radius: var(--border-radius);
-    box-shadow: var(--shadow-soft);
 }
 
-.game-title {
-    font-size: 3.5rem;
-    font-weight: 900;
-    color: var(--primary-color);
-    text-shadow: 2px 2px 10px rgba(74, 144, 226, 0.3);
-    letter-spacing: -2px;
-    margin-bottom: 5px;
+/* 픽셀아트 스타일 타이틀 (Sephiria 느낌) */
+.pixel-title {
+    font-size: 6rem;
+    /* 크기 증가 */
+    font-weight: normal;
+    /* 굵기 제거 */
+    color: #1a252f;
+    /* 네이비 */
+    /* 은은한 그림자만 */
+    text-shadow:
+        2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 6px;
+    font-family: var(--font-title);
+    margin: 0;
+    padding: 20px 0;
+    background: none;
+    border: none;
+    position: relative;
+    transform: rotate(-2deg);
+    /* 살짝 기울여서 역동적인 느낌 */
 }
 
-.subtitle {
-    font-size: 1.1rem;
-    color: var(--text-light);
-    font-weight: 500;
-}
-
+/* 간단한 메뉴 버튼 (Sephiria 스타일 - 심플한 텍스트) */
 .main-buttons {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 15px;
-    width: 80%;
-    max-width: 280px;
+    /* 간격 조정 */
+}
+
+.menu-btn {
+    background: transparent;
+    border: none;
+    color: #f5f5f5;
+    font-size: 1.8rem;
+    /* 폰트 크기 확대 */
+    font-weight: normal;
+    /* 픽셀 폰트는 normal도 굵음, bold는 뭉개질 수 있음 */
+    font-family: var(--font-ui);
+    /* UI 폰트 변경 */
+    cursor: pointer;
+    padding: 10px 30px;
+    text-shadow:
+        2px 2px 0px #000,
+        0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    letter-spacing: 2px;
+}
+
+.menu-btn:hover {
+    color: #ffd700;
+    transform: scale(1.1);
+    text-shadow:
+        3px 3px 0px #000,
+        0 0 15px rgba(255, 215, 0, 0.7);
+}
+
+.menu-btn:active {
+    transform: scale(0.98);
 }
 
 /* ============================================
@@ -569,13 +658,14 @@ body {
     transform: scale(1.1);
 }
 
-/* 게임 영역 */
+/* 게임 영역 - 입력창 아래부터 화면 끝까지 */
 #play-area {
     position: absolute;
-    top: 70px;
+    top: 130px;
+    /* UI 헤더 + 입력창 아래 */
     left: 0;
     width: 100%;
-    height: calc(100% - 150px);
+    height: calc(100% - 130px);
     z-index: 5;
     pointer-events: none;
     overflow: hidden;
@@ -610,10 +700,11 @@ body {
     animation: pop 0.3s ease-out forwards;
 }
 
-/* 입력 영역 */
+/* 입력 영역 - 상단 배치 (모바일 키보드와 겹침 방지) */
 #input-area {
     position: absolute;
-    bottom: 30px;
+    top: 65px;
+    /* UI 헤더 바로 아래 */
     left: 0;
     width: 100%;
     display: flex;

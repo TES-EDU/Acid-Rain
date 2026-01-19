@@ -7,7 +7,8 @@ const OUTPUT_DIR = path.join(__dirname, 'public', 'data');
 const OUTPUT_JS_PATH = path.join(__dirname, 'words_data.js');
 
 // 처리할 레벨 목록
-const LEVELS = [1, 2, 3, 4, 5, 6];
+// 처리할 레벨 목록
+const LEVELS = [0, 1, 2, 3, 4, 5, 6, 7];
 
 if (!fs.existsSync(OUTPUT_DIR)) {
     fs.mkdirSync(OUTPUT_DIR, { recursive: true });
@@ -17,7 +18,9 @@ function convertAllLevels() {
     const allLevelData = {};
 
     LEVELS.forEach(level => {
-        const excelPath = path.join(WORD_DATA_DIR, `TES_VOCA_Lv${level}.xlsx`);
+        // Lv7은 .xlsm, 나머지는 .xlsx
+        const ext = level === 7 ? 'xlsm' : 'xlsx';
+        const excelPath = path.join(WORD_DATA_DIR, `TES_VOCA_Lv${level}.${ext}`);
 
         if (!fs.existsSync(excelPath)) {
             console.log(`Skip: Lv${level} file not found`);

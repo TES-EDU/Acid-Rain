@@ -20,7 +20,8 @@ let gameLoopId;
 let isEnglishInput = true; // true: 한글 보고 영어 입력, false: 영어 보고 한글 입력
 let currentDifficulty = 'normal';
 let currentLevel = 3;
-let availableLevels = [3]; // 현재 사용 가능한 레벨
+let availableLevels = [0, 1, 2, 3, 4, 5, 6, 7]; // 현재 사용 가능한 레벨
+let deviceMode = 'pc'; // 'pc' 또는 'mobile'
 
 /* DOM 요소 */
 const gameContainer = document.getElementById('game-container');
@@ -87,11 +88,25 @@ function handleViewportResize() {
         viewportHeight = window.innerHeight;
     }
 
-    // 게임 컨테이너 높이 조정 (키보드가 열렸을 때)
+    // 게임 컨테이너 높이 조정
     const gameContainer = document.getElementById('game-container');
-    if (gameContainer && gameRunning) {
-        // 키보드가 열린 경우 높이 조정
-        gameContainer.style.height = viewportHeight + 'px';
+
+    if (gameContainer) {
+        // 모바일 모드일 때 가로/세로 방향 감지 및 클래스 처리
+        if (deviceMode === 'mobile') {
+            const isLandscape = window.innerWidth > window.innerHeight;
+            if (isLandscape) {
+                gameContainer.classList.add('landscape-mode');
+            } else {
+                gameContainer.classList.remove('landscape-mode');
+            }
+        }
+
+        // 게임 중이거나 모바일 모드일 때 높이 조정
+        if (gameRunning || (deviceMode === 'mobile')) {
+            gameContainer.style.height = viewportHeight + 'px';
+            window.scrollTo(0, 0);
+        }
     }
 
     console.log('Viewport height:', viewportHeight);
@@ -226,7 +241,18 @@ function buildUnitGrid() {
 function setupEventListeners() {
     // 메인 메뉴 버튼
     document.getElementById('how-to-btn').addEventListener('click', () => showScreen(howToPlay));
-    document.getElementById('start-btn').addEventListener('click', () => showScreen(settingsScreen));
+    document.getElementById('start-pc-btn').addEventListener('click', () => {
+        deviceMode = 'pc';
+        gameContainer.classList.remove('mobile-mode');
+        gameContainer.classList.add('pc-mode');
+        showScreen(settingsScreen);
+    });
+    document.getElementById('start-mobile-btn').addEventListener('click', () => {
+        deviceMode = 'mobile';
+        gameContainer.classList.remove('pc-mode');
+        gameContainer.classList.add('mobile-mode');
+        showScreen(settingsScreen);
+    });
     document.getElementById('close-howto-btn').addEventListener('click', () => showScreen(mainMenu));
 
     // 설정 화면 버튼
@@ -395,7 +421,7 @@ function setDifficulty(diff) {
     switch (diff) {
         case 'easy':
             baseSpawnRate = 2500;
-            fallSpeedBase = 0.6;
+            fallSpeedBase = 0.4;
             break;
         case 'normal':
             baseSpawnRate = 2000;

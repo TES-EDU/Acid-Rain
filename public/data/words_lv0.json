@@ -1,0 +1,1502 @@
+{
+  "1": [
+    {
+      "en": "bear",
+      "kr": "곰",
+      "en_ex": "I see a bear.",
+      "kr_ex": ""
+    },
+    {
+      "en": "have",
+      "kr": "가지다",
+      "en_ex": "I have a pen.",
+      "kr_ex": ""
+    },
+    {
+      "en": "cap",
+      "kr": "모자",
+      "en_ex": "I have a cap.",
+      "kr_ex": ""
+    },
+    {
+      "en": "frog",
+      "kr": "개구리",
+      "en_ex": "I see a frog.",
+      "kr_ex": ""
+    },
+    {
+      "en": "doll",
+      "kr": "인형",
+      "en_ex": "This is my doll.",
+      "kr_ex": ""
+    },
+    {
+      "en": "home",
+      "kr": "집, 집으로",
+      "en_ex": "I go home.",
+      "kr_ex": ""
+    },
+    {
+      "en": "boy",
+      "kr": "소년, 남자 아이",
+      "en_ex": "The boy runs.",
+      "kr_ex": ""
+    },
+    {
+      "en": "good",
+      "kr": "좋은",
+      "en_ex": "It is good.",
+      "kr_ex": ""
+    }
+  ],
+  "2": [
+    {
+      "en": "milk",
+      "kr": "우유",
+      "en_ex": "I drink milk.",
+      "kr_ex": ""
+    },
+    {
+      "en": "little",
+      "kr": "작은, 적은",
+      "en_ex": "It is little.",
+      "kr_ex": ""
+    },
+    {
+      "en": "ear",
+      "kr": "귀",
+      "en_ex": "This is my ear.",
+      "kr_ex": ""
+    },
+    {
+      "en": "fish",
+      "kr": "물고기, 생선",
+      "en_ex": "I see a fish.",
+      "kr_ex": ""
+    },
+    {
+      "en": "arm",
+      "kr": "팔",
+      "en_ex": "This is my arm.",
+      "kr_ex": ""
+    },
+    {
+      "en": "baby",
+      "kr": "아기",
+      "en_ex": "The baby sleeps.",
+      "kr_ex": ""
+    },
+    {
+      "en": "see",
+      "kr": "~을 보다",
+      "en_ex": "I see you.",
+      "kr_ex": ""
+    },
+    {
+      "en": "play",
+      "kr": "놀다",
+      "en_ex": "I play now.",
+      "kr_ex": ""
+    }
+  ],
+  "3": [
+    {
+      "en": "happy",
+      "kr": "행복한",
+      "en_ex": "I am happy.",
+      "kr_ex": ""
+    },
+    {
+      "en": "egg",
+      "kr": "달걀, 알",
+      "en_ex": "I eat an egg.",
+      "kr_ex": ""
+    },
+    {
+      "en": "leg",
+      "kr": "(신체) 다리",
+      "en_ex": "This is my leg.",
+      "kr_ex": ""
+    },
+    {
+      "en": "cake",
+      "kr": "케이크",
+      "en_ex": "I like cake.",
+      "kr_ex": ""
+    },
+    {
+      "en": "ball",
+      "kr": "공",
+      "en_ex": "I have a ball.",
+      "kr_ex": ""
+    },
+    {
+      "en": "go",
+      "kr": "(다른 곳으로) 가다",
+      "en_ex": "I go to school.",
+      "kr_ex": ""
+    },
+    {
+      "en": "nose",
+      "kr": "코",
+      "en_ex": "This is my nose.",
+      "kr_ex": ""
+    },
+    {
+      "en": "flower",
+      "kr": "꽃",
+      "en_ex": "I see a flower.",
+      "kr_ex": ""
+    }
+  ],
+  "4": [
+    {
+      "en": "chair",
+      "kr": "의자",
+      "en_ex": "I sit on a chair.",
+      "kr_ex": ""
+    },
+    {
+      "en": "say",
+      "kr": "말하다",
+      "en_ex": "I say hello.",
+      "kr_ex": ""
+    },
+    {
+      "en": "name",
+      "kr": "이름",
+      "en_ex": "My name is Tom.",
+      "kr_ex": ""
+    },
+    {
+      "en": "book",
+      "kr": "책",
+      "en_ex": "I read a book.",
+      "kr_ex": ""
+    },
+    {
+      "en": "eye",
+      "kr": "눈",
+      "en_ex": "This is my eye.",
+      "kr_ex": ""
+    },
+    {
+      "en": "bad",
+      "kr": "나쁜, 안 좋은",
+      "en_ex": "It is bad.",
+      "kr_ex": ""
+    },
+    {
+      "en": "dish",
+      "kr": "접시",
+      "en_ex": "I wash the dish.",
+      "kr_ex": ""
+    },
+    {
+      "en": "girl",
+      "kr": "소녀, 여자 아이",
+      "en_ex": "The girl smiles.",
+      "kr_ex": ""
+    }
+  ],
+  "5": [
+    {
+      "en": "kite",
+      "kr": "연",
+      "en_ex": "I fly a kite.",
+      "kr_ex": ""
+    },
+    {
+      "en": "boat",
+      "kr": "(작은) 배",
+      "en_ex": "I see a boat.",
+      "kr_ex": ""
+    },
+    {
+      "en": "cup",
+      "kr": "컵, 잔",
+      "en_ex": "I have a cup.",
+      "kr_ex": ""
+    },
+    {
+      "en": "ant",
+      "kr": "개미",
+      "en_ex": "I see an ant.",
+      "kr_ex": ""
+    },
+    {
+      "en": "hair",
+      "kr": "머리카락",
+      "en_ex": "My hair is long.",
+      "kr_ex": ""
+    },
+    {
+      "en": "smell",
+      "kr": "냄새가 나다",
+      "en_ex": "I smell food.",
+      "kr_ex": ""
+    },
+    {
+      "en": "dress",
+      "kr": "드레스, 옷을 입다",
+      "en_ex": "I wear a dress.",
+      "kr_ex": ""
+    },
+    {
+      "en": "read",
+      "kr": "읽다",
+      "en_ex": "I read a book.",
+      "kr_ex": ""
+    }
+  ],
+  "6": [
+    {
+      "en": "water",
+      "kr": "물, 물을 주다",
+      "en_ex": "I drink water.",
+      "kr_ex": ""
+    },
+    {
+      "en": "bread",
+      "kr": "빵",
+      "en_ex": "I eat bread.",
+      "kr_ex": ""
+    },
+    {
+      "en": "apple",
+      "kr": "사과",
+      "en_ex": "I eat an apple.",
+      "kr_ex": ""
+    },
+    {
+      "en": "car",
+      "kr": "승용차",
+      "en_ex": "I see a car.",
+      "kr_ex": ""
+    },
+    {
+      "en": "make",
+      "kr": "만들다",
+      "en_ex": "I make a cake.",
+      "kr_ex": ""
+    },
+    {
+      "en": "hot",
+      "kr": "뜨거운, 더운",
+      "en_ex": "It is hot.",
+      "kr_ex": ""
+    },
+    {
+      "en": "desk",
+      "kr": "책상",
+      "en_ex": "The desk is big.",
+      "kr_ex": ""
+    },
+    {
+      "en": "bird",
+      "kr": "새",
+      "en_ex": "I see a bird.",
+      "kr_ex": ""
+    }
+  ],
+  "7": [
+    {
+      "en": "bag",
+      "kr": "가방",
+      "en_ex": "I have a bag.",
+      "kr_ex": ""
+    },
+    {
+      "en": "bee",
+      "kr": "(곤충) 벌",
+      "en_ex": "I see a bee.",
+      "kr_ex": ""
+    },
+    {
+      "en": "look",
+      "kr": "보다",
+      "en_ex": "I look at you.",
+      "kr_ex": ""
+    },
+    {
+      "en": "face",
+      "kr": "얼굴",
+      "en_ex": "This is my face.",
+      "kr_ex": ""
+    },
+    {
+      "en": "small",
+      "kr": "작은, 적은",
+      "en_ex": "It is small.",
+      "kr_ex": ""
+    },
+    {
+      "en": "father",
+      "kr": "아버지",
+      "en_ex": "My father works.",
+      "kr_ex": ""
+    },
+    {
+      "en": "sock",
+      "kr": "양말 한 짝",
+      "en_ex": "I have a sock.",
+      "kr_ex": ""
+    },
+    {
+      "en": "hand",
+      "kr": "손",
+      "en_ex": "This is my hand.",
+      "kr_ex": ""
+    }
+  ],
+  "8": [
+    {
+      "en": "meet",
+      "kr": "만나다",
+      "en_ex": "I meet my friend.",
+      "kr_ex": ""
+    },
+    {
+      "en": "fly",
+      "kr": "날다",
+      "en_ex": "The bird flies.",
+      "kr_ex": ""
+    },
+    {
+      "en": "leaf",
+      "kr": "나뭇잎",
+      "en_ex": "I see a leaf.",
+      "kr_ex": ""
+    },
+    {
+      "en": "bed",
+      "kr": "침대",
+      "en_ex": "I sleep in bed.",
+      "kr_ex": ""
+    },
+    {
+      "en": "mother",
+      "kr": "어머니",
+      "en_ex": "My mother cooks.",
+      "kr_ex": ""
+    },
+    {
+      "en": "time",
+      "kr": "시간",
+      "en_ex": "It is time.",
+      "kr_ex": ""
+    },
+    {
+      "en": "glove",
+      "kr": "장갑 한 짝",
+      "en_ex": "I have a glove.",
+      "kr_ex": ""
+    },
+    {
+      "en": "tall",
+      "kr": "키가 큰, 높은",
+      "en_ex": "The boy is tall.",
+      "kr_ex": ""
+    }
+  ],
+  "9": [
+    {
+      "en": "eat",
+      "kr": "먹다",
+      "en_ex": "I eat rice.",
+      "kr_ex": ""
+    },
+    {
+      "en": "hungry",
+      "kr": "배고픈",
+      "en_ex": "I am hungry.",
+      "kr_ex": ""
+    },
+    {
+      "en": "fork",
+      "kr": "포크",
+      "en_ex": "I use a fork.",
+      "kr_ex": ""
+    },
+    {
+      "en": "wait",
+      "kr": "기다리다",
+      "en_ex": "I wait here.",
+      "kr_ex": ""
+    },
+    {
+      "en": "give",
+      "kr": "주다",
+      "en_ex": "I give you a pen.",
+      "kr_ex": ""
+    },
+    {
+      "en": "door",
+      "kr": "문",
+      "en_ex": "The door is open.",
+      "kr_ex": ""
+    },
+    {
+      "en": "knee",
+      "kr": "무릎",
+      "en_ex": "This is my knee.",
+      "kr_ex": ""
+    },
+    {
+      "en": "brother",
+      "kr": "형, 오빠, 남동생",
+      "en_ex": "My brother runs.",
+      "kr_ex": ""
+    }
+  ],
+  "10": [
+    {
+      "en": "cute",
+      "kr": "귀여운",
+      "en_ex": "It is cute.",
+      "kr_ex": ""
+    },
+    {
+      "en": "work",
+      "kr": "일하다",
+      "en_ex": "I work now.",
+      "kr_ex": ""
+    },
+    {
+      "en": "neck",
+      "kr": "목",
+      "en_ex": "This is my neck.",
+      "kr_ex": ""
+    },
+    {
+      "en": "help",
+      "kr": "돕다",
+      "en_ex": "I help you.",
+      "kr_ex": ""
+    },
+    {
+      "en": "song",
+      "kr": "노래",
+      "en_ex": "I sing a song.",
+      "kr_ex": ""
+    },
+    {
+      "en": "tree",
+      "kr": "나무",
+      "en_ex": "I see a tree.",
+      "kr_ex": ""
+    },
+    {
+      "en": "sad",
+      "kr": "슬픈",
+      "en_ex": "I am sad.",
+      "kr_ex": ""
+    },
+    {
+      "en": "friend",
+      "kr": "친구",
+      "en_ex": "My friend plays.",
+      "kr_ex": ""
+    }
+  ],
+  "11": [
+    {
+      "en": "snowy",
+      "kr": "눈이 내리는",
+      "en_ex": "It is snowy.",
+      "kr_ex": ""
+    },
+    {
+      "en": "hive",
+      "kr": "벌집",
+      "en_ex": "I see a hive.",
+      "kr_ex": ""
+    },
+    {
+      "en": "bus",
+      "kr": "버스",
+      "en_ex": "I ride a bus.",
+      "kr_ex": ""
+    },
+    {
+      "en": "bowl",
+      "kr": "(우묵한) 그릇",
+      "en_ex": "I have a bowl.",
+      "kr_ex": ""
+    },
+    {
+      "en": "find",
+      "kr": "~을 찾다",
+      "en_ex": "I find my hat.",
+      "kr_ex": ""
+    },
+    {
+      "en": "sing",
+      "kr": "노래하다",
+      "en_ex": "I sing a song.",
+      "kr_ex": ""
+    },
+    {
+      "en": "house",
+      "kr": "집",
+      "en_ex": "This is my house.",
+      "kr_ex": ""
+    },
+    {
+      "en": "white",
+      "kr": "흰색의, 흰색",
+      "en_ex": "It is white.",
+      "kr_ex": ""
+    }
+  ],
+  "12": [
+    {
+      "en": "cry",
+      "kr": "울다",
+      "en_ex": "I cry.",
+      "kr_ex": ""
+    },
+    {
+      "en": "funny",
+      "kr": "웃기는",
+      "en_ex": "It is funny.",
+      "kr_ex": ""
+    },
+    {
+      "en": "green",
+      "kr": "녹색의, 녹색",
+      "en_ex": "It is green.",
+      "kr_ex": ""
+    },
+    {
+      "en": "hat",
+      "kr": "모자",
+      "en_ex": "I wear a hat.",
+      "kr_ex": ""
+    },
+    {
+      "en": "teeth",
+      "kr": "이, 치아",
+      "en_ex": "I brush my teeth.",
+      "kr_ex": ""
+    },
+    {
+      "en": "watch",
+      "kr": "시계, 보다",
+      "en_ex": "I watch TV.",
+      "kr_ex": ""
+    },
+    {
+      "en": "sister",
+      "kr": "언니, 누나, 여동생",
+      "en_ex": "My sister runs.",
+      "kr_ex": ""
+    },
+    {
+      "en": "ride",
+      "kr": "~을 타다",
+      "en_ex": "I ride a bike.",
+      "kr_ex": ""
+    }
+  ],
+  "13": [
+    {
+      "en": "big",
+      "kr": "큰",
+      "en_ex": "It is big.",
+      "kr_ex": ""
+    },
+    {
+      "en": "zoo",
+      "kr": "동물원",
+      "en_ex": "I go to the zoo.",
+      "kr_ex": ""
+    },
+    {
+      "en": "mouth",
+      "kr": "입",
+      "en_ex": "This is my mouth.",
+      "kr_ex": ""
+    },
+    {
+      "en": "run",
+      "kr": "달리다",
+      "en_ex": "I run fast.",
+      "kr_ex": ""
+    },
+    {
+      "en": "rainy",
+      "kr": "비가 오는",
+      "en_ex": "It is rainy.",
+      "kr_ex": ""
+    },
+    {
+      "en": "card",
+      "kr": "카드",
+      "en_ex": "I have a card.",
+      "kr_ex": ""
+    },
+    {
+      "en": "tiger",
+      "kr": "호랑이",
+      "en_ex": "I see a tiger.",
+      "kr_ex": ""
+    },
+    {
+      "en": "write",
+      "kr": "(글자, 숫자를) 쓰다",
+      "en_ex": "I write my name.",
+      "kr_ex": ""
+    }
+  ],
+  "14": [
+    {
+      "en": "ship",
+      "kr": "(큰) 배",
+      "en_ex": "I see a ship.",
+      "kr_ex": ""
+    },
+    {
+      "en": "sit",
+      "kr": "앉다",
+      "en_ex": "I sit down.",
+      "kr_ex": ""
+    },
+    {
+      "en": "letter",
+      "kr": "편지",
+      "en_ex": "I write a letter.",
+      "kr_ex": ""
+    },
+    {
+      "en": "love",
+      "kr": "사랑, 사랑하다",
+      "en_ex": "I love you.",
+      "kr_ex": ""
+    },
+    {
+      "en": "short",
+      "kr": "짧은, 키가 작은",
+      "en_ex": "It is short.",
+      "kr_ex": ""
+    },
+    {
+      "en": "cold",
+      "kr": "추운, 차가운",
+      "en_ex": "It is cold.",
+      "kr_ex": ""
+    },
+    {
+      "en": "towel",
+      "kr": "수건",
+      "en_ex": "I use a towel.",
+      "kr_ex": ""
+    },
+    {
+      "en": "hug",
+      "kr": "껴안다",
+      "en_ex": "I hug you.",
+      "kr_ex": ""
+    }
+  ],
+  "15": [
+    {
+      "en": "foot",
+      "kr": "발",
+      "en_ex": "This is my foot.",
+      "kr_ex": ""
+    },
+    {
+      "en": "sun",
+      "kr": "해, 태양",
+      "en_ex": "The sun is hot.",
+      "kr_ex": ""
+    },
+    {
+      "en": "duck",
+      "kr": "오리",
+      "en_ex": "I see a duck.",
+      "kr_ex": ""
+    },
+    {
+      "en": "table",
+      "kr": "식탁",
+      "en_ex": "The table is big.",
+      "kr_ex": ""
+    },
+    {
+      "en": "garden",
+      "kr": "정원",
+      "en_ex": "I play in the garden.",
+      "kr_ex": ""
+    },
+    {
+      "en": "walk",
+      "kr": "걷다",
+      "en_ex": "I walk home.",
+      "kr_ex": ""
+    },
+    {
+      "en": "elephant",
+      "kr": "코끼리",
+      "en_ex": "I see an elephant.",
+      "kr_ex": ""
+    },
+    {
+      "en": "like",
+      "kr": "좋아하다",
+      "en_ex": "I like apples.",
+      "kr_ex": ""
+    }
+  ],
+  "16": [
+    {
+      "en": "come",
+      "kr": "오다",
+      "en_ex": "Come here.",
+      "kr_ex": ""
+    },
+    {
+      "en": "shoe",
+      "kr": "신발 한 짝",
+      "en_ex": "I wear a shoe.",
+      "kr_ex": ""
+    },
+    {
+      "en": "full",
+      "kr": "가득한",
+      "en_ex": "The box is full.",
+      "kr_ex": ""
+    },
+    {
+      "en": "map",
+      "kr": "지도",
+      "en_ex": "I see a map.",
+      "kr_ex": ""
+    },
+    {
+      "en": "bean",
+      "kr": "콩",
+      "en_ex": "I eat beans.",
+      "kr_ex": ""
+    },
+    {
+      "en": "pencil",
+      "kr": "연필",
+      "en_ex": "I have a pencil.",
+      "kr_ex": ""
+    },
+    {
+      "en": "park",
+      "kr": "공원",
+      "en_ex": "I go to the park.",
+      "kr_ex": ""
+    },
+    {
+      "en": "train",
+      "kr": "기차",
+      "en_ex": "I see a train.",
+      "kr_ex": ""
+    }
+  ],
+  "17": [
+    {
+      "en": "feed",
+      "kr": "먹이다, 먹이를 주다",
+      "en_ex": "I feed the dog.",
+      "kr_ex": ""
+    },
+    {
+      "en": "fast",
+      "kr": "빠른, 빨리",
+      "en_ex": "It is fast.",
+      "kr_ex": ""
+    },
+    {
+      "en": "spoon",
+      "kr": "숟가락",
+      "en_ex": "I use a spoon.",
+      "kr_ex": ""
+    },
+    {
+      "en": "bicycle",
+      "kr": "자전거",
+      "en_ex": "I ride a bike.",
+      "kr_ex": ""
+    },
+    {
+      "en": "lip",
+      "kr": "입술",
+      "en_ex": "This is my lip.",
+      "kr_ex": ""
+    },
+    {
+      "en": "tail",
+      "kr": "꼬리",
+      "en_ex": "The dog has a tail.",
+      "kr_ex": ""
+    },
+    {
+      "en": "shop",
+      "kr": "가게, 물건을 사다",
+      "en_ex": "I go to a shop.",
+      "kr_ex": ""
+    },
+    {
+      "en": "wear",
+      "kr": "(옷 등을) 입다",
+      "en_ex": "I wear a hat.",
+      "kr_ex": ""
+    }
+  ],
+  "18": [
+    {
+      "en": "umbrella",
+      "kr": "우산",
+      "en_ex": "I use an umbrella.",
+      "kr_ex": ""
+    },
+    {
+      "en": "nice",
+      "kr": "좋은, 멋진",
+      "en_ex": "It is nice.",
+      "kr_ex": ""
+    },
+    {
+      "en": "wash",
+      "kr": "씻다",
+      "en_ex": "I wash my hands.",
+      "kr_ex": ""
+    },
+    {
+      "en": "man",
+      "kr": "남자",
+      "en_ex": "The man walks.",
+      "kr_ex": ""
+    },
+    {
+      "en": "banana",
+      "kr": "바나나",
+      "en_ex": "I eat a banana.",
+      "kr_ex": ""
+    },
+    {
+      "en": "slow",
+      "kr": "느린",
+      "en_ex": "It is slow.",
+      "kr_ex": ""
+    },
+    {
+      "en": "school",
+      "kr": "학교",
+      "en_ex": "I go to school.",
+      "kr_ex": ""
+    },
+    {
+      "en": "mouse",
+      "kr": "쥐",
+      "en_ex": "I see a mouse.",
+      "kr_ex": ""
+    }
+  ],
+  "19": [
+    {
+      "en": "wake",
+      "kr": "잠에서 깨다",
+      "en_ex": "I wake up.",
+      "kr_ex": ""
+    },
+    {
+      "en": "horse",
+      "kr": "(동물) 말",
+      "en_ex": "I see a horse.",
+      "kr_ex": ""
+    },
+    {
+      "en": "night",
+      "kr": "밤, 야간",
+      "en_ex": "It is night.",
+      "kr_ex": ""
+    },
+    {
+      "en": "star",
+      "kr": "별",
+      "en_ex": "I see a star.",
+      "kr_ex": ""
+    },
+    {
+      "en": "sea",
+      "kr": "바다",
+      "en_ex": "I see the sea.",
+      "kr_ex": ""
+    },
+    {
+      "en": "cook",
+      "kr": "요리하다, 요리사",
+      "en_ex": "I cook rice.",
+      "kr_ex": ""
+    },
+    {
+      "en": "long",
+      "kr": "(길이, 거리) 긴",
+      "en_ex": "It is long.",
+      "kr_ex": ""
+    },
+    {
+      "en": "truck",
+      "kr": "트럭",
+      "en_ex": "I see a truck.",
+      "kr_ex": ""
+    }
+  ],
+  "20": [
+    {
+      "en": "buy",
+      "kr": "사다",
+      "en_ex": "I buy milk.",
+      "kr_ex": ""
+    },
+    {
+      "en": "moon",
+      "kr": "달",
+      "en_ex": "I see the moon.",
+      "kr_ex": ""
+    },
+    {
+      "en": "new",
+      "kr": "새로운",
+      "en_ex": "It is new.",
+      "kr_ex": ""
+    },
+    {
+      "en": "farm",
+      "kr": "농장",
+      "en_ex": "I go to a farm.",
+      "kr_ex": ""
+    },
+    {
+      "en": "live",
+      "kr": "살다",
+      "en_ex": "I live here.",
+      "kr_ex": ""
+    },
+    {
+      "en": "toy",
+      "kr": "장난감",
+      "en_ex": "I have a toy.",
+      "kr_ex": ""
+    },
+    {
+      "en": "glasses",
+      "kr": "안경",
+      "en_ex": "I wear glasses.",
+      "kr_ex": ""
+    },
+    {
+      "en": "people",
+      "kr": "사람들",
+      "en_ex": "I see people.",
+      "kr_ex": ""
+    }
+  ],
+  "21": [
+    {
+      "en": "soap",
+      "kr": "비누",
+      "en_ex": "I use soap.",
+      "kr_ex": ""
+    },
+    {
+      "en": "airplane",
+      "kr": "비행기",
+      "en_ex": "I see an airplane.",
+      "kr_ex": ""
+    },
+    {
+      "en": "large",
+      "kr": "큰",
+      "en_ex": "It is large.",
+      "kr_ex": ""
+    },
+    {
+      "en": "gift",
+      "kr": "선물",
+      "en_ex": "I get a gift.",
+      "kr_ex": ""
+    },
+    {
+      "en": "use",
+      "kr": "사용하다",
+      "en_ex": "I use a pencil.",
+      "kr_ex": ""
+    },
+    {
+      "en": "finger",
+      "kr": "손가락",
+      "en_ex": "This is my finger.",
+      "kr_ex": ""
+    },
+    {
+      "en": "cloud",
+      "kr": "구름",
+      "en_ex": "I see a cloud.",
+      "kr_ex": ""
+    },
+    {
+      "en": "cut",
+      "kr": "자르다",
+      "en_ex": "I cut paper.",
+      "kr_ex": ""
+    }
+  ],
+  "22": [
+    {
+      "en": "lion",
+      "kr": "사자",
+      "en_ex": "I see a lion.",
+      "kr_ex": ""
+    },
+    {
+      "en": "pillow",
+      "kr": "베개",
+      "en_ex": "I sleep on a pillow.",
+      "kr_ex": ""
+    },
+    {
+      "en": "pen",
+      "kr": "펜",
+      "en_ex": "I have a pen.",
+      "kr_ex": ""
+    },
+    {
+      "en": "can",
+      "kr": "캔, 통조림",
+      "en_ex": "I open a can.",
+      "kr_ex": ""
+    },
+    {
+      "en": "sleep",
+      "kr": "(잠을) 자다",
+      "en_ex": "I sleep well.",
+      "kr_ex": ""
+    },
+    {
+      "en": "old",
+      "kr": "나이 많은",
+      "en_ex": "The man is old.",
+      "kr_ex": ""
+    },
+    {
+      "en": "bedroom",
+      "kr": "침실",
+      "en_ex": "This is my bedroom.",
+      "kr_ex": ""
+    },
+    {
+      "en": "tomato",
+      "kr": "토마토",
+      "en_ex": "I eat a tomato.",
+      "kr_ex": ""
+    }
+  ],
+  "23": [
+    {
+      "en": "onion",
+      "kr": "양파",
+      "en_ex": "I eat an onion.",
+      "kr_ex": ""
+    },
+    {
+      "en": "sheep",
+      "kr": "양",
+      "en_ex": "I see a sheep.",
+      "kr_ex": ""
+    },
+    {
+      "en": "balloon",
+      "kr": "풍선",
+      "en_ex": "I have a balloon.",
+      "kr_ex": ""
+    },
+    {
+      "en": "shirt",
+      "kr": "셔츠",
+      "en_ex": "I wear a shirt.",
+      "kr_ex": ""
+    },
+    {
+      "en": "plant",
+      "kr": "식물, (씨앗 등을) 심다",
+      "en_ex": "I plant a tree.",
+      "kr_ex": ""
+    },
+    {
+      "en": "swim",
+      "kr": "수영하다",
+      "en_ex": "I can swim.",
+      "kr_ex": ""
+    },
+    {
+      "en": "party",
+      "kr": "파티",
+      "en_ex": "I go to a party.",
+      "kr_ex": ""
+    },
+    {
+      "en": "boot",
+      "kr": "부츠 한 짝",
+      "en_ex": "I wear a boot.",
+      "kr_ex": ""
+    }
+  ],
+  "24": [
+    {
+      "en": "class",
+      "kr": "학급, 수업",
+      "en_ex": "I am in class.",
+      "kr_ex": ""
+    },
+    {
+      "en": "jump",
+      "kr": "뛰다, 점프하다",
+      "en_ex": "I jump high.",
+      "kr_ex": ""
+    },
+    {
+      "en": "fire",
+      "kr": "불",
+      "en_ex": "I see fire.",
+      "kr_ex": ""
+    },
+    {
+      "en": "beetle",
+      "kr": "딱정벌레",
+      "en_ex": "I see a beetle.",
+      "kr_ex": ""
+    },
+    {
+      "en": "black",
+      "kr": "검은, 검은색",
+      "en_ex": "It is black.",
+      "kr_ex": ""
+    },
+    {
+      "en": "roll",
+      "kr": "구르다, 굴리다",
+      "en_ex": "The ball rolls.",
+      "kr_ex": ""
+    },
+    {
+      "en": "floor",
+      "kr": "바닥",
+      "en_ex": "The floor is clean.",
+      "kr_ex": ""
+    },
+    {
+      "en": "pretty",
+      "kr": "예쁜",
+      "en_ex": "It is pretty.",
+      "kr_ex": ""
+    }
+  ],
+  "25": [
+    {
+      "en": "pizza",
+      "kr": "피자",
+      "en_ex": "I eat pizza.",
+      "kr_ex": ""
+    },
+    {
+      "en": "lunch",
+      "kr": "점심",
+      "en_ex": "I eat lunch.",
+      "kr_ex": ""
+    },
+    {
+      "en": "get",
+      "kr": "받다, 얻다",
+      "en_ex": "I get a toy.",
+      "kr_ex": ""
+    },
+    {
+      "en": "bounce",
+      "kr": "튀다, 튀기다",
+      "en_ex": "The ball bounces.",
+      "kr_ex": ""
+    },
+    {
+      "en": "angry",
+      "kr": "화난",
+      "en_ex": "I am angry.",
+      "kr_ex": ""
+    },
+    {
+      "en": "dry",
+      "kr": "마른, 말리다",
+      "en_ex": "It is dry.",
+      "kr_ex": ""
+    },
+    {
+      "en": "sand",
+      "kr": "모래",
+      "en_ex": "I play with sand.",
+      "kr_ex": ""
+    },
+    {
+      "en": "beach",
+      "kr": "해변",
+      "en_ex": "I go to the beach.",
+      "kr_ex": ""
+    }
+  ],
+  "26": [
+    {
+      "en": "pool",
+      "kr": "수영장",
+      "en_ex": "I swim in the pool.",
+      "kr_ex": ""
+    },
+    {
+      "en": "zebra",
+      "kr": "얼룩말",
+      "en_ex": "I see a zebra.",
+      "kr_ex": ""
+    },
+    {
+      "en": "glass",
+      "kr": "유리잔, 유리",
+      "en_ex": "I drink water.",
+      "kr_ex": ""
+    },
+    {
+      "en": "catch",
+      "kr": "~을 잡다",
+      "en_ex": "I catch the ball.",
+      "kr_ex": ""
+    },
+    {
+      "en": "candy",
+      "kr": "사탕",
+      "en_ex": "I eat candy.",
+      "kr_ex": ""
+    },
+    {
+      "en": "mask",
+      "kr": "마스크, 가면",
+      "en_ex": "I wear a mask.",
+      "kr_ex": ""
+    },
+    {
+      "en": "taste",
+      "kr": "맛, 맛이 나다",
+      "en_ex": "It tastes good.",
+      "kr_ex": ""
+    },
+    {
+      "en": "sofa",
+      "kr": "소파",
+      "en_ex": "I sit on the sofa.",
+      "kr_ex": ""
+    }
+  ],
+  "27": [
+    {
+      "en": "lamp",
+      "kr": "램프, 등",
+      "en_ex": "The lamp is on.",
+      "kr_ex": ""
+    },
+    {
+      "en": "dinner",
+      "kr": "(잘 차린) 식사, 정식",
+      "en_ex": "I eat dinner.",
+      "kr_ex": ""
+    },
+    {
+      "en": "mirror",
+      "kr": "거울",
+      "en_ex": "I see me.",
+      "kr_ex": ""
+    },
+    {
+      "en": "hit",
+      "kr": "때리다, 치다",
+      "en_ex": "I hit the ball.",
+      "kr_ex": ""
+    },
+    {
+      "en": "meat",
+      "kr": "고기",
+      "en_ex": "I eat meat.",
+      "kr_ex": ""
+    },
+    {
+      "en": "dance",
+      "kr": "춤, 춤을 추다",
+      "en_ex": "I dance.",
+      "kr_ex": ""
+    },
+    {
+      "en": "down",
+      "kr": "아래로",
+      "en_ex": "Sit down.",
+      "kr_ex": ""
+    },
+    {
+      "en": "blow",
+      "kr": "(입으로) 불다",
+      "en_ex": "I blow air.",
+      "kr_ex": ""
+    }
+  ],
+  "28": [
+    {
+      "en": "throw",
+      "kr": "던지다",
+      "en_ex": "I throw the ball.",
+      "kr_ex": ""
+    },
+    {
+      "en": "close",
+      "kr": "닫다, 가까운",
+      "en_ex": "Close the door.",
+      "kr_ex": ""
+    },
+    {
+      "en": "ice",
+      "kr": "얼음",
+      "en_ex": "I see ice.",
+      "kr_ex": ""
+    },
+    {
+      "en": "clock",
+      "kr": "시계",
+      "en_ex": "I see the clock.",
+      "kr_ex": ""
+    },
+    {
+      "en": "helmet",
+      "kr": "헬멧",
+      "en_ex": "I wear a helmet.",
+      "kr_ex": ""
+    },
+    {
+      "en": "chin",
+      "kr": "턱",
+      "en_ex": "This is my chin.",
+      "kr_ex": ""
+    },
+    {
+      "en": "fox",
+      "kr": "여우",
+      "en_ex": "I see a fox.",
+      "kr_ex": ""
+    },
+    {
+      "en": "kick",
+      "kr": "(발로) 차다",
+      "en_ex": "I kick the ball.",
+      "kr_ex": ""
+    }
+  ],
+  "29": [
+    {
+      "en": "drink",
+      "kr": "음료, 마시다",
+      "en_ex": "I drink water.",
+      "kr_ex": ""
+    },
+    {
+      "en": "pet",
+      "kr": "애완동물",
+      "en_ex": "I have a pet.",
+      "kr_ex": ""
+    },
+    {
+      "en": "juice",
+      "kr": "주스",
+      "en_ex": "I drink juice.",
+      "kr_ex": ""
+    },
+    {
+      "en": "farmer",
+      "kr": "농부",
+      "en_ex": "The farmer works.",
+      "kr_ex": ""
+    },
+    {
+      "en": "carrot",
+      "kr": "당근",
+      "en_ex": "I eat a carrot.",
+      "kr_ex": ""
+    },
+    {
+      "en": "pull",
+      "kr": "당기다",
+      "en_ex": "I pull the door.",
+      "kr_ex": ""
+    },
+    {
+      "en": "monster",
+      "kr": "괴물",
+      "en_ex": "I see a monster.",
+      "kr_ex": ""
+    },
+    {
+      "en": "skirt",
+      "kr": "치마",
+      "en_ex": "I wear a skirt.",
+      "kr_ex": ""
+    }
+  ],
+  "30": [
+    {
+      "en": "box",
+      "kr": "상자",
+      "en_ex": "I have a box.",
+      "kr_ex": ""
+    },
+    {
+      "en": "roof",
+      "kr": "지붕",
+      "en_ex": "The roof is high.",
+      "kr_ex": ""
+    },
+    {
+      "en": "monkey",
+      "kr": "원숭이",
+      "en_ex": "I see a monkey.",
+      "kr_ex": ""
+    },
+    {
+      "en": "pants",
+      "kr": "바지",
+      "en_ex": "I wear pants.",
+      "kr_ex": ""
+    },
+    {
+      "en": "blanket",
+      "kr": "담요",
+      "en_ex": "I use a blanket.",
+      "kr_ex": ""
+    },
+    {
+      "en": "draw",
+      "kr": "그리다",
+      "en_ex": "I draw a cat.",
+      "kr_ex": ""
+    },
+    {
+      "en": "red",
+      "kr": "빨간, 빨간색",
+      "en_ex": "It is red.",
+      "kr_ex": ""
+    },
+    {
+      "en": "closet",
+      "kr": "옷장",
+      "en_ex": "The closet is big.",
+      "kr_ex": ""
+    }
+  ]
+}

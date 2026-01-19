@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Outfit:wght@500;700&display=swap');
+
 /* Base Reset & Font */
 /* ============================================
    폰트 정의
@@ -40,7 +42,7 @@
     font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Outfit:wght@500;700&display=swap');
+
 
 :root {
     /* 색상 팔레트 */
@@ -136,10 +138,28 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content, align-items 제거 - 개별 screen에서 설정 */
     z-index: 10;
     transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* 개별 화면 정렬 설정 */
+#main-menu,
+#how-to-play,
+#settings-screen,
+#pause-overlay,
+#game-over {
+    justify-content: center;
+    align-items: center;
+}
+
+#game-screen {
+    justify-content: flex-start;
+    /* 게임 화면은 상단부터 배치 */
+    align-items: stretch;
+    /* 가로로 꽉 채우기 */
 }
 
 .screen.hidden {
@@ -1020,4 +1040,227 @@ body {
         padding: 4px 10px;
         font-size: 0.75rem;
     }
+}
+
+/* ============================================
+   PC 모드 전용 스타일
+   ============================================ */
+.pc-mode #game-screen {
+    display: block;
+    /* Flex 해제 및 block 레이아웃 강제 */
+}
+
+.pc-mode #game-ui {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    z-index: 20;
+    padding: 15px 20px;
+}
+
+.pc-mode #input-area {
+    position: absolute;
+    top: 65px;
+    bottom: auto;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+    padding: 0 20px;
+    z-index: 25;
+}
+
+.pc-mode #word-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 16px 25px;
+    border-radius: 50px;
+}
+
+.pc-mode #play-area {
+    position: absolute;
+    top: 130px;
+    height: calc(100% - 130px);
+    width: 100%;
+    bottom: auto;
+    z-index: 5;
+    margin: 0;
+}
+
+/* ============================================
+   모바일/태블릿 모드 전용 스타일
+   ============================================ */
+.mobile-mode #game-screen {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* 전체 높이 사용 */
+}
+
+/* 모바일: UI 헤더 */
+.mobile-mode #game-ui {
+    position: relative;
+    /* Relative로 변경하여 flow에 참여 */
+    flex-shrink: 0;
+    padding: 10px 15px;
+    background: var(--glass-bg);
+    z-index: 50;
+    width: 100%;
+    top: auto;
+    left: auto;
+}
+
+/* 모바일: 입력창을 화면 하단에 고정 */
+.mobile-mode #input-area {
+    position: fixed;
+    /* 하단 고정 */
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 10px 15px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+.mobile-mode #word-input {
+    max-width: 100%;
+    border-radius: 25px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    box-shadow: none;
+    border: 2px solid var(--primary-color);
+}
+
+/* 모바일: 게임 영역 (Flex로 나머지 공간 차지) */
+.mobile-mode #play-area {
+    position: relative;
+    flex: 1;
+    /* 남은 공간 모두 차지 */
+    top: auto;
+    left: auto;
+    width: 100%;
+    height: auto;
+    margin-bottom: 70px;
+    /* 입력창 높이만큼 여백 */
+    overflow: hidden;
+    z-index: 5;
+}
+
+/* 모바일: 떨어지는 단어 스타일 조정 */
+.mobile-mode .falling-word {
+    padding: 8px 14px;
+    font-size: 0.9rem;
+    border-radius: 20px;
+}
+
+/* 모바일 가로 모드 (landscape) */
+.mobile-mode.landscape-mode #play-area {
+    margin-bottom: 60px;
+    /* 가로모드 입력창 공간 */
+}
+
+.mobile-mode.landscape-mode #game-ui {
+    padding: 5px 15px;
+}
+
+.mobile-mode.landscape-mode #input-area {
+    padding: 8px 15px;
+}
+
+.mobile-mode.landscape-mode #word-input {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+}
+
+.mobile-mode.landscape-mode .falling-word {
+    padding: 5px 10px;
+    font-size: 0.8rem;
+}
+
+/* ============================================
+   모바일/태블릿 모드 전용 스타일
+   ============================================ */
+.mobile-mode #game-screen {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 모바일: UI 헤더 */
+.mobile-mode #game-ui {
+    position: relative;
+    flex-shrink: 0;
+    padding: 10px 15px;
+}
+
+/* 모바일: 입력창을 화면 하단에 고정 */
+.mobile-mode #input-area {
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 10px 15px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+.mobile-mode #word-input {
+    max-width: 100%;
+    border-radius: 25px;
+    padding: 14px 20px;
+    font-size: 1rem;
+}
+
+/* 모바일: 게임 영역 (UI 아래부터 입력창 위까지) */
+.mobile-mode #play-area {
+    position: absolute;
+    top: 55px;
+    /* UI 헤더 높이 */
+    left: 0;
+    width: 100%;
+    height: calc(100% - 55px - 70px);
+    /* 전체 - UI헤더 - 입력창 */
+    bottom: 70px;
+    overflow: hidden;
+}
+
+/* 모바일: 떨어지는 단어 스타일 조정 */
+.mobile-mode .falling-word {
+    padding: 8px 14px;
+    font-size: 0.9rem;
+    border-radius: 20px;
+}
+
+/* 모바일 가로 모드 추가 조정 */
+.mobile-mode.landscape-mode #play-area {
+    height: calc(100% - 45px - 60px);
+}
+
+.mobile-mode.landscape-mode #game-ui {
+    padding: 5px 10px;
+}
+
+.mobile-mode.landscape-mode #input-area {
+    padding: 8px 10px;
+}
+
+.mobile-mode.landscape-mode #word-input {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+}
+
+.mobile-mode.landscape-mode .falling-word {
+    padding: 5px 10px;
+    font-size: 0.8rem;
 }

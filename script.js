@@ -22,6 +22,7 @@ let currentDifficulty = 'normal';
 let currentLevel = 3;
 let availableLevels = [0, 1, 2, 3, 4, 5, 6, 7]; // 현재 사용 가능한 레벨
 let deviceMode = 'pc'; // 'pc' 또는 'mobile'
+let storedGroundLevel = 0; // 게임 시작 시 play-area 높이 기준으로 고정
 
 /* DOM 요소 */
 const gameContainer = document.getElementById('game-container');
@@ -102,8 +103,8 @@ function handleViewportResize() {
             }
         }
 
-        // 게임 중이거나 모바일 모드일 때 높이 조정
-        if (gameRunning || (deviceMode === 'mobile')) {
+        // 게임 시작 전에만 높이 조정 (게임 중에는 groundLevel이 변하면 안 됨)
+        if (!gameRunning && deviceMode === 'mobile') {
             gameContainer.style.height = viewportHeight + 'px';
             window.scrollTo(0, 0);
         }
@@ -407,13 +408,15 @@ function startGame() {
     playArea.innerHTML = '';
     wordInput.value = '';
 
-    // 게임 화면으로 전환
+    // 게임 화면으로 전환 후 레이아웃 확정되면 groundLevel 측정
     showScreen(gameScreen);
-    wordInput.focus();
 
-    // 게임 루프 시작
-    lastSpawnTime = performance.now();
-    gameLoopId = requestAnimationFrame(gameLoop);
+    requestAnimationFrame(() => {
+        storedGroundLevel = playArea.offsetHeight - 50;
+        wordInput.focus();
+        lastSpawnTime = performance.now();
+        gameLoopId = requestAnimationFrame(gameLoop);
+    });
 }
 
 /* 난이도 설정 */
@@ -449,10 +452,8 @@ function gameLoop(timestamp) {
         fallSpeedBase += 0.0005;
     }
 
-    // 단어 위치 업데이트
-    // playArea의 실제 높이를 기반으로 바닥 레벨 계산 (키보드 열림 시에도 정확히 계산)
-    const playAreaHeight = playArea.offsetHeight;
-    const groundLevel = playAreaHeight - 50; // 바닥에서 50px 위
+    // 게임 시작 시 고정된 groundLevel 사용 (키보드 열려도 변하지 않음)
+    const groundLevel = storedGroundLevel;
 
     for (let i = activeWordsObj.length - 1; i >= 0; i--) {
         const wordObj = activeWordsObj[i];
@@ -507,6 +508,7 @@ function spawnWord() {
 
 /* 단어 제거 */
 function removeWord(index) {
+    if (index < 0 || index >= activeWordsObj.length) return;
     const wordObj = activeWordsObj[index];
     if (wordObj && wordObj.element) {
         wordObj.element.remove();
@@ -536,7 +538,8 @@ function checkInput(e) {
 
         // 약간의 딜레이 후 제거 (애니메이션을 위해)
         setTimeout(() => {
-            removeWord(activeWordsObj.indexOf(wordObj));
+            const idx = activeWordsObj.indexOf(wordObj);
+            if (idx !== -1) removeWord(idx);
         }, 300);
 
         wordInput.value = '';

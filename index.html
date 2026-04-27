@@ -154,6 +154,20 @@
             <div id="play-area"></div>
         </div>
 
+        <!-- 학원 코드 입력 팝업 -->
+        <div id="academy-gate" class="screen hidden">
+            <div class="modal-container">
+                <h2>🔐 학원 코드 입력</h2>
+                <p class="gate-desc">게임을 시작하려면 학원 코드를 입력하세요</p>
+                <input type="password" id="academy-code-input" class="gate-input" placeholder="학원 코드" autocomplete="off">
+                <p id="academy-code-error" class="gate-error">코드가 올바르지 않습니다</p>
+                <div class="settings-buttons">
+                    <button onclick="closeAcademyGate()" class="btn btn-secondary">취소</button>
+                    <button onclick="submitAcademyCode()" class="btn btn-primary">확인</button>
+                </div>
+            </div>
+        </div>
+
         <!-- 일시정지 오버레이 -->
         <div id="pause-overlay" class="screen hidden">
             <div class="modal-container">

@@ -20,9 +20,11 @@ let gameLoopId;
 let isEnglishInput = true; // true: 한글 보고 영어 입력, false: 영어 보고 한글 입력
 let currentDifficulty = 'normal';
 let currentLevel = 3;
-let availableLevels = [0, 1, 2, 3, 4, 5, 6, 7]; // 현재 사용 가능한 레벨
 let deviceMode = 'pc'; // 'pc' 또는 'mobile'
 let storedGroundLevel = 0; // 게임 시작 시 play-area 높이 기준으로 고정
+let lastFrameTime = 0; // delta time 계산용
+let pendingDeviceMode = null; // 코드 확인 후 설정할 모드
+let flashTimeoutId = null; // 플래시 애니메이션 타이머 (충돌 방지용)
 
 /* DOM 요소 */
 const gameContainer = document.getElementById('game-container');
@@ -47,6 +49,9 @@ const currentLevelLabel = document.getElementById('current-level-label');
 document.addEventListener('DOMContentLoaded', init);
 
 async function init() {
+    // 0. destroyed 이미지 미리 로드 (전환 시 깜빡임 방지)
+    new Image().src = 'img_data/destroyed_city.png';
+
     // 1. 데이터 로드
     await loadWordData();
 
@@ -110,7 +115,6 @@ function handleViewportResize() {
         }
     }
 
-    console.log('Viewport height:', viewportHeight);
 }
 
 /* 데이터 로드 */
@@ -243,16 +247,12 @@ function setupEventListeners() {
     // 메인 메뉴 버튼
     document.getElementById('how-to-btn').addEventListener('click', () => showScreen(howToPlay));
     document.getElementById('start-pc-btn').addEventListener('click', () => {
-        deviceMode = 'pc';
-        gameContainer.classList.remove('mobile-mode');
-        gameContainer.classList.add('pc-mode');
-        showScreen(settingsScreen);
+        pendingDeviceMode = 'pc';
+        showAcademyGate();
     });
     document.getElementById('start-mobile-btn').addEventListener('click', () => {
-        deviceMode = 'mobile';
-        gameContainer.classList.remove('pc-mode');
-        gameContainer.classList.add('mobile-mode');
-        showScreen(settingsScreen);
+        pendingDeviceMode = 'mobile';
+        showAcademyGate();
     });
     document.getElementById('close-howto-btn').addEventListener('click', () => showScreen(mainMenu));
 
@@ -326,6 +326,12 @@ function setupEventListeners() {
         showScreen(mainMenu);
     });
 
+    // 학원 코드 Enter 키
+    document.getElementById('academy-code-input').addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') submitAcademyCode();
+        if (e.key === 'Escape') closeAcademyGate();
+    });
+
     // 단어 입력
     wordInput.addEventListener('input', checkInput);
     wordInput.addEventListener('keydown', (e) => {
@@ -333,6 +339,63 @@ function setupEventListeners() {
             wordInput.value = '';
         }
     });
+
+    // 모바일: 게임 중 input blur 시 키보드가 내려가지 않도록 즉시 재포커스
+    wordInput.addEventListener('blur', () => {
+        if (gameRunning && !gamePaused && deviceMode === 'mobile') {
+            requestAnimationFrame(() => wordInput.focus());
+        }
+    });
+
+    // 모바일: 게임 화면 터치 시 input 포커스 유지 (키보드 유지)
+    gameContainer.addEventListener('touchend', (e) => {
+        if (gameRunning && !gamePaused && deviceMode === 'mobile' && e.target !== wordInput) {
+            e.preventDefault();
+            wordInput.focus();
+        }
+    }, { passive: false });
+}
+
+/* 학원 코드 게이트 */
+function showAcademyGate() {
+    const input = document.getElementById('academy-code-input');
+    const error = document.getElementById('academy-code-error');
+    input.value = '';
+    error.style.display = 'none';
+    const gate = document.getElementById('academy-gate');
+    gate.classList.remove('hidden');
+    gate.classList.add('active');
+    setTimeout(() => input.focus(), 100);
+}
+
+function closeAcademyGate() {
+    const gate = document.getElementById('academy-gate');
+    gate.classList.remove('active');
+    gate.classList.add('hidden');
+    pendingDeviceMode = null;
+}
+
+function submitAcademyCode() {
+    const input = document.getElementById('academy-code-input');
+    const error = document.getElementById('academy-code-error');
+
+    if (input.value.trim().toLowerCase() === 'tes 1234') {
+        closeAcademyGate();
+        if (pendingDeviceMode === 'pc') {
+            deviceMode = 'pc';
+            gameContainer.classList.remove('mobile-mode');
+            gameContainer.classList.add('pc-mode');
+        } else {
+            deviceMode = 'mobile';
+            gameContainer.classList.remove('pc-mode');
+            gameContainer.classList.add('mobile-mode');
+        }
+        showScreen(settingsScreen);
+    } else {
+        error.style.display = 'block';
+        input.value = '';
+        input.focus();
+    }
 }
 
 /* 화면 전환 */
@@ -415,6 +478,7 @@ function startGame() {
         storedGroundLevel = playArea.offsetHeight - 50;
         wordInput.focus();
         lastSpawnTime = performance.now();
+        lastFrameTime = 0;
         gameLoopId = requestAnimationFrame(gameLoop);
     });
 }
@@ -442,6 +506,11 @@ function setDifficulty(diff) {
 function gameLoop(timestamp) {
     if (!gameRunning || gamePaused) return;
 
+    // delta time: 60fps 기준으로 정규화 (120Hz 기기도 동일 속도)
+    const delta = lastFrameTime ? Math.min(timestamp - lastFrameTime, 50) : 16.67;
+    lastFrameTime = timestamp;
+    const dt = delta / 16.67; // 60fps = 1.0, 120fps = 0.5
+
     // 단어 생성
     if (timestamp - lastSpawnTime > spawnRate) {
         spawnWord();
@@ -457,7 +526,7 @@ function gameLoop(timestamp) {
 
     for (let i = activeWordsObj.length - 1; i >= 0; i--) {
         const wordObj = activeWordsObj[i];
-        wordObj.y += wordObj.speed;
+        wordObj.y += wordObj.speed * dt;
         wordObj.element.style.top = wordObj.y + 'px';
 
         // 위험 표시 (바닥 근처)
@@ -543,11 +612,17 @@ function checkInput(e) {
         }, 300);
 
         wordInput.value = '';
-
-        // 정답 효과
-        playArea.style.animation = 'flash-green 0.3s';
-        setTimeout(() => playArea.style.animation = '', 300);
+        flashPlayArea('flash-green');
     }
+}
+
+/* 플래시 효과 (타이머 충돌 방지) */
+function flashPlayArea(animName) {
+    clearTimeout(flashTimeoutId);
+    playArea.style.animation = 'none';
+    void playArea.offsetHeight; // reflow 강제 - 애니메이션 재시작
+    playArea.style.animation = `${animName} 0.3s`;
+    flashTimeoutId = setTimeout(() => { playArea.style.animation = ''; }, 300);
 }
 
 /* 생명 감소 */
@@ -556,9 +631,7 @@ function damageLife() {
     missedCount++;
     updateLifeIcons();
 
-    // 피해 효과
-    playArea.style.animation = 'flash-red 0.3s';
-    setTimeout(() => playArea.style.animation = '', 300);
+    flashPlayArea('flash-red');
 
     // 배경 변경 (생명 2개 이하)
     if (life <= 2 && life > 0) {
@@ -579,10 +652,12 @@ function pauseGame() {
 
 /* 게임 재개 */
 function resumeGame() {
+    if (!gamePaused) return; // 이미 실행 중이면 중복 루프 방지
     gamePaused = false;
     pauseOverlay.classList.remove('active');
     pauseOverlay.classList.add('hidden');
     lastSpawnTime = performance.now();
+    lastFrameTime = 0;
     gameLoopId = requestAnimationFrame(gameLoop);
     wordInput.focus();
 }

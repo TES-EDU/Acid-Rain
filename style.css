@@ -117,16 +117,26 @@ body {
     height: 100%;
     background-image: url('img_data/fresh_city.png');
     background-size: cover;
-    /* 항상 화면을 완전히 채움 */
     background-position: center center;
     background-repeat: no-repeat;
     z-index: 0;
-    transition: filter 0.5s ease;
 }
 
-#background-image.destroyed {
+#background-image::after {
+    content: '';
+    position: absolute;
+    inset: 0;
     background-image: url('img_data/destroyed_city.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity 0.8s ease;
     filter: brightness(0.7) saturate(1.2);
+}
+
+#background-image.destroyed::after {
+    opacity: 1;
 }
 
 /* 화면 (Screen) 공통 스타일 */
@@ -136,8 +146,6 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
     display: flex;
     flex-direction: column;
     /* justify-content, align-items 제거 - 개별 screen에서 설정 */
@@ -254,6 +262,48 @@ body {
 
 .menu-btn:active {
     transform: scale(0.98);
+}
+
+/* ============================================
+   학원 코드 게이트
+   ============================================ */
+#academy-gate {
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(6px);
+    z-index: 50;
+    justify-content: center;
+    align-items: center;
+}
+
+.gate-desc {
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--text-light);
+    margin-top: -8px;
+}
+
+.gate-input {
+    width: 100%;
+    padding: 14px 18px;
+    font-size: 1.1rem;
+    border: 2px solid #e0e0e0;
+    border-radius: var(--border-radius);
+    text-align: center;
+    outline: none;
+    font-family: var(--font-main);
+    letter-spacing: 4px;
+    transition: border-color 0.2s;
+}
+
+.gate-input:focus {
+    border-color: var(--primary-color);
+}
+
+.gate-error {
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--accent-color);
+    display: none;
 }
 
 /* ============================================

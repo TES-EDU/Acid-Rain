@@ -379,7 +379,8 @@ function submitAcademyCode() {
     const input = document.getElementById('academy-code-input');
     const error = document.getElementById('academy-code-error');
 
-    if (input.value.trim().toLowerCase() === 'tes 1234') {
+    const code = input.value.trim().toLowerCase();
+    if (code === 'tes1234' || code === 'lq4qeg') {
         closeAcademyGate();
         if (pendingDeviceMode === 'pc') {
             deviceMode = 'pc';
